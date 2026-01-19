@@ -16,8 +16,8 @@
     }
   },
   "logo": {
-    "main": "",
-    "logoIcon": "",
+    "main": "/assets/images/capitalta/logo-1.jpeg",
+    "logoIcon": "/assets/images/capitalta/logo-1.jpeg",
     "logoFab": "",
     "logoWatermark": ""
   }
