@@ -5,7 +5,7 @@ import { PAGE_PATH, SECTION_PATH } from '@/path';
 /***************************  SEO METADATA - MAIN LAYOUT  ***************************/
 
 const title = `${branding.brandName} ${branding.title}`;
-const description = `The multipurpose SaaS UI Kit built with React and Material UI is designed for businesses of all sizes to streamline customer management, sales tracking, and marketing optimization. Create stunning SaaS landing and admin with just few clicks!`;
+const description = `Capitalta ofrece soluciones de crédito ágiles y transparentes para personas y empresas en México. Impulsa tu crecimiento con financiamiento a tu medida.`;
 
 const ogCommonMetadata = {
   locale: 'en_US',
@@ -22,12 +22,12 @@ export const mainMetadata = {
   description,
   applicationName: title,
   keywords: [
-    'SaaS',
+    'Crédito',
     `${branding.brandName}`,
-    'Software as a Service',
-    'Cloud-based software',
-    'Project management tools',
-    'Enterprise software'
+    'Financiamiento',
+    'Crédito Empresarial',
+    'Crédito Simple',
+    'México'
   ],
   creator: `${branding.company.name}`,
   metadataBase: new URL(process.env.NEXT_PUBLIC_METADATA_BASE || 'http://localhost:3000'),

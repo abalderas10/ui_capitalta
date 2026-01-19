@@ -1,18 +1,18 @@
 {
-  "brandName": "SaasAble",
-  "title": "React Multipurpose UI Kit and Dashboard Template",
+  "brandName": "Capitalta",
+  "title": "Soluciones Financieras",
   "company": {
-    "name": "Phoenixcoded",
-    "url": "https://phoenixcoded.net",
+    "name": "Capitalta",
+    "url": "https://capitalta.com.mx",
     "socialLink": {
-      "linkedin": "https://in.linkedin.com/company/phoenixcoded",
+      "linkedin": "#",
       "instagram": "#",
-      "facebook": "https://www.facebook.com/Phoenixcoded/",
-      "youtube": "https://www.youtube.com/@Phoenixcoded",
-      "github": "https://github.com/phoenixcoded",
-      "dribble": "https://dribbble.com/Phoenixcoded",
-      "discord": "https://discord.gg/gmqz4BWYA8",
-      "support": "https://support.phoenixcoded.net"
+      "facebook": "#",
+      "youtube": "#",
+      "github": "#",
+      "dribble": "#",
+      "discord": "#",
+      "support": "#"
     }
   },
   "logo": {

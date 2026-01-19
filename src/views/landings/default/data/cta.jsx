@@ -20,7 +20,7 @@ export const cta4 = {
       { avatar: '/assets/images/user/avatar4.png' },
       { avatar: '/assets/images/user/avatar5.png' }
     ],
-    review: '250+ Author Reviews (4.65 out of 5)'
+    review: 'Más de 250 clientes satisfechos'
   },
   list: [
     { primary: 'Acompañamiento personalizado de inicio a fin' },
@@ -34,9 +34,9 @@ export const cta4 = {
 function DescriptionLine() {
   return (
     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-      Have questions? Our community is here to help. Learn more about{' '}
-      <Link component={NextLink} variant="caption2" color="primary" href={branding.company.socialLink.discord} underline="hover">
-        our community
+      ¿Tienes preguntas? Nuestro equipo está listo para ayudarte.{' '}
+      <Link component={NextLink} variant="caption2" color="primary" href="/contacto" underline="hover">
+        Contáctanos
       </Link>
     </Typography>
   );
@@ -48,12 +48,11 @@ export const cta5 = {
   caption: 'Resolvemos tus dudas y te ayudamos a elegir el crédito ideal para ti.',
   primaryBtn: {
     children: 'Contactar a Capitalta',
-    href: branding.company.socialLink.support,
-    target: '_blank',
-    rel: 'noopener noreferrer'
+    href: '/contacto',
+    target: '_self'
   },
   description: <DescriptionLine />,
-  saleData: { count: 10, defaultUnit: 'k+', caption: 'Trusted by professionals worldwide' },
+  saleData: { count: 10, defaultUnit: 'k+', caption: 'Clientes confían en nosotros' },
   profileGroups: {
     avatarGroups: [
       { avatar: '/assets/images/user/avatar1.png' },
@@ -62,7 +61,7 @@ export const cta5 = {
       { avatar: '/assets/images/user/avatar4.png' },
       { avatar: '/assets/images/user/avatar5.png' }
     ],
-    review: '300+ Reviews (4.65 out of 5)'
+    review: 'Excelencia en servicio (4.9 de 5)'
   }
 };
 

@@ -2,26 +2,26 @@
 import branding from '@/branding.json';
 
 export const contactUS = {
-  heading: 'We’d love to hear from you',
-  caption: 'Explore key statistics and trends shaping our understanding of the current landscape.',
+  heading: 'Hablemos de tu proyecto',
+  caption: 'Estamos listos para escuchar tus necesidades y proponerte la mejor solución financiera.',
   list: [
     {
       icon: 'tabler-phone',
-      title: 'Contact sale',
-      content: 'Speak to someone from our sales team.',
-      link: { children: 'Contact Sales', href: branding.company.socialLink.support, target: '_blank', rel: 'noopener noreferrer' }
+      title: 'Llámanos',
+      content: 'Atención personalizada de Lunes a Viernes',
+      link: { children: '55 1234 5678', href: 'tel:+525512345678' }
     },
     {
-      icon: 'tabler-help-circle',
-      title: 'Have a question',
-      content: 'See our frequently asked question',
-      link: { children: 'Get Answers', href: '/faq' }
+      icon: 'tabler-mail',
+      title: 'Escríbenos',
+      content: 'Envíanos tus dudas o comentarios',
+      link: { children: 'contacto@capitalta.mx', href: 'mailto:contacto@capitalta.mx' }
     },
     {
-      icon: 'tabler-folder-check',
-      title: 'Press & Media',
-      content: 'Get in touch with our PR team',
-      link: { children: 'Press Contact', href: '/contact' }
+      icon: 'tabler-map-pin',
+      title: 'Ubicación',
+      content: 'Ciudad de México, México',
+      link: { children: 'Ver mapa', href: '#', target: '_blank', rel: 'noopener noreferrer' }
     }
   ]
 };

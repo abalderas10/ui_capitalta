@@ -148,51 +148,7 @@ export const feature20 = {
   ]
 };
 
-export const feature21 = {
-  heading: `Design faster, Smarter with ${branding.brandName} Figma`,
-  caption: 'Unlock Figma’s advanced tools for streamlined, scalable, and responsive SaaS UI design.',
-  image: { light: '/assets/images/graphics/default/saasable-figma.png', dark: '/assets/images/graphics/default/saasable-figma-dark.png' },
-  primaryBtn: { children: 'Free Figma', href: 'https://www.figma.com/community/file/1425095061180549847', ...linkProps },
-  secondaryBtn: {
-    children: 'Preview Pro Figma',
-    href: 'https://www.figma.com/design/mlkXfeqxUKqIo0GQhPBqPb/SaasAble---UI-Kit---Preview-only?node-id=11-1833&t=JBHOIIEuYZpmN6v8-1',
-    ...linkProps
-  },
-  features: [
-    {
-      icon: 'tabler-components',
-      title: 'Component architecture'
-    },
-    {
-      icon: 'tabler-moon',
-      title: 'Dark mode'
-    },
-    {
-      icon: 'tabler-rosette-discount-check',
-      title: 'Auto layout'
-    },
-    {
-      icon: 'tabler-code',
-      title: 'WCAG compliant'
-    },
-    {
-      icon: { name: 'custom-locked', type: IconType.CUSTOM },
-      title: 'Custom icons'
-    },
-    {
-      icon: 'tabler-git-branch',
-      title: 'Page demos'
-    },
-    {
-      icon: { name: 'custom-material', type: IconType.CUSTOM },
-      title: 'Material 3 guideline'
-    },
-    {
-      icon: 'tabler-bolt',
-      title: 'Quick customization'
-    }
-  ]
-};
+
 
 export const feature = {
   heading: `What’s inside of ${branding.brandName} plus version`,
