@@ -64,7 +64,7 @@ export default function ProductosContent() {
 
           <Grid container spacing={3}>
             {productos.map((producto) => (
-              <Grid item xs={12} md={6} key={producto.key}>
+              <Grid size={{ xs: 12, md: 6 }} key={producto.key}>
                 <Box
                   sx={{
                     height: '100%',
