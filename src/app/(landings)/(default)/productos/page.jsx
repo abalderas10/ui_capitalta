@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/Grid2';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
@@ -56,7 +56,7 @@ export default function ProductosPage() {
       <SectionHero heading="Productos de crédito Capitalta" search={false} offer />
       <ContainerWrapper>
         <Stack sx={{ gap: 4, py: { xs: 4, sm: 6 } }}>
-          <Stack sx={{ gap: 1.5, maxWidth: 720 }}>
+          <Stack sx={{ gap: 1.5, maxWidth: 720, mx: 'auto', textAlign: 'center' }}>
             <Typography variant="h3">Elige el crédito que mejor se adapta a tu proyecto</Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary' }}>
               Capitalta diseña estructuras de financiamiento claras y responsables para cada etapa de crecimiento. Revisa las
@@ -66,54 +66,60 @@ export default function ProductosPage() {
 
           <Grid container spacing={3}>
             {productos.map((producto) => (
-              <Grid item xs={12} md={6} key={producto.key}>
+              <Grid size={{ xs: 12, md: 6 }} key={producto.key}>
                 <Box
                   sx={{
                     height: '100%',
-                    p: 3,
-                    borderRadius: 3,
+                    p: 4,
+                    borderRadius: 4,
                     border: '1px solid',
-                    borderColor: 'grey.200',
+                    borderColor: 'divider',
                     bgcolor: 'background.paper',
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: 2.5
+                    gap: 3,
+                    transition: 'all 0.3s ease-in-out',
+                    '&:hover': {
+                      borderColor: 'primary.main',
+                      transform: 'translateY(-4px)',
+                      boxShadow: (theme) => `0 4px 24px ${theme.vars.palette.grey[200]}`
+                    }
                   }}
                 >
                   <Stack sx={{ gap: 1 }}>
-                    <Typography variant="h5">{producto.title}</Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                    <Typography variant="h4">{producto.title}</Typography>
+                    <Typography variant="body1" sx={{ color: 'text.secondary' }}>
                       {producto.resumen}
                     </Typography>
                   </Stack>
 
-                  <Stack sx={{ gap: 1.25 }}>
-                    <Stack direction="row" sx={{ justifyContent: 'space-between' }}>
+                  <Stack sx={{ gap: 2, py: 2, borderTop: '1px dashed', borderBottom: '1px dashed', borderColor: 'divider' }}>
+                    <Stack direction="row" sx={{ justifyContent: 'space-between', alignItems: 'center' }}>
                       <Typography variant="subtitle2" sx={{ color: 'text.secondary' }}>
-                        Monto aproximado
+                        Monto
                       </Typography>
-                      <Typography variant="body1">{producto.monto}</Typography>
+                      <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>{producto.monto}</Typography>
                     </Stack>
-                    <Stack direction="row" sx={{ justifyContent: 'space-between' }}>
+                    <Stack direction="row" sx={{ justifyContent: 'space-between', alignItems: 'center' }}>
                       <Typography variant="subtitle2" sx={{ color: 'text.secondary' }}>
-                        Plazo de referencia
+                        Plazo
                       </Typography>
-                      <Typography variant="body1">{producto.plazo}</Typography>
+                      <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>{producto.plazo}</Typography>
                     </Stack>
                     <Stack sx={{ gap: 0.5 }}>
                       <Typography variant="subtitle2" sx={{ color: 'text.secondary' }}>
-                        Perfil recomendado
+                        Perfil
                       </Typography>
                       <Typography variant="body2">{producto.perfil}</Typography>
                     </Stack>
                   </Stack>
 
-                  <Stack direction="row" sx={{ gap: 1.5, mt: 'auto' }}>
-                    <Button variant="contained" color="primary" href={producto.href}>
-                      Ver calculadora
+                  <Stack direction={{ xs: 'column', sm: 'row' }} sx={{ gap: 2, mt: 'auto' }}>
+                    <Button fullWidth variant="contained" color="primary" href={producto.href} size="large">
+                      Calcular crédito
                     </Button>
-                    <Button variant="outlined" color="primary" href="/auth/registro">
-                      Solicitar este crédito
+                    <Button fullWidth variant="outlined" color="primary" href="/auth/registro" size="large">
+                      Solicitar
                     </Button>
                   </Stack>
                 </Box>
