@@ -43,6 +43,15 @@ const nextConfig = {
       }
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: '/calculadoras',
+        destination: '/productos',
+        permanent: true
+      }
+    ];
+  },
   async rewrites() {
     return [
       {

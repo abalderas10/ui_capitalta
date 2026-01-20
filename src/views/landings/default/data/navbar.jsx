@@ -10,7 +10,6 @@ export const navbar = {
   navItems: [
     { id: 'home', title: 'Inicio', link: '/' },
     { id: 'productos', title: 'Productos', link: '/productos' },
-    { id: 'calculadoras', title: 'Calculadoras', link: '/calculadoras' },
     { id: 'sobre-nosotros', title: 'Sobre nosotros', link: '/sobre-nosotros' },
     { id: 'blog', title: 'Blog', link: '/blog' },
     { id: 'contacto', title: 'Contacto', link: '/contacto' }
