@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
@@ -66,7 +66,7 @@ export default function ProductosPage() {
 
           <Grid container spacing={3}>
             {productos.map((producto) => (
-              <Grid size={{ xs: 12, md: 6 }} key={producto.key}>
+              <Grid item xs={12} md={6} key={producto.key}>
                 <Box
                   sx={{
                     height: '100%',
