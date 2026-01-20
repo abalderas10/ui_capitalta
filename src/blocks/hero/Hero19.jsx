@@ -30,10 +30,10 @@ import Pattern11 from '@/images/graphics/Pattern11';
 /**
  *
  * Demos:
- * - [Hero19](https://www.saasable.io/blocks/hero/hero19)
+ * - [Hero19](https://www.Capitalta.io/blocks/hero/hero19)
  *
  * API:
- * - [Hero19 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero19#props-details)
+ * - [Hero19 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero19#props-details)
  */
 
 export default function Hero19({ image, tagline, headLine, description, list, primaryBtn, secondaryBtn }) {
@@ -130,3 +130,4 @@ Hero19.propTypes = {
   primaryBtn: PropTypes.any,
   secondaryBtn: PropTypes.any
 };
+

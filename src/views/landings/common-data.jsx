@@ -174,7 +174,7 @@ export const pagesMegamenu = {
       {
         title: 'External',
         itemsList: [
-          { title: 'Blog', link: { href: 'https://blog.saasable.io/', ...linkProps } },
+          { title: 'Blog', link: { href: 'https://blog.Capitalta.io/', ...linkProps } },
           { title: 'Documentation', link: { href: DOCS_URL, ...linkProps } },
           { title: 'Support', link: { href: branding.company.socialLink.support, ...linkProps } },
           {
@@ -188,3 +188,4 @@ export const pagesMegamenu = {
     bannerData: <BannerData />
   }
 };
+

@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.featurePage };
 export default function FeaturePage() {
   return <Feature />;
 }
+

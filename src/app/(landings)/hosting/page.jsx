@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.hostingLanding };
 export default function HostingPage() {
   return <Hosting />;
 }
+

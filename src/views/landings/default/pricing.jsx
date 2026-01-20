@@ -1,10 +1,5 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-
-// @third-party
-import axios from 'axios';
-
 // @project
 import { Pricing9 } from '@/blocks/pricing';
 import LazySection from '@/components/LazySection';
@@ -18,31 +13,8 @@ const removeKeyData = ({ heading, caption, ...rest }) => rest;
 /***************************  PAGE - PRICING  ***************************/
 
 export default function Pricing() {
-  // removed heading and caption and setup state with axios price
-  const [newPricing, setNewPricing] = useState(removeKeyData(pricing));
-
-  useEffect(() => {
-    const fetchPricingData = async () => {
-      try {
-        await axios.get('https://raw.githubusercontent.com/phoenixcoded/phoenixcoded.github.io/main/saas-able-pricing.json').then((res) => {
-          const data = res.data;
-          setNewPricing({
-            ...newPricing,
-            plans: newPricing.plans.map((item, index) => ({
-              ...item,
-              price: data[index].price,
-              offerPrice: data[index].offerPrice
-            }))
-          });
-        });
-      } catch (error) {
-        console.error('Error fetching pricing data:', error);
-      }
-    };
-
-    fetchPricingData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // removed heading and caption
+  const newPricing = removeKeyData(pricing);
 
   return (
     <>
@@ -70,3 +42,4 @@ export default function Pricing() {
     </>
   );
 }
+

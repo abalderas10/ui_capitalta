@@ -25,3 +25,4 @@ export default function Wave({ size }) {
 }
 
 Wave.propTypes = { size: PropTypes.number };
+

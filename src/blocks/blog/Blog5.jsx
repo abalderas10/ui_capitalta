@@ -76,10 +76,10 @@ function BlogCard({ caption, image, imagePosition, date, link }) {
 /**
  *
  * Demos:
- * - [Blog5](https://www.saasable.io/blocks/blog/blog5)
+ * - [Blog5](https://www.Capitalta.io/blocks/blog/blog5)
  *
  * API:
- * - [Blog5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/blog/blog5#props-details)
+ * - [Blog5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/blog/blog5#props-details)
  */
 
 export default function Blog5({ heading, caption, viewMore, blogs }) {
@@ -241,3 +241,4 @@ BlogCard.propTypes = {
 };
 
 Blog5.propTypes = { heading: PropTypes.any, caption: PropTypes.any, viewMore: PropTypes.any, blogs: PropTypes.any };
+

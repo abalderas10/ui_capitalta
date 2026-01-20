@@ -55,3 +55,4 @@ const data = {
 export default function BlockBlog8() {
   return <Blog8 {...data} />;
 }
+

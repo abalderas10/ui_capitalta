@@ -29,7 +29,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Footer7](https://www.saasable.io/blocks/footer/footer7)
+ * - [Footer7](https://www.Capitalta.io/blocks/footer/footer7)
  */
 
 const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
@@ -141,3 +141,4 @@ export default function Footer7() {
     </ContainerWrapper>
   );
 }
+

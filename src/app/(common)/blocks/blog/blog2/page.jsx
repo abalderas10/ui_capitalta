@@ -45,3 +45,4 @@ const data = {
 export default function BlockBlog2() {
   return <Blog2 {...data} />;
 }
+

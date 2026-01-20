@@ -179,10 +179,10 @@ function PricingCard({ title, description, active, price, quantityTitle, explore
 /**
  *
  * Demos:
- * - [Pricing8](https://www.saasable.io/blocks/pricing/pricing8)
+ * - [Pricing8](https://www.Capitalta.io/blocks/pricing/pricing8)
  *
  * API
- * - [Pricing8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/pricing/pricing8#props-details)
+ * - [Pricing8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/pricing/pricing8#props-details)
  */
 
 export default function Pricing8({ heading, caption, defaultUnit, features, plans }) {
@@ -287,3 +287,4 @@ Pricing8.propTypes = {
   features: PropTypes.array,
   plans: PropTypes.array
 };
+

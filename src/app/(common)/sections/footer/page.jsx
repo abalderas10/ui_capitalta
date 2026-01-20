@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.footer, openGraph: { ...SEO_CONTENT.foo
 export default function FooterPage() {
   return <Footer />;
 }
+

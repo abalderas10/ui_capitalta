@@ -21,10 +21,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Hero13](https://www.saasable.io/blocks/hero/hero13)
+ * - [Hero13](https://www.Capitalta.io/blocks/hero/hero13)
  *
  * API:
- * - [Hero13 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero13#props-details)
+ * - [Hero13 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero13#props-details)
  */
 
 export default function Hero13({ heading, caption, exploreBtn, images }) {
@@ -86,3 +86,4 @@ export default function Hero13({ heading, caption, exploreBtn, images }) {
 }
 
 Hero13.propTypes = { heading: PropTypes.string, caption: PropTypes.string, exploreBtn: PropTypes.any, images: PropTypes.array };
+

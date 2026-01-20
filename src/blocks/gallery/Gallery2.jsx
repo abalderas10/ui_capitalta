@@ -45,10 +45,10 @@ function getGridSize(index, length) {
 /**
  *
  * Demos:
- * - [Gallery2](https://www.saasable.io/blocks/gallery/gallery2)
+ * - [Gallery2](https://www.Capitalta.io/blocks/gallery/gallery2)
  *
  * API
- * - [Gallery2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/gallery/gallery2#props-details)
+ * - [Gallery2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/gallery/gallery2#props-details)
  */
 
 export default function Gallery2({ heading, caption, images }) {
@@ -85,3 +85,4 @@ export default function Gallery2({ heading, caption, images }) {
 }
 
 Gallery2.propTypes = { heading: PropTypes.any, caption: PropTypes.any, images: PropTypes.any };
+

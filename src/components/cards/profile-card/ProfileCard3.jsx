@@ -44,3 +44,4 @@ ProfileCard3.propTypes = {
   background: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]),
   sx: PropTypes.any
 };
+

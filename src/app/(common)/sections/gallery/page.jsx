@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.gallery, openGraph: { ...SEO_CONTENT.ga
 export default function GalleryPage() {
   return <Gallery />;
 }
+

@@ -60,3 +60,4 @@ export const faq = {
   categories: ['Créditos y elegibilidad', 'Proceso y tiempos', 'Seguridad y confianza'],
   activeCategory: 'Créditos y elegibilidad'
 };
+

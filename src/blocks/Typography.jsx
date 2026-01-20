@@ -201,7 +201,7 @@ function FontSizeBlock({ desktop, tablet, mobile, type }) {
 /**
  *
  * Demos:
- * - [Typography](https://www.saasable.io/sections/typography)
+ * - [Typography](https://www.Capitalta.io/sections/typography)
  */
 
 export default function TypographyPage() {
@@ -244,3 +244,4 @@ export default function TypographyPage() {
 }
 
 FontSizeBlock.propTypes = { desktop: PropTypes.string, tablet: PropTypes.string, mobile: PropTypes.string, type: PropTypes.string };
+

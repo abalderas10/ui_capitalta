@@ -40,3 +40,4 @@ export const hero = {
   primaryBtn: { children: 'Get Started - It’s Free', href: FREEBIES_URL, target: '_blank', rel: 'noopener noreferrer' },
   secondaryBtn: { children: 'Explore CRM', href: BUY_NOW_URL, target: '_blank', rel: 'noopener noreferrer' }
 };
+

@@ -27,3 +27,4 @@ export default function Hosting({ children }) {
 }
 
 Hosting.propTypes = { children: PropTypes.any };
+

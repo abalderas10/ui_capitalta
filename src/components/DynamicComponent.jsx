@@ -34,3 +34,4 @@ function DynamicComponent({ component, type, props }) {
 export default DynamicComponent;
 
 DynamicComponent.propTypes = { component: PropTypes.string, type: PropTypes.any, props: PropTypes.any };
+

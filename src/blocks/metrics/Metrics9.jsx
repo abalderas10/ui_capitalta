@@ -17,10 +17,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Metrics9](https://www.saasable.io/blocks/metrics/metrics9)
+ * - [Metrics9](https://www.Capitalta.io/blocks/metrics/metrics9)
  *
  * API:
- * - [Metrics9 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/metrics/metrics9#props-details)
+ * - [Metrics9 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/metrics/metrics9#props-details)
  */
 
 export default function Metrics9({ heading, caption, blockDetail, exploreBtn }) {
@@ -59,3 +59,4 @@ export default function Metrics9({ heading, caption, blockDetail, exploreBtn }) 
 }
 
 Metrics9.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blockDetail: PropTypes.any, exploreBtn: PropTypes.any };
+

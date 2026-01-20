@@ -28,10 +28,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Feature16](https://www.saasable.io/blocks/feature/feature16)
+ * - [Feature16](https://www.Capitalta.io/blocks/feature/feature16)
  *
  * API
- * - [Feature16 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature16#props-details)
+ * - [Feature16 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature16#props-details)
  */
 
 export default function Feature16({ heading, caption, cards, actionBtn }) {
@@ -105,3 +105,4 @@ export default function Feature16({ heading, caption, cards, actionBtn }) {
 }
 
 Feature16.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array, actionBtn: PropTypes.any };
+

@@ -1,6 +1,6 @@
 export const testimonial = {
   heading: 'See what our customers are saying',
-  caption: `Trusted by thousands of users worldwide, hear how Phoenixcoded helps bring their projects to life.`,
+  caption: `Trusted by thousands of users worldwide, hear how capitalta helps bring their projects to life.`,
   testimonials: [
     {
       title: 'Strongly endorsed!',
@@ -64,3 +64,4 @@ export const testimonial = {
     }
   ]
 };
+

@@ -228,3 +228,4 @@ export default function SectionHero({ heading, search = true, offer = false, bre
 }
 
 SectionHero.propTypes = { heading: PropTypes.string, search: PropTypes.bool, offer: PropTypes.bool, breadcrumbs: PropTypes.array };
+

@@ -20,10 +20,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Process2](https://www.saasable.io/blocks/process/process2)
+ * - [Process2](https://www.Capitalta.io/blocks/process/process2)
  *
  * API
- * - [Process2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/process/process2#props-details)
+ * - [Process2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/process/process2#props-details)
  */
 
 export default function Process2({ heading, caption, cards, bgImage }) {
@@ -85,3 +85,4 @@ export default function Process2({ heading, caption, cards, bgImage }) {
 }
 
 Process2.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array, bgImage: PropTypes.any };
+

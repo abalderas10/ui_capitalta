@@ -35,10 +35,10 @@ import Pattern9 from '@/images/graphics/Pattern9';
 /**
  *
  * Demos:
- * - [Hero7](https://www.saasable.io/blocks/hero/hero7)
+ * - [Hero7](https://www.Capitalta.io/blocks/hero/hero7)
  *
  * API:
- * - [Hero7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero7#props-details)
+ * - [Hero7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero7#props-details)
  */
 
 export default function Hero7({ headLine, captionLine, primaryBtn, image1, image2, reviewData }) {
@@ -287,3 +287,4 @@ Hero7.propTypes = {
   image2: PropTypes.any,
   reviewData: PropTypes.object
 };
+

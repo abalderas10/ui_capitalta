@@ -99,3 +99,4 @@ const data = {
 export default function BlockTeam5() {
   return <Team5 {...data} />;
 }
+

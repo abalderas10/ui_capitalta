@@ -27,3 +27,4 @@ export default function Circle({ size = 24, color }) {
 }
 
 Circle.propTypes = { size: PropTypes.number, color: PropTypes.any };
+

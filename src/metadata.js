@@ -345,3 +345,4 @@ export const SEO_CONTENT = {
     description: `${branding.brandName} typography page provides a curated selection of font styles, sizes, and weights to ensure a cohesive and visually appealing text hierarchy, enhancing readability and consistency across your application’s design.`
   }
 };
+

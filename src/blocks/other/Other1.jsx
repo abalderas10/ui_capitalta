@@ -38,10 +38,10 @@ import Wave from '@/images/graphics/Wave';
 /**
  *
  * Demos:
- * - [Other1](https://www.saasable.io/blocks/other/other1)
+ * - [Other1](https://www.Capitalta.io/blocks/other/other1)
  *
  * API
- * - [Other1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/other/other1#props-details)
+ * - [Other1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/other/other1#props-details)
  */
 
 export default function Other1({ heading, description, primaryBtn, sections }) {
@@ -179,3 +179,4 @@ export default function Other1({ heading, description, primaryBtn, sections }) {
 }
 
 Other1.propTypes = { heading: PropTypes.string, description: PropTypes.string, primaryBtn: PropTypes.any, sections: PropTypes.array };
+

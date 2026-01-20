@@ -61,10 +61,10 @@ const options = { root: null, rootMargin: '0px', threshold: 0.6 };
 /**
  *
  * Demos:
- * - [Testimonial1](https://www.saasable.io/blocks/testimonial/testimonial1)
+ * - [Testimonial1](https://www.Capitalta.io/blocks/testimonial/testimonial1)
  *
  * API:
- * - [Testimonial1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/testimonial/testimonial1#props-details)
+ * - [Testimonial1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/testimonial/testimonial1#props-details)
  */
 
 export default function Testimonial1({ heading, caption, testimonials, link }) {
@@ -245,3 +245,4 @@ Review.propTypes = { review: PropTypes.string };
 ReviewCard.propTypes = { ratings: PropTypes.any, review: PropTypes.any, profile: PropTypes.any };
 
 Testimonial1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, testimonials: PropTypes.any, link: PropTypes.any };
+

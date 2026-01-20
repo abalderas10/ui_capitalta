@@ -38,3 +38,4 @@ export default function SimulatorTypeset({ heading, caption, figmaLink }) {
 }
 
 SimulatorTypeset.propTypes = { heading: PropTypes.string, caption: PropTypes.string, figmaLink: PropTypes.string };
+

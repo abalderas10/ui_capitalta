@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.team, openGraph: { ...SEO_CONTENT.team,
 export default function TeamPage() {
   return <Team />;
 }
+

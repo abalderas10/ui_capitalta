@@ -31,7 +31,8 @@ export const hero = {
   headLine: 'Tu crecimiento no se detiene. Nuestro apoyo tampoco.',
   captionLine: 'Soluciones financieras ágiles y flexibles para personas y negocios en México.',
   primaryBtn: { children: 'Solicitar crédito ahora', href: '/auth/registro' },
-  videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
+  // TODO: Replace with Capitalta video when available
+  videoSrc: '', // Previously: Capitalta-intro.mp4
   videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
   listData: [
     { image: '/assets/images/shared/react.svg', title: 'React 19' },
@@ -43,3 +44,4 @@ export const hero = {
     { image: '/assets/images/shared/figma.svg', title: 'Figma' }
   ]
 };
+

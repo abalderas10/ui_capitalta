@@ -19,10 +19,10 @@ import BackgroundCircle from '@/components/BackgroundCircle';
 /**
  *
  * Demos:
- * - [NewPassword](https://www.saasable.io/blocks/auth/new-password)
+ * - [NewPassword](https://www.Capitalta.io/blocks/auth/new-password)
  *
  * API
- * - [NewPassword API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/new-password#props-details)
+ * - [NewPassword API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/new-password#props-details)
  */
 
 export default function NewPassword({ heading, caption }) {
@@ -52,3 +52,4 @@ export default function NewPassword({ heading, caption }) {
 }
 
 NewPassword.propTypes = { heading: PropTypes.string, caption: PropTypes.string };
+

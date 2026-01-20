@@ -49,3 +49,4 @@ LazySection.propTypes = {
   offset: PropTypes.string,
   placeholderHeight: PropTypes.number
 };
+

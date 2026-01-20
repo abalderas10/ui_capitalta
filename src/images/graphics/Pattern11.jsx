@@ -34,3 +34,4 @@ export default function Pattern11() {
     </svg>
   );
 }
+

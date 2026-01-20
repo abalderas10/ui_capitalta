@@ -26,3 +26,4 @@ const data = {
 export default function BlockMetrics2() {
   return <Metrics2 {...data} />;
 }
+

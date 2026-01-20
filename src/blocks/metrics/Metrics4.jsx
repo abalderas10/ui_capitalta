@@ -16,10 +16,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Metrics4](https://www.saasable.io/blocks/metrics/metrics4)
+ * - [Metrics4](https://www.Capitalta.io/blocks/metrics/metrics4)
  *
  * API:
- * - [Metrics4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/metrics/metrics4#props-details)
+ * - [Metrics4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/metrics/metrics4#props-details)
  */
 
 export default function Metrics4({ heading, caption, exploreBtn, blockDetail }) {
@@ -57,3 +57,4 @@ export default function Metrics4({ heading, caption, exploreBtn, blockDetail }) 
 }
 
 Metrics4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, exploreBtn: PropTypes.any, blockDetail: PropTypes.any };
+

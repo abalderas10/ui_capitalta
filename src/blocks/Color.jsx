@@ -109,7 +109,7 @@ function ColorPalette({ title, palette }) {
 /**
  *
  * Demos:
- * - [Color](https://www.saasable.io/sections/color)
+ * - [Color](https://www.Capitalta.io/sections/color)
  */
 
 export default function Color() {
@@ -302,3 +302,4 @@ ColorBox.propTypes = {
 };
 
 ColorPalette.propTypes = { title: PropTypes.string, palette: PropTypes.array };
+

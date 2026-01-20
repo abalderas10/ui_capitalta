@@ -119,3 +119,4 @@ export const feature19 = {
   blockData3: { description: 'Enjoy fast, low-fee transactions with blockchain technology.', image: <ImageContent1 /> },
   blockData4: { description: 'Optimize your asset management with secure, intuitive platform.', image: <ImageContent2 /> }
 };
+

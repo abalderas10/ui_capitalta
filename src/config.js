@@ -111,3 +111,4 @@ export const FONT_URBANIST = fontUrbanist.style.fontFamily;
 export const FONT_MANROPE = fontManrope.style.fontFamily;
 export const FONT_INTER = fontInter.style.fontFamily;
 export const FONT_ALTA = fontAlta.style.fontFamily;
+

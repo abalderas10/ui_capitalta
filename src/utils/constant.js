@@ -366,3 +366,4 @@ export const FIGMA_LINK = {
     link: BUY_NOW_URL
   }
 };
+

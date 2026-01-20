@@ -58,3 +58,4 @@ GraphicsCard.propTypes = {
   bgImage: PropTypes.any,
   rest: PropTypes.any
 };
+

@@ -16,3 +16,4 @@ export default function GetImagePath(image) {
 
   return isImageComponentProps(image) ? image[colorScheme || 'light'] : image;
 }
+

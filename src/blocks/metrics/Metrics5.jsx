@@ -35,10 +35,10 @@ function AnimatedCounter({ startCount, endCount }) {
 /**
  *
  * Demos:
- * - [Metrics5](https://www.saasable.io/blocks/metrics/metrics5)
+ * - [Metrics5](https://www.Capitalta.io/blocks/metrics/metrics5)
  *
  * API:
- * - [Metrics5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/metrics/metrics5#props-details)
+ * - [Metrics5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/metrics/metrics5#props-details)
  */
 
 export default function Metrics5({ heading, caption, blockDetail }) {
@@ -97,3 +97,4 @@ export default function Metrics5({ heading, caption, blockDetail }) {
 AnimatedCounter.propTypes = { startCount: PropTypes.number, endCount: PropTypes.number };
 
 Metrics5.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blockDetail: PropTypes.any };
+

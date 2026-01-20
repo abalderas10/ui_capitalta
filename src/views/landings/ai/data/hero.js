@@ -11,3 +11,4 @@ export const hero = {
   image: { light: '/assets/images/ai/desktop1-light.svg', dark: '/assets/images/ai/desktop1-dark.svg' },
   primaryBtn: { children: 'Get Started - It’s Free Now', href: FREEBIES_URL, target: '_blank', rel: 'noopener noreferrer' }
 };
+

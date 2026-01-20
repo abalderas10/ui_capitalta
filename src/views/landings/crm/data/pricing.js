@@ -173,3 +173,4 @@ export const pricing2 = {
     }
   ]
 };
+

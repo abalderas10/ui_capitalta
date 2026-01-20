@@ -18,3 +18,4 @@ export const metadata = {
 export default function TermsConditionPage() {
   return <TermsCondition />;
 }
+

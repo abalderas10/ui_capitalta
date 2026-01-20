@@ -5,3 +5,4 @@ export function getBackgroundDots(fill = 'gray', dotSize = 2, spacing = 30) {
     backgroundRepeat: 'repeat'
   };
 }
+

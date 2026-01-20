@@ -30,3 +30,4 @@ export const integration = {
     { label: 'Data Analytics & Business Intelligence' }
   ]
 };
+

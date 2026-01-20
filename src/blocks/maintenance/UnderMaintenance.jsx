@@ -18,7 +18,7 @@ import Maintenance from '@/images/maintenance/Maintenance';
 /**
  *
  * Demos:
- * - [UnderMaintenance](https://www.saasable.io/blocks/under-maintenance)
+ * - [UnderMaintenance](https://www.Capitalta.io/blocks/under-maintenance)
  */
 
 export default function UnderMaintenance({ heading }) {
@@ -42,3 +42,4 @@ export default function UnderMaintenance({ heading }) {
 }
 
 UnderMaintenance.propTypes = { heading: PropTypes.string };
+

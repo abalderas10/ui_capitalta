@@ -124,25 +124,33 @@ export const feature20 = {
     {
       icon: 'tabler-rocket',
       title: 'Crédito Simple',
-      content: 'Impulsa tus ideas con un solo desembolso. Monto: $30,000–$10,000,000 · Plazo: 3–60 meses.',
+      description: 'Impulsa tus ideas con un solo desembolso.',
+      monto: '$30,000–$10,000,000',
+      plazo: '3–60 meses',
       href: '/productos/credito-simple'
     },
     {
       icon: 'tabler-building-bank',
       title: 'Crédito Empresarial',
-      content: 'Financiamiento a medida para empresas. Monto: $500,000–$50,000,000 · Plazo: 12–120 meses.',
+      description: 'Financiamiento a medida para empresas.',
+      monto: '$500,000–$50,000,000',
+      plazo: '12–120 meses',
       href: '/productos/credito-empresarial'
     },
     {
       icon: 'tabler-refresh',
       title: 'Crédito Revolvente',
-      content: 'Línea renovable para tu flujo de efectivo. Monto: $300,000–$50,000,000 · Línea revisable.',
+      description: 'Línea renovable para tu flujo de efectivo.',
+      monto: '$300,000–$50,000,000',
+      plazo: 'Línea revisable',
       href: '/productos/credito-revolvente'
     },
     {
       icon: 'tabler-key',
       title: 'Crédito Venta Key',
-      content: 'Liquidez usando tu inmueble como garantía. Monto: 30–40% del valor · Plazos flexibles.',
+      description: 'Liquidez usando tu inmueble como garantía.',
+      monto: '30–40% del valor',
+      plazo: 'Plazos flexibles',
       href: '/productos/credito-venta-key'
     }
   ]
@@ -329,3 +337,4 @@ export const feature18 = {
     }
   ]
 };
+

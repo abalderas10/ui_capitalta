@@ -39,3 +39,4 @@ export default function MainLayout({ children }) {
 }
 
 MainLayout.propTypes = { children: PropTypes.any };
+

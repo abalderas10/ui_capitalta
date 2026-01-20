@@ -18,10 +18,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Team6](https://www.saasable.io/blocks/team/team6)
+ * - [Team6](https://www.Capitalta.io/blocks/team/team6)
  *
  * API
- * - [Team6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/team/team6#props-details)
+ * - [Team6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/team/team6#props-details)
  */
 
 export default function Team6({ heading, caption, members, image, actionBtn, description }) {
@@ -65,3 +65,4 @@ Team6.propTypes = {
   actionBtn: PropTypes.any,
   description: PropTypes.any
 };
+

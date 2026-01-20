@@ -30,10 +30,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Feature13](https://www.saasable.io/blocks/feature/feature13)
+ * - [Feature13](https://www.Capitalta.io/blocks/feature/feature13)
  *
  * API
- * - [Feature13 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature13#props-details)
+ * - [Feature13 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature13#props-details)
  */
 
 export default function Feature13({ heading, caption, image, cards, actionBtn }) {
@@ -142,3 +142,4 @@ Feature13.propTypes = {
   cards: PropTypes.array,
   actionBtn: PropTypes.any
 };
+

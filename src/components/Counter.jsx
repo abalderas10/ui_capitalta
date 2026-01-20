@@ -42,3 +42,4 @@ export default function Counter({ value, direction = 'up' }) {
 }
 
 Counter.propTypes = { value: PropTypes.number, direction: PropTypes.oneOf(['up', 'down']) };
+

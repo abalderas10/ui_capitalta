@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.metrics, openGraph: { ...SEO_CONTENT.me
 export default function MetricsPage() {
   return <Metrics />;
 }
+

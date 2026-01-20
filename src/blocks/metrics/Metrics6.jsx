@@ -43,10 +43,10 @@ function CounterCard({ counter, caption, defaultUnit }) {
 /**
  *
  * Demos:
- * - [Metrics6](https://www.saasable.io/blocks/metrics/metrics6)
+ * - [Metrics6](https://www.Capitalta.io/blocks/metrics/metrics6)
  *
  * API:
- * - [Metrics6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/metrics/metrics6#props-details)
+ * - [Metrics6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/metrics/metrics6#props-details)
  */
 
 export default function Metrics6({ bgImage, heading, caption, blockDetail }) {
@@ -100,3 +100,4 @@ export default function Metrics6({ bgImage, heading, caption, blockDetail }) {
 CounterCard.propTypes = { counter: PropTypes.any, caption: PropTypes.any, defaultUnit: PropTypes.any };
 
 Metrics6.propTypes = { bgImage: PropTypes.any, heading: PropTypes.any, caption: PropTypes.any, blockDetail: PropTypes.any };
+

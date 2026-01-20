@@ -26,3 +26,4 @@ export default function Line({ size = 24, color }) {
 }
 
 Line.propTypes = { size: PropTypes.number, color: PropTypes.any };
+

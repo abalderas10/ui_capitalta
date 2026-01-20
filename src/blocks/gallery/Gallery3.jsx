@@ -69,10 +69,10 @@ function GraphicsBox({ boxData, setIndex }) {
 /**
  *
  * Demos:
- * - [Gallery3](https://www.saasable.io/blocks/gallery/gallery3)
+ * - [Gallery3](https://www.Capitalta.io/blocks/gallery/gallery3)
  *
  * API
- * - [Gallery3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/gallery/gallery3#props-details)
+ * - [Gallery3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/gallery/gallery3#props-details)
  */
 
 export default function Gallery3({ heading, caption, images }) {
@@ -149,3 +149,4 @@ export default function Gallery3({ heading, caption, images }) {
 GraphicsBox.propTypes = { boxData: PropTypes.array, setIndex: PropTypes.func };
 
 Gallery3.propTypes = { heading: PropTypes.any, caption: PropTypes.any, images: PropTypes.any };
+

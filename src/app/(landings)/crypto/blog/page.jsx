@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.blogPage };
 export default function BlogPage() {
   return <Blog />;
 }
+

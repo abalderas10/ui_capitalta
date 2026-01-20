@@ -17,10 +17,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Clientele7](https://www.saasable.io/blocks/clientele/clientele7)
+ * - [Clientele7](https://www.Capitalta.io/blocks/clientele/clientele7)
  *
  * API:
- * - [Clientele7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/clientele/clientele7#props-details)
+ * - [Clientele7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/clientele/clientele7#props-details)
  */
 
 export default function Clientele7({ title, clienteleList, exploreBtn }) {
@@ -69,3 +69,4 @@ export default function Clientele7({ title, clienteleList, exploreBtn }) {
 }
 
 Clientele7.propTypes = { title: PropTypes.string, clienteleList: PropTypes.array, exploreBtn: PropTypes.any };
+

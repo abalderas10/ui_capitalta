@@ -29,10 +29,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Hero1](https://www.saasable.io/blocks/hero/hero1)
+ * - [Hero1](https://www.Capitalta.io/blocks/hero/hero1)
  *
  * API:
- * - [Hero1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero1#props-details)
+ * - [Hero1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero1#props-details)
  */
 
 export default function Hero1({ chip, headLine, captionLine, image, primaryBtn, secondaryBtn }) {
@@ -204,3 +204,4 @@ Hero1.propTypes = {
   primaryBtn: PropTypes.any,
   secondaryBtn: PropTypes.any
 };
+

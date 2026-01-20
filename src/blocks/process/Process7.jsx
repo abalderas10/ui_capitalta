@@ -111,10 +111,10 @@ function TimelineCard({ cards }) {
 /**
  *
  * Demos:
- * - [Process7](https://www.saasable.io/blocks/process/process7)
+ * - [Process7](https://www.Capitalta.io/blocks/process/process7)
  *
  * API
- * - [Process7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/process/process7#props-details)
+ * - [Process7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/process/process7#props-details)
  */
 
 export default function Process7({ heading, caption, cards, image1, card1sx, image2 }) {
@@ -243,3 +243,4 @@ Process7.propTypes = {
   card1sx: PropTypes.any,
   image2: PropTypes.any
 };
+

@@ -30,10 +30,10 @@ import { CloseQuote } from '@/icons';
 /**
  *
  * Demos:
- * - [Testimonial13](https://www.saasable.io/blocks/testimonial/testimonial13)
+ * - [Testimonial13](https://www.Capitalta.io/blocks/testimonial/testimonial13)
  *
  * API:
- * - [Testimonial13 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/testimonial/testimonial13#props-details)
+ * - [Testimonial13 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/testimonial/testimonial13#props-details)
  */
 
 export default function Testimonial13({ heading, primaryBtn, testimonials }) {
@@ -138,3 +138,4 @@ export default function Testimonial13({ heading, primaryBtn, testimonials }) {
 }
 
 Testimonial13.propTypes = { heading: PropTypes.any, primaryBtn: PropTypes.any, testimonials: PropTypes.any };
+

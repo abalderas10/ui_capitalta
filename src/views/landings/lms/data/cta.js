@@ -21,3 +21,4 @@ export const cta14 = {
   price: 149.99,
   primaryBtn: { children: 'Join these courses today' }
 };
+

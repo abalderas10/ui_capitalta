@@ -39,10 +39,10 @@ function IntegrationAvatar({ src }) {
 /**
  *
  * Demos:
- * - [Integration4](https://www.saasable.io/blocks/integration/integration4)
+ * - [Integration4](https://www.Capitalta.io/blocks/integration/integration4)
  *
  * API:
- * - [Integration4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/integration/integration4#props-details)
+ * - [Integration4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/integration/integration4#props-details)
  */
 
 export default function Integration4({ headLine, captionLine, primaryBtn, marquees }) {
@@ -106,3 +106,4 @@ Integration4.propTypes = {
   primaryBtn: PropTypes.any,
   marquees: PropTypes.array
 };
+

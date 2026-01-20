@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.coursesPage };
 export default function CoursesPage() {
   return <Courses />;
 }
+

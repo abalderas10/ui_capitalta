@@ -33,3 +33,4 @@ export default function LogoWatermark({ width = 430, height = 466 }) {
 }
 
 LogoWatermark.propTypes = { width: PropTypes.number, height: PropTypes.number };
+

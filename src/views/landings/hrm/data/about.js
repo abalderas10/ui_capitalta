@@ -7,3 +7,4 @@ export const about = {
     'Empower your business with our HRM platform, streamlining sales, marketing, and service processes to drive growth and build stronger customer relationships.',
   primaryBtn: { children: 'Try predictive cost analytics', href: '#', sx: { textTransform: 'none' } }
 };
+

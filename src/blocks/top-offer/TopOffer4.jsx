@@ -26,10 +26,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [TopOffer4](https://www.saasable.io/blocks/top-offer/top-offer4)
+ * - [TopOffer4](https://www.Capitalta.io/blocks/top-offer/top-offer4)
  *
  * API
- * - [TopOffer4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/topoffer/topoffer4#props-details)
+ * - [TopOffer4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/topoffer/topoffer4#props-details)
  */
 
 export default function TopOffer4({ offer, handleClick }) {
@@ -94,3 +94,4 @@ export default function TopOffer4({ offer, handleClick }) {
 }
 
 TopOffer4.propTypes = { offer: PropTypes.any, handleClick: PropTypes.any };
+

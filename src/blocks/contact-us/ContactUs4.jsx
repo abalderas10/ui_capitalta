@@ -55,10 +55,10 @@ function ContactCard({ icon, title, content, link }) {
 /**
  *
  * Demos:
- * - [ContactUs4](https://www.saasable.io/blocks/contact-us/contact-us4)
+ * - [ContactUs4](https://www.Capitalta.io/blocks/contact-us/contact-us4)
  *
  * API:
- * - [ContactUs4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/contact-us/contactus4#props-details)
+ * - [ContactUs4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/contact-us/contactus4#props-details)
  */
 
 export default function ContactUs4({ heading, caption, list, showForm = true }) {
@@ -129,3 +129,4 @@ export default function ContactUs4({ heading, caption, list, showForm = true }) 
 ContactCard.propTypes = { icon: PropTypes.any, title: PropTypes.any, content: PropTypes.any, link: PropTypes.any };
 
 ContactUs4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, list: PropTypes.any, showForm: PropTypes.bool };
+

@@ -21,7 +21,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Footer1](https://www.saasable.io/blocks/footer/footer1)
+ * - [Footer1](https://www.Capitalta.io/blocks/footer/footer1)
  */
 
 export default function Footer1() {
@@ -81,3 +81,4 @@ export default function Footer1() {
     </ContainerWrapper>
   );
 }
+

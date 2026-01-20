@@ -59,3 +59,4 @@ export default function HRMLayout({ children }) {
 }
 
 HRMLayout.propTypes = { children: PropTypes.any };
+

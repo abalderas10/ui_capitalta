@@ -52,7 +52,7 @@ export const process4 = {
 };
 
 export const process8 = {
-  heading: 'Top reasons to choose SaasAble for your web hosting needs',
+  heading: 'Top reasons to choose Capitalta for your web hosting needs',
   caption: `Unlock your website's potential with advanced web hosting services.`,
   image: { light: '/assets/images/hosting/graphics/graphics4-light.svg', dark: '/assets/images/hosting/graphics/graphics4-dark.svg' },
   cards: [
@@ -73,3 +73,4 @@ export const process8 = {
     }
   ]
 };
+

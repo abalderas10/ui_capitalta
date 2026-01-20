@@ -77,10 +77,10 @@ function ImageBlock({ direction = 'left', image, title, description }) {
 /**
  *
  * Demos:
- * - [Feature1](https://www.saasable.io/blocks/feature/feature1)
+ * - [Feature1](https://www.Capitalta.io/blocks/feature/feature1)
  *
  * API
- * - [Feature1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature1#props-details)
+ * - [Feature1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature1#props-details)
  */
 
 export default function Feature1({ heading, caption, blockData1, blockData2, blockData3, actionBtn }) {
@@ -211,3 +211,4 @@ Feature1.propTypes = {
   blockData3: PropTypes.any,
   actionBtn: PropTypes.any
 };
+

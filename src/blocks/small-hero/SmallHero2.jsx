@@ -15,10 +15,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [SmallHero2](https://www.saasable.io/blocks/small-hero/small-hero2)
+ * - [SmallHero2](https://www.Capitalta.io/blocks/small-hero/small-hero2)
  *
  * API
- * - [SmallHero2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/smallhero/smallhero2#props-details)
+ * - [SmallHero2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/smallhero/smallhero2#props-details)
  */
 
 export default function SmallHero2({ chip, headLine, captionLine }) {
@@ -61,3 +61,4 @@ export default function SmallHero2({ chip, headLine, captionLine }) {
 }
 
 SmallHero2.propTypes = { chip: PropTypes.any, headLine: PropTypes.any, captionLine: PropTypes.any };
+

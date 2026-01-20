@@ -17,10 +17,10 @@ import SvgIcon from '@/components/SvgIcon';
 /**
  *
  * Demos:
- * - [Cookie2](https://www.saasable.io/blocks/cookie/cookie2)
+ * - [Cookie2](https://www.Capitalta.io/blocks/cookie/cookie2)
  *
  * API
- * - [Cookie2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cookie/cookie2#props-details)
+ * - [Cookie2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cookie/cookie2#props-details)
  */
 
 export default function Cookie2({ heading, primaryBtn, secondaryBtn, cookie }) {
@@ -63,3 +63,4 @@ export default function Cookie2({ heading, primaryBtn, secondaryBtn, cookie }) {
 }
 
 Cookie2.propTypes = { heading: PropTypes.string, primaryBtn: PropTypes.any, secondaryBtn: PropTypes.any, cookie: PropTypes.object };
+

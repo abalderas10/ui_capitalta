@@ -58,10 +58,10 @@ function CounterBlock({ counter, defaultUnit, caption }) {
 /**
  *
  * Demos:
- * - [Hero11](https://www.saasable.io/blocks/hero/hero11)
+ * - [Hero11](https://www.Capitalta.io/blocks/hero/hero11)
  *
  * API:
- * - [Hero11 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero11#props-details)
+ * - [Hero11 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero11#props-details)
  */
 
 export default function Hero11({ reviewData, headLine, captionLine, primaryBtn, helperText, image, benefitData, sliderTitle, listData }) {
@@ -250,3 +250,4 @@ Hero11.propTypes = {
   sliderTitle: PropTypes.string,
   listData: PropTypes.array
 };
+

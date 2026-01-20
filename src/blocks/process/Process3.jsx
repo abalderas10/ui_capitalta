@@ -92,10 +92,10 @@ function CommonCard({ title, description, list, icon, expanded, moreLink, handle
 /**
  *
  * Demos:
- * - [Process3](https://www.saasable.io/blocks/process/process3)
+ * - [Process3](https://www.Capitalta.io/blocks/process/process3)
  *
  * API
- * - [Process3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/process/process3#props-details)
+ * - [Process3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/process/process3#props-details)
  */
 
 export default function Process3({ heading, caption, cards, image, defaultExpanded }) {
@@ -161,3 +161,4 @@ Process3.propTypes = {
   image: PropTypes.any,
   defaultExpanded: PropTypes.string
 };
+

@@ -58,3 +58,4 @@ export async function POST(request) {
   return NextResponse.json({ cotizacion: data }, { status: 201 });
 }
 
+

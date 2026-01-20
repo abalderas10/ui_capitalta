@@ -268,3 +268,4 @@ export default function Simulator({ src, defaultHeight }) {
 ScreenButton.propTypes = { icon: PropTypes.any, screen: PropTypes.string, screenSize: PropTypes.string, onScreenChange: PropTypes.func };
 
 Simulator.propTypes = { src: PropTypes.string, defaultHeight: PropTypes.number };
+

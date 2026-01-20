@@ -27,3 +27,4 @@ export default function Plugin({ children }) {
 }
 
 Plugin.propTypes = { children: PropTypes.any };
+

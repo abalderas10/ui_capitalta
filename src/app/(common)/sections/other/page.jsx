@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.other, openGraph: { ...SEO_CONTENT.othe
 export default function OtherPage() {
   return <Other />;
 }
+

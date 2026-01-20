@@ -36,3 +36,4 @@ export default function Realtor({ imageSize }) {
 }
 
 Realtor.propTypes = { imageSize: PropTypes.object };
+

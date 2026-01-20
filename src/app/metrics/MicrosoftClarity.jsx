@@ -22,3 +22,4 @@ export default function MicrosoftClarity({ clarityId }) {
 }
 
 MicrosoftClarity.propTypes = { clarityId: PropTypes.string };
+

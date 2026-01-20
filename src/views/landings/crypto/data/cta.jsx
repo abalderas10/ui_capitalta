@@ -37,3 +37,4 @@ export const cta2 = {
   caption: 'Feel free to reach out to our support team for personalized assistance.',
   primaryBtn: { children: 'Contact us', component: NextLink, href: '#', scroll: false, sx: { textTransform: 'none' } }
 };
+

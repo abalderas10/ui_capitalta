@@ -40,10 +40,10 @@ function CommonCard({ title, description, icon }) {
 /**
  *
  * Demos:
- * - [Feature4](https://www.saasable.io/blocks/feature/feature4)
+ * - [Feature4](https://www.Capitalta.io/blocks/feature/feature4)
  *
  * API
- * - [Feature4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature4#props-details)
+ * - [Feature4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature4#props-details)
  */
 
 export default function Feature4({ heading, caption, cards, image, showBorder = true }) {
@@ -97,3 +97,4 @@ Feature4.propTypes = {
   image: PropTypes.any,
   showBorder: PropTypes.bool
 };
+

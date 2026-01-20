@@ -40,3 +40,4 @@ export const hero = {
   ],
   exploreBtn: { children: 'Explore' }
 };
+

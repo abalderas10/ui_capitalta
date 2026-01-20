@@ -30,10 +30,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Blog2](https://www.saasable.io/blocks/blog/blog2)
+ * - [Blog2](https://www.Capitalta.io/blocks/blog/blog2)
  *
  * API:
- * - [Blog2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/blog/blog2#props-details)
+ * - [Blog2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/blog/blog2#props-details)
  */
 
 export default function Blog2({ heading, caption, blogs }) {
@@ -128,3 +128,4 @@ export default function Blog2({ heading, caption, blogs }) {
 }
 
 Blog2.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blogs: PropTypes.any };
+

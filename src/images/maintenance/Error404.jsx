@@ -256,3 +256,4 @@ export default function Error404() {
     </svg>
   );
 }
+

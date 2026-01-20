@@ -14,7 +14,7 @@ function HeadlineText() {
 
 export const hero = {
   headLine: <HeadlineText />,
-  captionLine: 'Discover our versatile SaasAble solutions and services designed to elevate learner success to new heights.',
+  captionLine: 'Discover our versatile Capitalta solutions and services designed to elevate learner success to new heights.',
   primaryBtn: { children: 'Get Started - It’s Free Now' },
   image1: '/assets/images/lms/hero.png',
   image2: { light: '/assets/images/lms/graphics/graphics2-light.svg', dark: '/assets/images/lms/graphics/graphics2-dark.svg' },
@@ -23,3 +23,4 @@ export const hero = {
     reviews: 'From 200+ reviews'
   }
 };
+

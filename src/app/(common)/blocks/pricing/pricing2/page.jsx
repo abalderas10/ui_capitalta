@@ -58,3 +58,4 @@ const data = {
 export default function BlockPricing2() {
   return <Pricing2 {...data} />;
 }
+

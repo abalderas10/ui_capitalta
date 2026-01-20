@@ -29,10 +29,10 @@ import Graphic1 from '@/images/graphics/Graphic1';
 /**
  *
  * Demos:
- * - [Testimonial7](https://www.saasable.io/blocks/testimonial/testimonial7)
+ * - [Testimonial7](https://www.Capitalta.io/blocks/testimonial/testimonial7)
  *
  * API:
- * - [Testimonial7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/testimonial/testimonial7#props-details)
+ * - [Testimonial7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/testimonial/testimonial7#props-details)
  */
 
 export default function Testimonial7({ heading, primaryBtn, testimonials }) {
@@ -149,3 +149,4 @@ export default function Testimonial7({ heading, primaryBtn, testimonials }) {
 }
 
 Testimonial7.propTypes = { heading: PropTypes.any, primaryBtn: PropTypes.any, testimonials: PropTypes.any };
+

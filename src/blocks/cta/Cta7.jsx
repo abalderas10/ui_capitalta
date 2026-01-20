@@ -25,10 +25,10 @@ import { getBackgroundDots } from '@/utils/getBackgroundDots';
 /**
  *
  * Demos:
- * - [CTA7](https://www.saasable.io/blocks/cta/cta7)
+ * - [CTA7](https://www.Capitalta.io/blocks/cta/cta7)
  *
  * API:
- * - [CTA7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta7#props-details)
+ * - [CTA7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta7#props-details)
  */
 
 export default function Cta7({ headLine, caption, primaryBtn }) {
@@ -69,3 +69,4 @@ export default function Cta7({ headLine, caption, primaryBtn }) {
 }
 
 Cta7.propTypes = { headLine: PropTypes.node, caption: PropTypes.string, primaryBtn: PropTypes.any };
+

@@ -125,3 +125,4 @@ export default function ThemeSelector({ defaultTheme = Themes.THEME_CRM, onChang
 }
 
 ThemeSelector.propTypes = { defaultTheme: PropTypes.string, Themes: PropTypes.any, THEME_CRM: PropTypes.any, onChange: PropTypes.string };
+

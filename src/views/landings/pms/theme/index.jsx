@@ -47,3 +47,4 @@ export default function ThemeCustomization(selector) {
 
   return theme;
 }
+

@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.crmLanding };
 export default function CRMPage() {
   return <CRM />;
 }
+

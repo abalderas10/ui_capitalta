@@ -27,10 +27,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Pricing7](https://www.saasable.io/blocks/pricing/pricing7)
+ * - [Pricing7](https://www.Capitalta.io/blocks/pricing/pricing7)
  *
  * API
- * - [Pricing7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/pricing/pricing7#props-details)
+ * - [Pricing7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/pricing/pricing7#props-details)
  */
 
 export default function Pricing7({ heading, caption, defaultUnit, plans, benefitList }) {
@@ -171,3 +171,4 @@ Pricing7.propTypes = {
   plans: PropTypes.any,
   benefitList: PropTypes.array
 };
+

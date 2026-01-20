@@ -31,10 +31,10 @@ import { Quote } from '@/icons';
 /**
  *
  * Demos:
- * - [Testimonial12](https://www.saasable.io/blocks/testimonial/testimonial12)
+ * - [Testimonial12](https://www.Capitalta.io/blocks/testimonial/testimonial12)
  *
  * API:
- * - [Testimonial12 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/testimonial/testimonial12#props-details)
+ * - [Testimonial12 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/testimonial/testimonial12#props-details)
  */
 
 export default function Testimonial12({ testimonials }) {
@@ -122,3 +122,4 @@ export default function Testimonial12({ testimonials }) {
 }
 
 Testimonial12.propTypes = { testimonials: PropTypes.array };
+

@@ -33,10 +33,10 @@ import GraphicsImage from '@/components/GraphicsImage';
 /**
  *
  * Demos:
- * - [Feature18](https://www.saasable.io/blocks/feature/feature18)
+ * - [Feature18](https://www.Capitalta.io/blocks/feature/feature18)
  *
  * API
- * - [Feature18 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature18#props-details)
+ * - [Feature18 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature18#props-details)
  */
 
 export default function Feature18({ heading, caption, topics }) {
@@ -266,3 +266,4 @@ export default function Feature18({ heading, caption, topics }) {
 }
 
 Feature18.propTypes = { heading: PropTypes.string, caption: PropTypes.string, topics: PropTypes.array };
+

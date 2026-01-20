@@ -25,10 +25,10 @@ import GetImagePath from '@/utils/GetImagePath';
 /**
  *
  * Demos:
- * - [Team8](https://www.saasable.io/blocks/team/team8)
+ * - [Team8](https://www.Capitalta.io/blocks/team/team8)
  *
  * API
- * - [Team8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/team/team8#props-details)
+ * - [Team8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/team/team8#props-details)
  */
 
 export default function Team8({ heading, caption, members, isFilter = true }) {
@@ -113,3 +113,4 @@ export default function Team8({ heading, caption, members, isFilter = true }) {
 }
 
 Team8.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any, isFilter: PropTypes.bool };
+

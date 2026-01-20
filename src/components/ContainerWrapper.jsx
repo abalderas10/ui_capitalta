@@ -24,3 +24,4 @@ export default function ContainerWrapper({ children, sx }) {
 }
 
 ContainerWrapper.propTypes = { children: PropTypes.any, sx: PropTypes.any };
+

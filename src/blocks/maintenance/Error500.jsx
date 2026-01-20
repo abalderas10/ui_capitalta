@@ -21,7 +21,7 @@ import Error500Server from '@/images/maintenance/Error500Server';
 /**
  *
  * Demos:
- * - [Error500](https://www.saasable.io/blocks/error500)
+ * - [Error500](https://www.Capitalta.io/blocks/error500)
  */
 
 export default function Error500Page({ primaryBtn, heading }) {
@@ -46,3 +46,4 @@ export default function Error500Page({ primaryBtn, heading }) {
 }
 
 Error500Page.propTypes = { primaryBtn: PropTypes.any, heading: PropTypes.string };
+

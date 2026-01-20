@@ -8,3 +8,4 @@ export { default as Pricing7 } from './Pricing7';
 export { default as Pricing8 } from './Pricing8';
 export { default as Pricing9 } from './Pricing9';
 export { default as Pricing10 } from './Pricing10';
+

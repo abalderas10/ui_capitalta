@@ -22,3 +22,4 @@ export function ConfigProvider({ children }) {
 }
 
 ConfigProvider.propTypes = { children: PropTypes.any };
+

@@ -54,3 +54,4 @@ export default function PreviewCard({ title, theme, image, status }) {
 }
 
 PreviewCard.propTypes = { title: PropTypes.any, theme: PropTypes.any, image: PropTypes.any, status: PropTypes.any };
+

@@ -16,3 +16,4 @@ const data = {
 export default function BlockCta9() {
   return <Cta9 {...data} />;
 }
+

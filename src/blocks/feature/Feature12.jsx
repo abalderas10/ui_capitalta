@@ -27,10 +27,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Feature12](https://www.saasable.io/blocks/feature/feature12)
+ * - [Feature12](https://www.Capitalta.io/blocks/feature/feature12)
  *
  * API
- * - [Feature12 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature12#props-details)
+ * - [Feature12 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature12#props-details)
  */
 
 export default function Feature12({ heading, caption, image, features, heading2, caption2, primaryBtn, primaryBtn2, icon, icon2 }) {
@@ -177,3 +177,4 @@ Feature12.propTypes = {
   icon: PropTypes.any,
   icon2: PropTypes.any
 };
+

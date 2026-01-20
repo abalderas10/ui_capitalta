@@ -20,10 +20,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Clientele8](https://www.saasable.io/blocks/clientele/clientele8)
+ * - [Clientele8](https://www.Capitalta.io/blocks/clientele/clientele8)
  *
  * API:
- * - [Clientele8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/clientele/clientele8#props-details)
+ * - [Clientele8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/clientele/clientele8#props-details)
  */
 
 export default function Clientele8({ heading, caption, clienteleList }) {
@@ -86,3 +86,4 @@ export default function Clientele8({ heading, caption, clienteleList }) {
 }
 
 Clientele8.propTypes = { heading: PropTypes.string, caption: PropTypes.string, clienteleList: PropTypes.array };
+

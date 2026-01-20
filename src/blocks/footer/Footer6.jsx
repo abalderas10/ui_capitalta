@@ -16,7 +16,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Footer6](https://www.saasable.io/blocks/footer/footer6)
+ * - [Footer6](https://www.Capitalta.io/blocks/footer/footer6)
  */
 
 const navItems = [
@@ -83,3 +83,4 @@ export default function Footer6() {
     </ContainerWrapper>
   );
 }
+

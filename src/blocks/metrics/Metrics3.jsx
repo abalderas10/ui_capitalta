@@ -38,10 +38,10 @@ function CounterCard({ counter, caption, defaultUnit, bgImage }) {
 /**
  *
  * Demos:
- * - [Metrics3](https://www.saasable.io/blocks/metrics/metrics3)
+ * - [Metrics3](https://www.Capitalta.io/blocks/metrics/metrics3)
  *
  * API:
- * - [Metrics3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/metrics/metrics3#props-details)
+ * - [Metrics3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/metrics/metrics3#props-details)
  */
 
 export default function Metrics3({ bgImage, heading, caption, exploreBtn, blockDetail }) {
@@ -76,3 +76,4 @@ Metrics3.propTypes = {
   exploreBtn: PropTypes.any,
   blockDetail: PropTypes.any
 };
+

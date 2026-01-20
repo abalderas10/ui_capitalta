@@ -7,3 +7,4 @@ export default function LandingsLayout({ children }) {
 }
 
 LandingsLayout.propTypes = { children: PropTypes.any };
+

@@ -30,10 +30,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Team3](https://www.saasable.io/blocks/team/team3)
+ * - [Team3](https://www.Capitalta.io/blocks/team/team3)
  *
  * API
- * - [Team3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/team/team3#props-details)
+ * - [Team3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/team/team3#props-details)
  */
 
 export default function Team3({ heading, caption, members }) {
@@ -159,3 +159,4 @@ export default function Team3({ heading, caption, members }) {
 }
 
 Team3.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
+

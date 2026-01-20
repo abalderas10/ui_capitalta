@@ -50,10 +50,10 @@ function IntegrationAvatar({ src, reverse }) {
 /**
  *
  * Demos:
- * - [Integration8](https://www.saasable.io/blocks/integration/integration8)
+ * - [Integration8](https://www.Capitalta.io/blocks/integration/integration8)
  *
  * API:
- * - [Integration8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/integration/integration8#props-details)
+ * - [Integration8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/integration/integration8#props-details)
  */
 
 export default function Integration8({ headLine, captionLine, primaryBtn }) {
@@ -129,3 +129,4 @@ export default function Integration8({ headLine, captionLine, primaryBtn }) {
 IntegrationAvatar.propTypes = { src: PropTypes.any, reverse: PropTypes.bool };
 
 Integration8.propTypes = { headLine: PropTypes.string, captionLine: PropTypes.string, primaryBtn: PropTypes.any };
+

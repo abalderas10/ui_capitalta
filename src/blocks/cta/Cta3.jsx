@@ -28,10 +28,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [CTA3](https://www.saasable.io/blocks/cta/cta3)
+ * - [CTA3](https://www.Capitalta.io/blocks/cta/cta3)
  *
  * API:
- * - [CTA3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta3#props-details)
+ * - [CTA3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta3#props-details)
  */
 
 function CtaTag({ label, icon }) {
@@ -56,10 +56,10 @@ function CtaTag({ label, icon }) {
 /**
  *
  * Demos:
- * - [CTA3](https://www.saasable.io/blocks/cta/cta3)
+ * - [CTA3](https://www.Capitalta.io/blocks/cta/cta3)
  *
  * API:
- * - [CTA3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta3#props-details)
+ * - [CTA3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta3#props-details)
  */
 
 export default function Cta3({ bgImage1, bgImage2, heading, primaryBtn, marquees }) {
@@ -116,3 +116,4 @@ Cta3.propTypes = {
   primaryBtn: PropTypes.any,
   marquees: PropTypes.array
 };
+

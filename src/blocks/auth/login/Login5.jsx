@@ -29,10 +29,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Login5](https://www.saasable.io/blocks/auth/login/5)
+ * - [Login5](https://www.Capitalta.io/blocks/auth/login/5)
  *
  * API
- * - [Login5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/login/login5#props-details)
+ * - [Login5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/login/login5#props-details)
  */
 
 export default function Login5({ heading, caption, testimonials }) {
@@ -153,3 +153,4 @@ export default function Login5({ heading, caption, testimonials }) {
 }
 
 Login5.propTypes = { heading: PropTypes.string, caption: PropTypes.string, testimonials: PropTypes.array };
+

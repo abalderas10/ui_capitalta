@@ -24,10 +24,10 @@ import Circles from '@/images/Circles';
 /**
  *
  * Demos:
- * - [Login3](https://www.saasable.io/blocks/auth/login/3)
+ * - [Login3](https://www.Capitalta.io/blocks/auth/login/3)
  *
  * API
- * - [Login3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/login/login3#props-details)
+ * - [Login3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/login/login3#props-details)
  */
 
 export default function Login3({ heading, caption }) {
@@ -88,3 +88,4 @@ export default function Login3({ heading, caption }) {
 }
 
 Login3.propTypes = { heading: PropTypes.string, caption: PropTypes.string };
+

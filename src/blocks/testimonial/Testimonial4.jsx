@@ -24,10 +24,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Testimonial4](https://www.saasable.io/blocks/testimonial/testimonial4)
+ * - [Testimonial4](https://www.Capitalta.io/blocks/testimonial/testimonial4)
  *
  * API:
- * - [Testimonial4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/testimonial/testimonial4#props-details)
+ * - [Testimonial4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/testimonial/testimonial4#props-details)
  */
 
 export default function Testimonial4({ heading, caption, testimonials }) {
@@ -91,3 +91,4 @@ export default function Testimonial4({ heading, caption, testimonials }) {
 }
 
 Testimonial4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, testimonials: PropTypes.any };
+

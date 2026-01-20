@@ -21,10 +21,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Hero8](https://www.saasable.io/blocks/hero/hero8)
+ * - [Hero8](https://www.Capitalta.io/blocks/hero/hero8)
  *
  * API:
- * - [Hero8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero8#props-details)
+ * - [Hero8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero8#props-details)
  */
 
 export default function Hero8({ headLine, captionLine, primaryBtn, image, listData }) {
@@ -133,3 +133,4 @@ Hero8.propTypes = {
   image: PropTypes.any,
   listData: PropTypes.array
 };
+

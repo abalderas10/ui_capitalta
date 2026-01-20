@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.servicesPage };
 export default function ServicesPage() {
   return <Services />;
 }
+

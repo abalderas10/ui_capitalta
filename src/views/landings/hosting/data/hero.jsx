@@ -43,9 +43,9 @@ export const hero19 = {
 
 export const aboutHero19 = {
   image: { light: '/assets/images/hosting/graphics/graphics12-light.svg', dark: '/assets/images/hosting/graphics/graphics12-dark.svg' },
-  tagline: 'About SaasAble Hosting',
+  tagline: 'About Capitalta Hosting',
   headLine: 'About us',
-  description: 'SaasAble’s company and culture are a lot like our product. They’re crafted, not cobbled, for a delightful experience.'
+  description: 'Capitalta’s company and culture are a lot like our product. They’re crafted, not cobbled, for a delightful experience.'
 };
 
 export const pricingHero19 = {
@@ -68,3 +68,4 @@ export const contacthero19 = {
   primaryBtn: { children: 'Contact Now' },
   secondaryBtn: { children: 'Chat Now' }
 };
+

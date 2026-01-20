@@ -58,3 +58,4 @@ export default function AuthSocial({ type = SocialTypes.VERTICAL, buttonSx }) {
 }
 
 AuthSocial.propTypes = { type: PropTypes.any, SocialTypes: PropTypes.any, VERTICAL: PropTypes.any, buttonSx: PropTypes.any };
+

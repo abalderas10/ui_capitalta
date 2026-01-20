@@ -38,10 +38,10 @@ function IntegrationAvatar({ src }) {
 /**
  *
  * Demos:
- * - [Integration3](https://www.saasable.io/blocks/integration/integration3)
+ * - [Integration3](https://www.Capitalta.io/blocks/integration/integration3)
  *
  * API:
- * - [Integration3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/integration/integration3#props-details)
+ * - [Integration3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/integration/integration3#props-details)
  */
 
 export default function Integration3({ headLine, captionLine, primaryBtn }) {
@@ -176,3 +176,4 @@ export default function Integration3({ headLine, captionLine, primaryBtn }) {
 IntegrationAvatar.propTypes = { src: PropTypes.any };
 
 Integration3.propTypes = { headLine: PropTypes.string, captionLine: PropTypes.string, primaryBtn: PropTypes.any };
+

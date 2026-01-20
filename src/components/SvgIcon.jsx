@@ -62,3 +62,4 @@ SvgIcon.propTypes = {
   stroke: PropTypes.any,
   twoToneColor: PropTypes.any
 };
+

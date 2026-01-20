@@ -108,3 +108,4 @@ export default function AuthLogin({ inputSx }) {
 }
 
 AuthLogin.propTypes = { inputSx: PropTypes.any };
+

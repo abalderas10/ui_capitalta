@@ -108,3 +108,4 @@ export default function Blog9({ heading, caption, blogs, exploreMore }) {
 }
 
 Blog9.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blogs: PropTypes.any, exploreMore: PropTypes.any };
+

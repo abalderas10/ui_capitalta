@@ -24,10 +24,10 @@ import { withAlpha } from '@/utils/colorUtils';
 /**
  *
  * Demos:
- * - [MegaMenu1](https://www.saasable.io/blocks/megamenu/megamenu1)
+ * - [MegaMenu1](https://www.Capitalta.io/blocks/megamenu/megamenu1)
  *
  * API
- * - [MegaMenu1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/megamenu/megamenu1#props-details)
+ * - [MegaMenu1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/megamenu/megamenu1#props-details)
  */
 
 export default function MegaMenu1({ menuItems, footerData, footerSX }) {
@@ -106,3 +106,4 @@ export default function MegaMenu1({ menuItems, footerData, footerSX }) {
 }
 
 MegaMenu1.propTypes = { menuItems: PropTypes.array, footerData: PropTypes.any, footerSX: PropTypes.any };
+

@@ -16,7 +16,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Footer4](https://www.saasable.io/blocks/footer/footer4)
+ * - [Footer4](https://www.Capitalta.io/blocks/footer/footer4)
  */
 
 const data = [
@@ -185,3 +185,4 @@ export default function Footer4() {
     </ContainerWrapper>
   );
 }
+

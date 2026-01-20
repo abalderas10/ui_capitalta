@@ -23,10 +23,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Metrics8](https://www.saasable.io/blocks/metrics/Metrics8)
+ * - [Metrics8](https://www.Capitalta.io/blocks/metrics/Metrics8)
  *
  * API:
- * - [Metrics8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/metrics/Metrics8#props-details)
+ * - [Metrics8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/metrics/Metrics8#props-details)
  */
 
 export default function Metrics8({ heading, caption, blockDetail }) {
@@ -119,3 +119,4 @@ export default function Metrics8({ heading, caption, blockDetail }) {
 }
 
 Metrics8.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blockDetail: PropTypes.any };
+

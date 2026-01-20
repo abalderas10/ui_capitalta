@@ -103,3 +103,4 @@ Feature26.propTypes = {
   feature3: PropTypes.object,
   avatarList: PropTypes.array
 };
+

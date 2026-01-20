@@ -33,3 +33,4 @@ export default function ProfileGroup({ review, avatarGroups, sx }) {
 }
 
 ProfileGroup.propTypes = { review: PropTypes.string, avatarGroups: PropTypes.array, sx: PropTypes.any };
+

@@ -47,3 +47,4 @@ export const privacySmallHero3 = {
   headLine: 'Privacy Policy',
   exploreBtn: { children: 'Contact us', sx: { textTransform: 'none' } }
 };
+

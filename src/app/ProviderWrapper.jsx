@@ -8,3 +8,4 @@ export default function ProviderWrapper({ children }) {
 }
 
 ProviderWrapper.propTypes = { children: PropTypes.any };
+

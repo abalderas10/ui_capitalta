@@ -186,9 +186,10 @@ hosting providers.`,
 };
 
 export const aboutFeature24 = {
-  heading: 'Find your online success with SaasAble',
+  heading: 'Find your online success with Capitalta',
   caption:
-    'SaasAble is on a mission to make online presence accessible to everyone worldwide – from developers to aspiring bloggers and business owners.',
+    'Capitalta is on a mission to make online presence accessible to everyone worldwide – from developers to aspiring bloggers and business owners.',
   description: `With our fast hosting technology, AI-powered Website Builder, and easy-to-operate Panel you can succeed online faster and easier.`,
   image: { light: '/assets/images/hosting/graphics/graphics7-light.svg', dark: '/assets/images/hosting/graphics/graphics7-dark.svg' }
 };
+

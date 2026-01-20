@@ -36,3 +36,4 @@ export default function Envato({ imageSize }) {
 }
 
 Envato.propTypes = { imageSize: PropTypes.object };
+

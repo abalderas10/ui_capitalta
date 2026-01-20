@@ -1,10 +1,10 @@
 {
-  "name": "saas-able-react-mui-next-js",
+  "name": "capitalta-web",
   "version": "2.0.0",
   "private": true,
   "author": {
-    "email": "phoenixcoded@gmail.com",
-    "name": "phoenixcoded"
+    "email": "contacto@capitalta.mx",
+    "name": "capitalta"
   },
   "scripts": {
     "dev": "next dev",

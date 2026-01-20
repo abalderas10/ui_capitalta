@@ -23,10 +23,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Login2](https://www.saasable.io/blocks/auth/login/2)
+ * - [Login2](https://www.Capitalta.io/blocks/auth/login/2)
  *
  * API
- * - [Login2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/login/login2#props-details)
+ * - [Login2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/login/login2#props-details)
  */
 
 export default function Login2({ heading, caption, image }) {
@@ -89,3 +89,4 @@ export default function Login2({ heading, caption, image }) {
 }
 
 Login2.propTypes = { heading: PropTypes.string, caption: PropTypes.string, image: PropTypes.any };
+

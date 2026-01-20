@@ -24,3 +24,4 @@ export default function Pattern3() {
     </svg>
   );
 }
+

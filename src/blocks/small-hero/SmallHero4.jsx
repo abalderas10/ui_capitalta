@@ -21,10 +21,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [SmallHero4](https://www.saasable.io/blocks/small-hero/small-hero4)
+ * - [SmallHero4](https://www.Capitalta.io/blocks/small-hero/small-hero4)
  *
  * API
- * - [SmallHero4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/smallhero/smallhero4#props-details)
+ * - [SmallHero4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/smallhero/smallhero4#props-details)
  */
 
 export default function SmallHero4({ chip, heading, caption, exploreBtn, image, isCoverImage = false }) {
@@ -96,3 +96,4 @@ SmallHero4.propTypes = {
   image: PropTypes.any,
   isCoverImage: PropTypes.bool
 };
+

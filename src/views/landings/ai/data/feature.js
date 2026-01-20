@@ -118,7 +118,7 @@ export const feature6 = {
 
 export const feature9 = {
   heading: 'Main features',
-  caption: 'SaasAble AI is your partner in code that helps you make your idea a reality.',
+  caption: 'Capitalta AI is your partner in code that helps you make your idea a reality.',
   features: [
     {
       icon: 'custom-brain',
@@ -128,7 +128,7 @@ export const feature9 = {
     {
       icon: 'custom-path',
       title: 'Collaborative AI chat',
-      content: 'Use SaasAble AI with your teammates to build software together'
+      content: 'Use Capitalta AI with your teammates to build software together'
     },
     {
       icon: 'custom-statastic',
@@ -215,3 +215,4 @@ export const feature25 = {
     }
   ]
 };
+

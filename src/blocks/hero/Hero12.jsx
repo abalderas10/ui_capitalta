@@ -25,10 +25,10 @@ import Circles from '@/images/Circles';
 /**
  *
  * Demos:
- * - [Hero12](https://www.saasable.io/blocks/hero/hero12)
+ * - [Hero12](https://www.Capitalta.io/blocks/hero/hero12)
  *
  * API:
- * - [Hero12 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero12#props-details)
+ * - [Hero12 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero12#props-details)
  */
 
 export default function Hero12({ exploreBtn, list, headLine, captionLine }) {
@@ -101,3 +101,4 @@ Hero12.propTypes = {
   headLine: PropTypes.oneOfType([PropTypes.node, PropTypes.string]),
   captionLine: PropTypes.oneOfType([PropTypes.node, PropTypes.string])
 };
+

@@ -28,10 +28,10 @@ const pattern = { light: '/assets/images/shared/pattern1-light.svg', dark: '/ass
 /**
  *
  * Demos:
- * - [Hero4](https://www.saasable.io/blocks/hero/hero4)
+ * - [Hero4](https://www.Capitalta.io/blocks/hero/hero4)
  *
  * API:
- * - [Hero4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero4#props-details)
+ * - [Hero4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero4#props-details)
  */
 
 export default function Hero4({ chip, headLine, captionLine, image1, image2, listData }) {
@@ -146,3 +146,4 @@ Hero4.propTypes = {
   image2: PropTypes.any,
   listData: PropTypes.array
 };
+

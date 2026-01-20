@@ -16,3 +16,4 @@ const data = {
 export default function BlockCta8() {
   return <Cta8 {...data} />;
 }
+

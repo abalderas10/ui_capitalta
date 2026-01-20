@@ -36,10 +36,10 @@ function SlideTransition(props) {
 /**
  *
  * Demos:
- * - [ComingSoon](https://www.saasable.io/blocks/coming-soon)
+ * - [ComingSoon](https://www.Capitalta.io/blocks/coming-soon)
  *
  *  * API
- * - [ComingSoon API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/comingsoon#props-details)
+ * - [ComingSoon API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/comingsoon#props-details)
  */
 
 export default function ComingSoon({ chip, primaryBtn, description }) {
@@ -158,3 +158,4 @@ export default function ComingSoon({ chip, primaryBtn, description }) {
 }
 
 ComingSoon.propTypes = { chip: PropTypes.object, primaryBtn: PropTypes.any, description: PropTypes.string };
+

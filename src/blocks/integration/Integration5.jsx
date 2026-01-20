@@ -60,10 +60,10 @@ function IconBox({ icon }) {
 /**
  *
  * Demos:
- * - [Integration5](https://www.saasable.io/blocks/integration/integration5)
+ * - [Integration5](https://www.Capitalta.io/blocks/integration/integration5)
  *
  * API:
- * - [Integration5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/integration/integration5#props-details)
+ * - [Integration5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/integration/integration5#props-details)
  */
 
 export default function Integration5({ headLine, captionLine, primaryBtn }) {
@@ -288,3 +288,4 @@ export default function Integration5({ headLine, captionLine, primaryBtn }) {
 IconBox.propTypes = { icon: PropTypes.any };
 
 Integration5.propTypes = { headLine: PropTypes.string, captionLine: PropTypes.string, primaryBtn: PropTypes.any };
+

@@ -30,10 +30,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Feature10](https://www.saasable.io/blocks/feature/feature10)
+ * - [Feature10](https://www.Capitalta.io/blocks/feature/feature10)
  *
  * API
- * - [Feature10 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature10#props-details)
+ * - [Feature10 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature10#props-details)
  */
 
 export default function Feature10({ heading, caption, features, video, typesetPosition, primaryBtn, secondaryBtn }) {
@@ -206,3 +206,4 @@ Feature10.propTypes = {
   primaryBtn: PropTypes.any,
   secondaryBtn: PropTypes.any
 };
+

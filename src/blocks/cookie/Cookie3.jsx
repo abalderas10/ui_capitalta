@@ -23,10 +23,10 @@ import { withAlpha } from '@/utils/colorUtils';
 /**
  *
  * Demos:
- * - [Cookie3](https://www.saasable.io/blocks/cookie/cookie3)
+ * - [Cookie3](https://www.Capitalta.io/blocks/cookie/cookie3)
  *
  * API
- * - [Cookie3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cookie/cookie3#props-details)
+ * - [Cookie3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cookie/cookie3#props-details)
  */
 
 export default function TopOffer3({ heading, cookie, primaryBtn, secondaryBtn }) {
@@ -93,3 +93,4 @@ export default function TopOffer3({ heading, cookie, primaryBtn, secondaryBtn })
 }
 
 TopOffer3.propTypes = { heading: PropTypes.string, cookie: PropTypes.object, primaryBtn: PropTypes.any, secondaryBtn: PropTypes.any };
+

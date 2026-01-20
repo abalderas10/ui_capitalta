@@ -12,7 +12,7 @@ transparency and trustworthiness.`,
 
 export const metrics5 = {
   heading: 'Data processing at its peak',
-  caption: `See the success stories of organizations scaling with SaasAble`,
+  caption: `See the success stories of organizations scaling with Capitalta`,
   blockDetail: [
     { counter: 40, defaultUnit: '+', caption: 'Global offices' },
     { counter: 10, defaultUnit: 'k+', caption: 'Employees' },
@@ -20,3 +20,4 @@ export const metrics5 = {
     { counter: 4.5, defaultUnit: '/5', caption: 'Satisfaction rating' }
   ]
 };
+

@@ -41,10 +41,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Process1](https://www.saasable.io/blocks/process/process1)
+ * - [Process1](https://www.Capitalta.io/blocks/process/process1)
  *
  * API
- * - [Process1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/process/process1#props-details)
+ * - [Process1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/process/process1#props-details)
  */
 
 function CommonCard({ title, description, list, icon, expanded, moreLink, handleChange, index }) {
@@ -198,3 +198,4 @@ Process1.propTypes = {
   cards: PropTypes.array,
   image: PropTypes.any
 };
+

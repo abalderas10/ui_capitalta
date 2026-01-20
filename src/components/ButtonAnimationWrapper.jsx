@@ -21,3 +21,4 @@ export default function ButtonAnimationWrapper({ children, style }) {
 }
 
 ButtonAnimationWrapper.propTypes = { children: PropTypes.any, style: PropTypes.any };
+

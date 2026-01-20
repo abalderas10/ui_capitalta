@@ -22,3 +22,4 @@ const data = {
 export default function BlockCta6() {
   return <Cta6 {...data} />;
 }
+

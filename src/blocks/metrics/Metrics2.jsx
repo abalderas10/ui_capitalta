@@ -41,10 +41,10 @@ function CounterBlock({ counter, caption, defaultUnit }) {
 /**
  *
  * Demos:
- * - [Metrics2](https://www.saasable.io/blocks/metrics/metrics2)
+ * - [Metrics2](https://www.Capitalta.io/blocks/metrics/metrics2)
  *
  * API:
- * - [Metrics2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/metrics/metrics2#props-details)
+ * - [Metrics2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/metrics/metrics2#props-details)
  */
 
 export default function Metrics2({ bgImage, heading, blockDetail }) {
@@ -97,3 +97,4 @@ export default function Metrics2({ bgImage, heading, blockDetail }) {
 CounterBlock.propTypes = { counter: PropTypes.number, caption: PropTypes.string, defaultUnit: PropTypes.string };
 
 Metrics2.propTypes = { bgImage: PropTypes.any, heading: PropTypes.any, blockDetail: PropTypes.any };
+

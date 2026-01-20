@@ -35,3 +35,4 @@ export default function useAriaHidden() {
 
   return updateAriaHidden; // Return the function to call on slide change
 }
+

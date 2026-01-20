@@ -25,10 +25,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Team2](https://www.saasable.io/blocks/team/team2)
+ * - [Team2](https://www.Capitalta.io/blocks/team/team2)
  *
  * API
- * - [Team2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/team/team2#props-details)
+ * - [Team2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/team/team2#props-details)
  */
 
 export default function Team2({ heading, caption, members }) {
@@ -122,3 +122,4 @@ export default function Team2({ heading, caption, members }) {
 }
 
 Team2.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
+

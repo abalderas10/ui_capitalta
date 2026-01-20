@@ -73,10 +73,10 @@ function StepperCard({ cards, activeStep, handleStep }) {
 /**
  *
  * Demos:
- * - [Feature8](https://www.saasable.io/blocks/feature/feature8)
+ * - [Feature8](https://www.Capitalta.io/blocks/feature/feature8)
  *
  * API
- * - [Feature8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature8#props-details)
+ * - [Feature8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature8#props-details)
  */
 
 export default function Feature8({ heading, caption, cards }) {
@@ -141,3 +141,4 @@ export default function Feature8({ heading, caption, cards }) {
 StepperCard.propTypes = { cards: PropTypes.array, activeStep: PropTypes.number, handleStep: PropTypes.func };
 
 Feature8.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array };
+

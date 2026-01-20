@@ -56,3 +56,4 @@ export default function FaqDetails({ answer }) {
 }
 
 FaqDetails.propTypes = { answer: PropTypes.oneOfType([PropTypes.string, PropTypes.any]) };
+

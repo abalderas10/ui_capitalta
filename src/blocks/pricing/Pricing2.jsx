@@ -42,10 +42,10 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 /**
  *
  * Demos:
- * - [Pricing2](https://www.saasable.io/blocks/pricing/pricing2)
+ * - [Pricing2](https://www.Capitalta.io/blocks/pricing/pricing2)
  *
  * API
- * - [Pricing2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/pricing/pricing2#props-details)
+ * - [Pricing2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/pricing/pricing2#props-details)
  */
 
 export default function Pricing2({ heading, caption, defaultUnit, features, plans }) {
@@ -251,3 +251,4 @@ Pricing2.propTypes = {
   features: PropTypes.array,
   plans: PropTypes.array
 };
+

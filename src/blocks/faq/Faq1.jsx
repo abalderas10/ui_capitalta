@@ -29,10 +29,10 @@ import { generateFocusVisibleStyles } from '@/utils/CommonFocusStyle';
 /**
  *
  * Demos:
- * - [FAQ1](https://www.saasable.io/blocks/faq/faq1)
+ * - [FAQ1](https://www.Capitalta.io/blocks/faq/faq1)
  *
  * API:
- * - [FAQ1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/faq/faq1#props-details)
+ * - [FAQ1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/faq/faq1#props-details)
  */
 
 export default function Faq1({ heading, caption, defaultExpanded, faqList }) {
@@ -113,3 +113,4 @@ export default function Faq1({ heading, caption, defaultExpanded, faqList }) {
 }
 
 Faq1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, defaultExpanded: PropTypes.any, faqList: PropTypes.any };
+

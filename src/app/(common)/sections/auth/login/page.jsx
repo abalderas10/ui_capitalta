@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.login, openGraph: { ...SEO_CONTENT.logi
 export default function LoginPage() {
   return <Login />;
 }
+

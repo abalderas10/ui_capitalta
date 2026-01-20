@@ -45,3 +45,4 @@ const data = {
 export default function BlockHero12() {
   return <Hero12 {...data} />;
 }
+

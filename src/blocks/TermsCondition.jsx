@@ -120,7 +120,7 @@ const menuItems = [
 /**
  *
  * Demos:
- * - [Terms Condition](https://www.saasable.io/sections/terms-condition)
+ * - [Terms Condition](https://www.Capitalta.io/sections/terms-condition)
  */
 
 export default function TermsConditionPage() {
@@ -179,3 +179,4 @@ export default function TermsConditionPage() {
     </ContainerWrapper>
   );
 }
+

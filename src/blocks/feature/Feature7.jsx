@@ -46,10 +46,10 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 /**
  *
  * Demos:
- * - [Feature7](https://www.saasable.io/blocks/feature/feature7)
+ * - [Feature7](https://www.Capitalta.io/blocks/feature/feature7)
  *
  * API
- * - [Feature7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature7#props-details)
+ * - [Feature7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature7#props-details)
  */
 
 export default function Feature7({ heading, caption, breadcrumbs, testimonials }) {
@@ -211,3 +211,4 @@ export default function Feature7({ heading, caption, breadcrumbs, testimonials }
 }
 
 Feature7.propTypes = { heading: PropTypes.string, caption: PropTypes.string, breadcrumbs: PropTypes.array, testimonials: PropTypes.array };
+

@@ -67,10 +67,10 @@ function CounterBox({ blockDetail }) {
 /**
  *
  * Demos:
- * - [Login4](https://www.saasable.io/blocks/auth/login/4)
+ * - [Login4](https://www.Capitalta.io/blocks/auth/login/4)
  *
  * API
- * - [Login4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/login/login4#props-details)
+ * - [Login4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/login/login4#props-details)
  */
 
 export default function Login4({ reviewData, heading, blockDetail }) {
@@ -155,3 +155,4 @@ CounterCard.propTypes = { counter: PropTypes.string, caption: PropTypes.string, 
 CounterBox.propTypes = { blockDetail: PropTypes.array };
 
 Login4.propTypes = { reviewData: PropTypes.object, heading: PropTypes.string, blockDetail: PropTypes.array };
+

@@ -23,10 +23,10 @@ import GetImagePath from '@/utils/GetImagePath';
 /**
  *
  * Demos:
- * - [CTA14](https://www.saasable.io/blocks/cta/cta14)
+ * - [CTA14](https://www.Capitalta.io/blocks/cta/cta14)
  *
  * API:
- * - [CTA14 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta14#props-details)
+ * - [CTA14 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta14#props-details)
  */
 
 export default function Cta14({ image, avatar, name, ratings, heading, caption, price, primaryBtn }) {
@@ -71,3 +71,4 @@ Cta14.propTypes = {
   price: PropTypes.number,
   primaryBtn: PropTypes.any
 };
+

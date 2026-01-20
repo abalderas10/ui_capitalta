@@ -23,7 +23,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [SmallHero7](https://www.saasable.io/blocks/small-hero/small-hero7)
+ * - [SmallHero7](https://www.Capitalta.io/blocks/small-hero/small-hero7)
  */
 
 export default function SmallHero7({ heading, caption, primaryBtn, image }) {
@@ -64,3 +64,4 @@ export default function SmallHero7({ heading, caption, primaryBtn, image }) {
 }
 
 SmallHero7.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, image: PropTypes.any };
+

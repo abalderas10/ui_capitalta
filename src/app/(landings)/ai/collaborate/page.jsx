@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.collaboratePage };
 export default function CollaboratePage() {
   return <Collaborate />;
 }
+

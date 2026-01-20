@@ -111,10 +111,10 @@ function CardBlock({ image, title, description, icon, list, description2, action
 /**
  *
  * Demos:
- * - [Feature15](https://www.saasable.io/blocks/feature/feature15)
+ * - [Feature15](https://www.Capitalta.io/blocks/feature/feature15)
  *
  * API
- * - [Feature15 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature15#props-details)
+ * - [Feature15 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature15#props-details)
  */
 
 export default function Feature15({ heading, caption, blockData1, blockData2, blockData3, blockData4 }) {
@@ -205,3 +205,4 @@ Feature15.propTypes = {
   blockData3: PropTypes.any,
   blockData4: PropTypes.any
 };
+

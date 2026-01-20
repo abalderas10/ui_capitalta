@@ -14,3 +14,4 @@ export const clientele = {
     { image: { component: 'clientele/Marketly', type: DynamicComponentType.IMAGE } }
   ]
 };
+

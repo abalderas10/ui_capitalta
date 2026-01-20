@@ -21,3 +21,4 @@ const data = {
 export default function BlockAbout3() {
   return <About3 {...data} />;
 }
+

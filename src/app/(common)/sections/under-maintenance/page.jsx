@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.underMaintenance };
 export default function UnderMaintenancePage() {
   return <UnderMaintenance />;
 }
+

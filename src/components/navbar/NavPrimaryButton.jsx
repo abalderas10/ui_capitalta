@@ -26,3 +26,4 @@ export default function NavPrimaryButton({ sx, children, ...rest }) {
 }
 
 NavPrimaryButton.propTypes = { sx: PropTypes.any, children: PropTypes.any, rest: PropTypes.any };
+

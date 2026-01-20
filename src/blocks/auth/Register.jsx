@@ -24,10 +24,10 @@ import Circles from '@/images/Circles';
 /**
  *
  * Demos:
- * - [Register](https://www.saasable.io/blocks/auth/register)
+ * - [Register](https://www.Capitalta.io/blocks/auth/register)
  *
  * API
- * - [Register API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/register#props-details)
+ * - [Register API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/register#props-details)
  */
 
 export default function Register({ heading, caption }) {
@@ -87,3 +87,4 @@ export default function Register({ heading, caption }) {
 }
 
 Register.propTypes = { heading: PropTypes.string, caption: PropTypes.string };
+

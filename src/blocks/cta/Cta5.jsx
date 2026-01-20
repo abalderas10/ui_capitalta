@@ -32,10 +32,10 @@ import Wave from '@/images/graphics/Wave';
 /**
  *
  * Demos:
- * - [CTA5](https://www.saasable.io/blocks/cta/cta5)
+ * - [CTA5](https://www.Capitalta.io/blocks/cta/cta5)
  *
  * API:
- * - [CTA5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta5#props-details)
+ * - [CTA5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta5#props-details)
  */
 
 export default function Cta5({ heading, caption, label, input = false, primaryBtn, secondaryBtn, description, saleData, profileGroups }) {
@@ -198,3 +198,4 @@ Cta5.propTypes = {
   saleData: PropTypes.any,
   profileGroups: PropTypes.object
 };
+

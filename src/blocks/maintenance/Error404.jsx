@@ -19,10 +19,10 @@ import Error404 from '@/images/maintenance/Error404';
 /**
  *
  * Demos:
- * - [Error404](https://www.saasable.io/blocks/error404)
+ * - [Error404](https://www.Capitalta.io/blocks/error404)
  *
  *  API
- * - [Error404 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/maintenance/error404#props-details)
+ * - [Error404 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/maintenance/error404#props-details)
  */
 
 export default function Error404Page({ primaryBtn, heading }) {
@@ -53,3 +53,4 @@ export default function Error404Page({ primaryBtn, heading }) {
 }
 
 Error404Page.propTypes = { primaryBtn: PropTypes.any, heading: PropTypes.string };
+

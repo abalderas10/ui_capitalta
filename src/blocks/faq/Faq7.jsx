@@ -30,10 +30,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [FAQ7](https://www.saasable.io/blocks/faq/faq7)
+ * - [FAQ7](https://www.Capitalta.io/blocks/faq/faq7)
  *
  * API:
- * - [FAQ7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/faq/faq7#props-details)
+ * - [FAQ7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/faq/faq7#props-details)
  */
 
 export default function Faq7({ heading, caption, defaultExpanded, faqList, getInTouch }) {
@@ -112,3 +112,4 @@ Faq7.propTypes = {
   faqList: PropTypes.any,
   getInTouch: PropTypes.any
 };
+

@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.navbar, openGraph: { ...SEO_CONTENT.nav
 export default function NavbarPage() {
   return <Navbar />;
 }
+

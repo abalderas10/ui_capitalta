@@ -20,10 +20,10 @@ import { GraphicsCard } from '@/components/cards';
 /**
  *
  * Demos:
- * - [CTA11](https://www.saasable.io/blocks/cta/cta11)
+ * - [CTA11](https://www.Capitalta.io/blocks/cta/cta11)
  *
  * API:
- * - [CTA11 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta11#props-details)
+ * - [CTA11 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta11#props-details)
  */
 
 export default function Cta11({ heading, caption, primaryBtn, list, secondaryBtn, image }) {
@@ -123,3 +123,4 @@ Cta11.propTypes = {
   secondaryBtn: PropTypes.any,
   image: PropTypes.any
 };
+

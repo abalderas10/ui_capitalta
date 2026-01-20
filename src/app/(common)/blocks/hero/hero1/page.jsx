@@ -46,3 +46,4 @@ const data = {
 export default function BlockHero1() {
   return <Hero1 {...data} />;
 }
+

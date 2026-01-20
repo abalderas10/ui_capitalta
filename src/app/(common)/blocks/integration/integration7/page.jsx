@@ -37,3 +37,4 @@ const data = {
 export default function BlockIntegration7() {
   return <Integration7 {...data} />;
 }
+

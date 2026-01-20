@@ -26,10 +26,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [CTA10](https://www.saasable.io/blocks/cta/cta10)
+ * - [CTA10](https://www.Capitalta.io/blocks/cta/cta10)
  *
  * API:
- * - [CTA10 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta10#props-details)
+ * - [CTA10 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta10#props-details)
  */
 
 export default function Cta10({ heading, caption, primaryBtn, profileGroups, list, secondaryBtn, image }) {
@@ -163,3 +163,4 @@ Cta10.propTypes = {
   secondaryBtn: PropTypes.any,
   image: PropTypes.any
 };
+

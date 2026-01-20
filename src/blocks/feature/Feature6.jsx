@@ -24,10 +24,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Feature6](https://www.saasable.io/blocks/feature/feature6)
+ * - [Feature6](https://www.Capitalta.io/blocks/feature/feature6)
  *
  * API
- * - [Feature6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature6#props-details)
+ * - [Feature6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature6#props-details)
  */
 
 export default function Feature6({ heading, caption, image, features }) {
@@ -103,3 +103,4 @@ export default function Feature6({ heading, caption, image, features }) {
 }
 
 Feature6.propTypes = { heading: PropTypes.string, caption: PropTypes.string, image: PropTypes.any, features: PropTypes.array };
+

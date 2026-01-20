@@ -17,10 +17,10 @@ import { withAlpha } from '@/utils/colorUtils';
 /**
  *
  * Demos:
- * - [Other2](https://www.saasable.io/blocks/other/other2)
+ * - [Other2](https://www.Capitalta.io/blocks/other/other2)
  *
  * API
- * - [Other2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/other/other2#props-details)
+ * - [Other2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/other/other2#props-details)
  */
 
 export default function Other2() {
@@ -151,3 +151,4 @@ export default function Other2() {
     </ContainerWrapper>
   );
 }
+

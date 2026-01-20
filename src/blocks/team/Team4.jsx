@@ -28,10 +28,10 @@ import GetImagePath from '@/utils/GetImagePath';
 /**
  *
  * Demos:
- * - [Team4](https://www.saasable.io/blocks/team/team4)
+ * - [Team4](https://www.Capitalta.io/blocks/team/team4)
  *
  * API
- * - [Team4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/team/team4#props-details)
+ * - [Team4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/team/team4#props-details)
  */
 
 export default function Team4({ heading, caption, members }) {
@@ -123,3 +123,4 @@ export default function Team4({ heading, caption, members }) {
 }
 
 Team4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
+

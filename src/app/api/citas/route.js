@@ -64,3 +64,4 @@ export async function GET(request) {
   return NextResponse.json({ citas: data || [] }, { status: 200 });
 }
 
+

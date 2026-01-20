@@ -25,10 +25,10 @@ import BackgroundCircle from '@/components/BackgroundCircle';
 /**
  *
  * Demos:
- * - [ForgotPassword](https://www.saasable.io/blocks/auth/forgot-password)
+ * - [ForgotPassword](https://www.Capitalta.io/blocks/auth/forgot-password)
  *
  * API
- * - [ForgotPassword API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/forgot-password#props-details)
+ * - [ForgotPassword API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/forgot-password#props-details)
  */
 
 export default function ForgotPassword({ heading, caption }) {
@@ -81,3 +81,4 @@ export default function ForgotPassword({ heading, caption }) {
 }
 
 ForgotPassword.propTypes = { heading: PropTypes.string, caption: PropTypes.string };
+

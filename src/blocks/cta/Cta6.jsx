@@ -32,10 +32,10 @@ import DrawnArrow from '@/images/graphics/DrawnArrow';
 /**
  *
  * Demos:
- * - [CTA6](https://www.saasable.io/blocks/cta/cta6)
+ * - [CTA6](https://www.Capitalta.io/blocks/cta/cta6)
  *
  * API:
- * - [CTA6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta6#props-details)
+ * - [CTA6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta6#props-details)
  */
 
 export default function Cta6({ heading, caption, icon, primaryBtn, clienteleList }) {
@@ -158,3 +158,4 @@ Cta6.propTypes = {
   primaryBtn: PropTypes.any,
   clienteleList: PropTypes.array
 };
+

@@ -28,10 +28,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Pricing6](https://www.saasable.io/blocks/pricing/pricing6)
+ * - [Pricing6](https://www.Capitalta.io/blocks/pricing/pricing6)
  *
  * API
- * - [Pricing6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/pricing/pricing6#props-details)
+ * - [Pricing6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/pricing/pricing6#props-details)
  */
 
 export default function Pricing6({ heading, caption, features, plans }) {
@@ -152,3 +152,4 @@ export default function Pricing6({ heading, caption, features, plans }) {
 }
 
 Pricing6.propTypes = { heading: PropTypes.string, caption: PropTypes.string, features: PropTypes.array, plans: PropTypes.array };
+

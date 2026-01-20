@@ -20,3 +20,4 @@ export default function Rating({ count = 5, rate, starSize = 20, ...rest }) {
 }
 
 Rating.propTypes = { count: PropTypes.number, rate: PropTypes.number, starSize: PropTypes.number, rest: PropTypes.any };
+

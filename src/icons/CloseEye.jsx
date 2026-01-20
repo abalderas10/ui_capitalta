@@ -61,3 +61,4 @@ export default function CloseEye({ size = 24, color, stroke = 1.5 }) {
 }
 
 CloseEye.propTypes = { size: PropTypes.number, color: PropTypes.any, stroke: PropTypes.any };
+

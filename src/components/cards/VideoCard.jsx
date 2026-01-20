@@ -43,3 +43,4 @@ export default function VideoCard({ bgImage, sx, onClick }) {
 }
 
 VideoCard.propTypes = { bgImage: PropTypes.any, sx: PropTypes.any, onClick: PropTypes.func };
+

@@ -198,3 +198,4 @@ El proyecto **Capitalta** está correctamente configurado y desplegado en Supaba
 La infraestructura está completamente preparada, con autenticación, storage, edge functions y realtime disponibles. El siguiente paso natural sería definir el esquema de la base de datos y comenzar a implementar la lógica de negocio de la aplicación.
 
 El proyecto utiliza el plan gratuito NANO, que es adecuado para desarrollo y pruebas, pero podría requerir una actualización a un plan pagado cuando la aplicación entre en producción y comience a tener usuarios reales.
+

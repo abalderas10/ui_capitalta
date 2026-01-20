@@ -23,10 +23,10 @@ import SvgIcon from '@/components/SvgIcon';
 /**
  *
  * Demos:
- * - [NavbarContent8](https://www.saasable.io/blocks/navbar/navbar8)
+ * - [NavbarContent8](https://www.Capitalta.io/blocks/navbar/navbar8)
  *
  * API:
- * - [NavbarContent8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/navbar/navbar-content/navbarcontent8#props-details)
+ * - [NavbarContent8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/navbar/navbar-content/navbarcontent8#props-details)
  */
 
 export default function NavbarContent8({ landingBaseUrl, navItems, primaryBtn, secondaryBtn, customization, selectedTheme }) {
@@ -116,3 +116,4 @@ NavbarContent8.propTypes = {
   customization: PropTypes.any,
   selectedTheme: PropTypes.any
 };
+

@@ -20,10 +20,10 @@ import Circles from '@/images/Circles';
 /**
  *
  * Demos:
- * - [Onboard](https://www.saasable.io/blocks/onboard)
+ * - [Onboard](https://www.Capitalta.io/blocks/onboard)
  *
  * API
- * - [Onboard API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/onboard#props-details)
+ * - [Onboard API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/onboard#props-details)
  */
 
 export default function OnBoard({ heading, caption, primaryBtn, secondaryBtn }) {
@@ -85,3 +85,4 @@ export default function OnBoard({ heading, caption, primaryBtn, secondaryBtn }) 
 }
 
 OnBoard.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, secondaryBtn: PropTypes.any };
+

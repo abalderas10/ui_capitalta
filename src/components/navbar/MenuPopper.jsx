@@ -133,3 +133,4 @@ MenuPopper.propTypes = {
   menuTextColor: PropTypes.string,
   hoverToggler: PropTypes.bool
 };
+

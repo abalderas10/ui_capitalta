@@ -1,15 +1,35 @@
-## Get Started
+# Capitalta Web
 
-SaasAble offers both a full version and a seed version. The seed version contains minimal code, making it a great starting point for your project. You can then migrate specific features or changes from the full version as needed. We recommend beginning with the seed version for a more streamlined setup
+Plataforma web de Capitalta - Soluciones financieras.
 
-1. Run `npm i`
-2. Run `npm run dev`
-3. See the live preview in the local
+## Stack Tecnológico
 
-## Documentation
+- Next.js 16
+- React 19
+- Material UI 7
+- Supabase (Backend & Auth)
 
-To know about directory structure, routing, setup, theming, and many more, detailed documentation is available here: [Documentation](https://phoenixcoded.gitbook.io/saasable)
+## Configuración Local
 
-## Support
+1. Instalar dependencias:
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
 
-If you still have any doubts, feel free to reach us here: [Support](https://support.phoenixcoded.net/). Please check this documentation before contacting support: [Support Documentation](https://phoenixcoded.gitbook.io/saasable/support)
+2. Configurar variables de entorno:
+   Copiar `.env.example` a `.env` y configurar las credenciales de Supabase.
+
+3. Ejecutar en desarrollo:
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
+
+4. Abrir [http://localhost:3000](http://localhost:3000) en el navegador.
+
+## Despliegue
+
+El proyecto está optimizado para despliegue en Vercel.

@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.privacyPolicy };
 export default function PrivacyPolicyPage() {
   return <PrivacyPolicy />;
 }
+

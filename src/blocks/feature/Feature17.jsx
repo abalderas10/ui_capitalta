@@ -42,10 +42,10 @@ function GetImageCard({ image }) {
 /**
  *
  * Demos:
- * - [Feature17](https://www.saasable.io/blocks/feature/feature17)
+ * - [Feature17](https://www.Capitalta.io/blocks/feature/feature17)
  *
  * API
- * - [Feature17 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature17#props-details)
+ * - [Feature17 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature17#props-details)
  */
 
 export default function Feature17({ heading, caption, features, image, actionBtn }) {
@@ -107,3 +107,4 @@ Feature17.propTypes = {
   image: PropTypes.any,
   actionBtn: PropTypes.any
 };
+

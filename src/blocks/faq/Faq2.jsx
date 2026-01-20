@@ -55,10 +55,10 @@ function GetInTouchCard({ getInTouch, spacing }) {
 /**
  *
  * Demos:
- * - [FAQ2](https://www.saasable.io/blocks/faq/faq2)
+ * - [FAQ2](https://www.Capitalta.io/blocks/faq/faq2)
  *
  * API:
- * - [FAQ2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/faq/faq2#props-details)
+ * - [FAQ2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/faq/faq2#props-details)
  */
 
 export default function Faq2({ heading, caption, defaultExpanded, faqList, getInTouch }) {
@@ -170,3 +170,4 @@ Faq2.propTypes = {
   faqList: PropTypes.any,
   getInTouch: PropTypes.any
 };
+

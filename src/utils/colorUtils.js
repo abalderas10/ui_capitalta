@@ -64,3 +64,4 @@ export function withAlpha(color, opacity) {
   // Fallback
   return color;
 }
+

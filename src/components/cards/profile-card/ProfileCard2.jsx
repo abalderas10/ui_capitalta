@@ -50,3 +50,4 @@ ProfileCard2.propTypes = {
   stackProps: PropTypes.any,
   sx: PropTypes.any
 };
+

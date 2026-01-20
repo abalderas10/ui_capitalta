@@ -125,7 +125,7 @@ function IconAvatar({ icon, type = IconType.STROKE }) {
 /**
  *
  * Demos:
- * - [Icon](https://www.saasable.io/sections/icon)
+ * - [Icon](https://www.Capitalta.io/sections/icon)
  */
 
 export default function Icon() {
@@ -149,7 +149,7 @@ export default function Icon() {
         {fillIcon.map((icon, index) => (
           <IconAvatar key={index} icon={icon} type={IconType.FILL} />
         ))}
-        <Link href="https://phoenixcoded.gitbook.io/saasable/ui-kit/theming/icon/tabler#tabler-fill-icons" {...linkProps}>
+        <Link href="https://capitalta.gitbook.io/Capitalta/ui-kit/theming/icon/tabler#tabler-fill-icons" {...linkProps}>
           docs...
         </Link>
       </Stack>
@@ -160,7 +160,7 @@ export default function Icon() {
         {customIcon.map((icon, index) => (
           <IconAvatar key={index} icon={icon} type={IconType.CUSTOM} />
         ))}
-        <Link href="https://phoenixcoded.gitbook.io/saasable/ui-kit/theming/icon/custom-two-tone" {...linkProps}>
+        <Link href="https://capitalta.gitbook.io/Capitalta/ui-kit/theming/icon/custom-two-tone" {...linkProps}>
           docs...
         </Link>
       </Stack>
@@ -169,3 +169,4 @@ export default function Icon() {
 }
 
 IconAvatar.propTypes = { icon: PropTypes.string, type: PropTypes.any };
+

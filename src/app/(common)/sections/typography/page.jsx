@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.typography, openGraph: { ...SEO_CONTENT
 export default function TypographyPage() {
   return <Typography />;
 }
+

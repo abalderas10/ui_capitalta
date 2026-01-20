@@ -14,3 +14,4 @@ const data = {
 export default function BlockCta1() {
   return <Cta1 {...data} />;
 }
+

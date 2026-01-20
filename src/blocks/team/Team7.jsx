@@ -20,10 +20,10 @@ import GetImagePath from '@/utils/GetImagePath';
 /**
  *
  * Demos:
- * - [Team7](https://www.saasable.io/blocks/team/team7)
+ * - [Team7](https://www.Capitalta.io/blocks/team/team7)
  *
  * API
- * - [Team7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/team/team7#props-details)
+ * - [Team7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/team/team7#props-details)
  */
 
 export default function Team7({ heading, caption, members }) {
@@ -77,3 +77,4 @@ export default function Team7({ heading, caption, members }) {
 }
 
 Team7.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
+

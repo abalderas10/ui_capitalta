@@ -55,10 +55,10 @@ function IntegrationTag({ label, image }) {
 /**
  *
  * Demos:
- * - [Integration7](https://www.saasable.io/blocks/integration/integration7)
+ * - [Integration7](https://www.Capitalta.io/blocks/integration/integration7)
  *
  * API:
- * - [Integration7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/integration/integration7#props-details)
+ * - [Integration7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/integration/integration7#props-details)
  */
 
 export default function Integration7({ headLine, primaryBtn, marquees }) {
@@ -109,3 +109,4 @@ export default function Integration7({ headLine, primaryBtn, marquees }) {
 IntegrationTag.propTypes = { label: PropTypes.any, image: PropTypes.any };
 
 Integration7.propTypes = { headLine: PropTypes.string, primaryBtn: PropTypes.any, marquees: PropTypes.array };
+

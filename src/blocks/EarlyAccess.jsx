@@ -26,10 +26,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [EarlyAccess](https://www.saasable.io/blocks/early-access)
+ * - [EarlyAccess](https://www.Capitalta.io/blocks/early-access)
  *
  *  * API
- * - [EarlyAccess API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/earlyaccess#props-details)
+ * - [EarlyAccess API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/earlyaccess#props-details)
  */
 
 export default function EarlyAccess({ heading, caption, primaryBtn, image }) {
@@ -101,3 +101,4 @@ export default function EarlyAccess({ heading, caption, primaryBtn, image }) {
 }
 
 EarlyAccess.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, image: PropTypes.any };
+

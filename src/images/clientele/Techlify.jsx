@@ -40,3 +40,4 @@ export default function Techlify({ imageSize }) {
 }
 
 Techlify.propTypes = { imageSize: PropTypes.object };
+

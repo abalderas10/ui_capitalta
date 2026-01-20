@@ -59,3 +59,4 @@ export default function PluginLayout({ children }) {
 }
 
 PluginLayout.propTypes = { children: PropTypes.any };
+

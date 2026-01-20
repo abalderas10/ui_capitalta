@@ -116,3 +116,4 @@ const data = {
 export default function BlockBlogDetails() {
   return <BlogDetails {...data} />;
 }
+

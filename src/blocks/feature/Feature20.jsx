@@ -32,10 +32,10 @@ import Star from '@/images/graphics/Star';
 /**
  *
  * Demos:
- * - [Feature20](https://www.saasable.io/blocks/feature/feature20)
+ * - [Feature20](https://www.Capitalta.io/blocks/feature/feature20)
  *
  * API
- * - [Feature20 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature20#props-details)
+ * - [Feature20 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature20#props-details)
  */
 
 export default function Feature20({ heading, caption, image, features, actionBtn, secondaryBtn }) {
@@ -251,3 +251,4 @@ Feature20.propTypes = {
   actionBtn: PropTypes.any,
   secondaryBtn: PropTypes.any
 };
+

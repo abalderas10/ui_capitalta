@@ -38,10 +38,10 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 /**
  *
  * Demos:
- * - [Navbar3](https://www.saasable.io/blocks/navbar/navbar3)
+ * - [Navbar3](https://www.Capitalta.io/blocks/navbar/navbar3)
  *
  * API:
- * - [Navbar3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/navbar/navbar3#props-details)
+ * - [Navbar3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/navbar/navbar3#props-details)
  */
 
 export default function Navbar3({ children, isFixed = true, ...props }) {
@@ -60,3 +60,4 @@ export default function Navbar3({ children, isFixed = true, ...props }) {
 }
 
 Navbar3.propTypes = { children: PropTypes.any, isFixed: PropTypes.bool, props: PropTypes.any };
+

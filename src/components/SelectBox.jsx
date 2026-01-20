@@ -105,3 +105,4 @@ export default function SelectBox({ options, defaultSelection = '', onChange }) 
 }
 
 SelectBox.propTypes = { options: PropTypes.object, defaultSelection: PropTypes.string, onChange: PropTypes.string };
+

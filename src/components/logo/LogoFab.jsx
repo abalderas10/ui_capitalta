@@ -53,3 +53,4 @@ export default function LogoFab({ size = 24 }) {
 }
 
 LogoFab.propTypes = { size: PropTypes.number };
+

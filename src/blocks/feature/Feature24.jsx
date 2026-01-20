@@ -33,10 +33,10 @@ import Pattern11 from '@/images/graphics/Pattern11';
 /**
  *
  * Demos:
- * - [Feature24](https://www.saasable.io/blocks/feature/feature24)
+ * - [Feature24](https://www.Capitalta.io/blocks/feature/feature24)
  *
  * API
- * - [Feature24 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature24#props-details)
+ * - [Feature24 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature24#props-details)
  */
 
 export default function Feature24({ heading, caption, image, list, description }) {
@@ -149,3 +149,4 @@ Feature24.propTypes = {
   list: PropTypes.array,
   description: PropTypes.oneOfType([PropTypes.node, PropTypes.string])
 };
+

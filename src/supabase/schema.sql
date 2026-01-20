@@ -167,3 +167,4 @@ create trigger on_articulos_blog_updated
   before update on public.articulos_blog
   for each row execute procedure public.handle_updated_at();
 
+

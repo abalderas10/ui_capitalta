@@ -3,10 +3,10 @@ function path(urlChunks) {
 }
 
 export const SECTION_PATH = '/sections';
-export const ADMIN_PATH = 'https://admin.saasable.io/';
-export const BUY_NOW_URL = 'https://mui.com/store/items/saasable-multipurpose-ui-kit-and-dashboard-template';
-export const FREEBIES_URL = 'https://github.com/phoenixcoded/saasable-ui';
-export const DOCS_URL = 'https://phoenixcoded.gitbook.io/saasable ';
+export const ADMIN_PATH = 'https://admin.Capitalta.io/';
+export const BUY_NOW_URL = 'https://mui.com/store/items/Capitalta-multipurpose-ui-kit-and-dashboard-template';
+export const FREEBIES_URL = 'https://github.com/capitalta/Capitalta-ui';
+export const DOCS_URL = 'https://capitalta.gitbook.io/Capitalta ';
 const BLOCK_PATH = '/blocks';
 const AUTH_PATH = 'auth';
 
@@ -346,3 +346,4 @@ export const PRIVIEW_PATH = {
   typography: path([BLOCK_PATH, 'typography']),
   underMaintenance: path([BLOCK_PATH, 'under-maintenance'])
 };
+

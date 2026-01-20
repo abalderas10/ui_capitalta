@@ -27,19 +27,19 @@ export const testimonial = {
 
 export const testimonial2 = {
   heading: 'Where creativity meets functionality',
-  caption: 'SaasAble is the learning choice of over 12 million students worldwide.',
+  caption: 'Capitalta is the learning choice of over 12 million students worldwide.',
   testimonials: [
     {
       bgImage: '/assets/images/testimonial/avatar-bg2.svg',
       videoSrc: '/assets/videos/test.mp4',
-      review: `Signing up for courses at SaasAble was quite possibly of the best choice I've made for my vocation.`,
+      review: `Signing up for courses at Capitalta was quite possibly of the best choice I've made for my vocation.`,
       ratings: 4,
       profile: { avatar: '/assets/images/user/avatar2.png', name: 'Tricia Wolf', role: 'Direct Optimization Executive' }
     },
     {
       bgImage: '/assets/images/testimonial/avatar-bg1.svg',
       videoSrc: '/assets/videos/test.mp4',
-      review: `Signing up for courses at SaasAble was quite possibly of the best choice I've made for my vocation.`,
+      review: `Signing up for courses at Capitalta was quite possibly of the best choice I've made for my vocation.`,
       ratings: 3,
       profile: { avatar: '/assets/images/user/avatar1.png', name: 'Sydnie', role: 'Software Developer' }
     }
@@ -73,3 +73,4 @@ export const testimonial4 = {
     }
   ]
 };
+

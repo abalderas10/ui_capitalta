@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.icon, openGraph: { ...SEO_CONTENT.icon,
 export default function IconPage() {
   return <Icon />;
 }
+

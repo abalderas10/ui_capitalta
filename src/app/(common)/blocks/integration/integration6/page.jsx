@@ -14,3 +14,4 @@ const data = {
 export default function BlockIntegration6() {
   return <Integration6 {...data} />;
 }
+

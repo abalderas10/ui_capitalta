@@ -336,3 +336,4 @@ Sistema de blog/contenido
 
 **Fecha de creación:** 18 de enero de 2026  
 **Estado:** Listo para desarrollo
+

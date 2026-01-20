@@ -31,3 +31,4 @@ const data = {
 export default function BlockProcess8() {
   return <Process8 {...data} />;
 }
+

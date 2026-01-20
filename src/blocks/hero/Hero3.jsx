@@ -63,10 +63,10 @@ function ImageBlock({ image }) {
 /**
  *
  * Demos:
- * - [Hero3](https://www.saasable.io/blocks/hero/hero3)
+ * - [Hero3](https://www.Capitalta.io/blocks/hero/hero3)
  *
  * API:
- * - [Hero3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero3#props-details)
+ * - [Hero3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero3#props-details)
  */
 
 export default function Hero3({ chip, headLine, boxImage1, boxImage2, boxImage3, listData, description, exploreBtn }) {
@@ -267,3 +267,4 @@ Hero3.propTypes = {
   description: PropTypes.string,
   exploreBtn: PropTypes.any
 };
+

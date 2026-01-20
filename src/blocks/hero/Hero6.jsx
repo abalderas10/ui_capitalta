@@ -29,10 +29,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Hero6](https://www.saasable.io/blocks/hero/hero6)
+ * - [Hero6](https://www.Capitalta.io/blocks/hero/hero6)
  *
  * API:
- * - [Hero6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero6#props-details)
+ * - [Hero6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero6#props-details)
  */
 
 export default function Hero6({ chip, heading, caption, primaryBtn, secondaryBtn, images }) {
@@ -144,3 +144,4 @@ Hero6.propTypes = {
   secondaryBtn: PropTypes.any,
   images: PropTypes.array
 };
+

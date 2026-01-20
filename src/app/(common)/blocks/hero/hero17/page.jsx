@@ -35,7 +35,7 @@ const data = {
   headLine: 'Real-Time Performance Monitoring',
   captionLine: 'Identify and resolve issues proactively for uninterrupted operations.',
   primaryBtn: { children: 'Try predictive cost analytics', sx: { textTransform: 'none' } },
-  videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
+  videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/Capitalta-intro.mp4',
   videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
   listData: [
     { image: '/assets/images/shared/react.svg', title: 'React 19' },
@@ -51,3 +51,4 @@ const data = {
 export default function BlockHero17() {
   return <Hero17 {...data} />;
 }
+

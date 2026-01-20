@@ -20,10 +20,10 @@ import Typeset from '@/components/Typeset';
 /**
  *
  * Demos:
- * - [Hero16](https://www.saasable.io/blocks/hero/hero16)
+ * - [Hero16](https://www.Capitalta.io/blocks/hero/hero16)
  *
  * API:
- * - [Hero16 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero16#props-details)
+ * - [Hero16 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero16#props-details)
  */
 
 export default function Hero16({ reviewData, heading, caption, secondaryBtn, poster, videoSrc }) {
@@ -119,3 +119,4 @@ Hero16.propTypes = {
   poster: PropTypes.any,
   videoSrc: PropTypes.string
 };
+

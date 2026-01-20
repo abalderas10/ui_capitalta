@@ -6,3 +6,4 @@ export const about = {
   description2:
     'Discover our PMS platforms intuitive features, robust analytics, and seamless integrations, trusted by businesses worldwide.'
 };
+

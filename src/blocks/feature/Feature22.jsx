@@ -29,10 +29,10 @@ import Star from '@/images/graphics/Star';
 /**
  *
  * Demos:
- * - [Feature22](https://www.saasable.io/blocks/feature/feature22)
+ * - [Feature22](https://www.Capitalta.io/blocks/feature/feature22)
  *
  * API
- * - [Feature22 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature22#props-details)
+ * - [Feature22 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature22#props-details)
  */
 
 export default function Feature22({ heading, features, caption }) {
@@ -152,3 +152,4 @@ export default function Feature22({ heading, features, caption }) {
 }
 
 Feature22.propTypes = { heading: PropTypes.string, features: PropTypes.array, caption: PropTypes.string };
+

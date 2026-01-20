@@ -16,3 +16,4 @@ const data = {
 export default function BlockEarlyAccessPage() {
   return <EarlyaccessPage {...data} />;
 }
+

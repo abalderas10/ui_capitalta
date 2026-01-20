@@ -55,10 +55,10 @@ function GraphicsBox({ boxData, setIndex, isChangingSlide }) {
 /**
  *
  * Demos:
- * - [Gallery4](https://www.saasable.io/blocks/gallery/gallery4)
+ * - [Gallery4](https://www.Capitalta.io/blocks/gallery/gallery4)
  *
  * API
- * - [Gallery4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/gallery/gallery4#props-details)
+ * - [Gallery4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/gallery/gallery4#props-details)
  */
 
 export default function Gallery4({ heading, caption, topics, images }) {
@@ -213,3 +213,4 @@ export default function Gallery4({ heading, caption, topics, images }) {
 GraphicsBox.propTypes = { boxData: PropTypes.array, setIndex: PropTypes.func, isChangingSlide: PropTypes.bool };
 
 Gallery4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, topics: PropTypes.array, images: PropTypes.any };
+

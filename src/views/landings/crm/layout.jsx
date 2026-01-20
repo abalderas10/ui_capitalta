@@ -59,3 +59,4 @@ export default function CRMLayout({ children }) {
 }
 
 CRMLayout.propTypes = { children: PropTypes.any };
+

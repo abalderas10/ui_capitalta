@@ -27,10 +27,10 @@ import GetImagePath from '@/utils/GetImagePath';
 /**
  *
  * Demos:
- * - [Team5](https://www.saasable.io/blocks/team/team5)
+ * - [Team5](https://www.Capitalta.io/blocks/team/team5)
  *
  * API
- * - [Team5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/team/team5#props-details)
+ * - [Team5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/team/team5#props-details)
  */
 
 export default function Team5({ heading, caption, members, image, actionBtn, description }) {
@@ -122,3 +122,4 @@ Team5.propTypes = {
   actionBtn: PropTypes.any,
   description: PropTypes.any
 };
+

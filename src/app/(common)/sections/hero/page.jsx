@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.hero, openGraph: { ...SEO_CONTENT.hero,
 export default function HeroPage() {
   return <Hero />;
 }
+

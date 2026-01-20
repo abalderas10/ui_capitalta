@@ -22,10 +22,10 @@ import { withAlpha } from '@/utils/colorUtils';
 /**
  *
  * Demos:
- * - [MegaMenu5](https://www.saasable.io/blocks/megamenu/megamenu5)
+ * - [MegaMenu5](https://www.Capitalta.io/blocks/megamenu/megamenu5)
  *
  * API
- * - [MegaMenu5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/megamenu/megamenu5#props-details)
+ * - [MegaMenu5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/megamenu/megamenu5#props-details)
  */
 
 export default function MegaMenu5({ menuItems, bannerData, popperWidth = 750 }) {
@@ -106,3 +106,4 @@ export default function MegaMenu5({ menuItems, bannerData, popperWidth = 750 }) 
 }
 
 MegaMenu5.propTypes = { menuItems: PropTypes.array, bannerData: PropTypes.node, popperWidth: PropTypes.number };
+

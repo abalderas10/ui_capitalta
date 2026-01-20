@@ -25,10 +25,10 @@ import Pattern10 from '@/images/graphics/Pattern10';
 /**
  *
  * Demos:
- * - [Hero18](https://www.saasable.io/blocks/hero/hero18)
+ * - [Hero18](https://www.Capitalta.io/blocks/hero/hero18)
  *
  * API:
- * - [Hero18 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero18#props-details)
+ * - [Hero18 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero18#props-details)
  */
 
 export default function Hero18({ exploreBtn, imageList, headLine, captionLine }) {
@@ -104,3 +104,4 @@ Hero18.propTypes = {
   headLine: PropTypes.oneOfType([PropTypes.node, PropTypes.string]),
   captionLine: PropTypes.oneOfType([PropTypes.node, PropTypes.string])
 };
+

@@ -16,3 +16,4 @@ export const navbar = {
     { id: 'contacto', title: 'Contacto', link: '/contacto' }
   ]
 };
+

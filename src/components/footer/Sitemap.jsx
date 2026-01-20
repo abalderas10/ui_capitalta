@@ -36,7 +36,7 @@ const menuItems = [
       },
       {
         label: 'Blog',
-        link: { href: 'https://blog.saasable.io/', ...linkProps }
+        link: { href: 'https://blog.Capitalta.io/', ...linkProps }
       },
       {
         label: 'Refund Policy',
@@ -51,11 +51,11 @@ const menuItems = [
     menu: [
       {
         label: 'Pricing',
-        link: { href: 'https://mui.com/store/items/saasable-multipurpose-ui-kit-and-dashboard/', ...linkProps }
+        link: { href: 'https://mui.com/store/items/Capitalta-multipurpose-ui-kit-and-dashboard/', ...linkProps }
       },
       {
         label: 'FAQ',
-        link: { href: 'https://phoenixcoded.gitbook.io/saasable/faq', ...linkProps }
+        link: { href: 'https://capitalta.gitbook.io/Capitalta/faq', ...linkProps }
       },
       {
         label: 'Support',
@@ -77,9 +77,9 @@ const menuItems = [
     title: 'Company',
     menu: [
       {
-        label: 'Why Phoenixcoded?',
+        label: 'Why capitalta?',
         link: {
-          href: 'https://blog.saasable.io/a-decade-of-expertise-the-phoenixcoded-story-and-why-you-should-trust-us',
+          href: 'https://blog.Capitalta.io/a-decade-of-expertise-the-capitalta-story-and-why-you-should-trust-us',
           ...linkProps
         }
       },
@@ -138,3 +138,4 @@ export default function Sitemap({ list, isMenuDesign }) {
 }
 
 Sitemap.propTypes = { list: PropTypes.array, isMenuDesign: PropTypes.bool };
+

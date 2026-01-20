@@ -25,10 +25,10 @@ import Circles from '@/images/Circles';
 /**
  *
  * Demos:
- * - [SmallHero5](https://www.saasable.io/blocks/small-hero/small-hero5)
+ * - [SmallHero5](https://www.Capitalta.io/blocks/small-hero/small-hero5)
  *
  * API
- * - [SmallHero5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/smallhero/smallhero5#props-details)
+ * - [SmallHero5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/smallhero/smallhero5#props-details)
  */
 
 export default function SmallHero5({ exploreBtn, list = [], heading, caption, circleStopColor }) {
@@ -115,3 +115,4 @@ SmallHero5.propTypes = {
   caption: PropTypes.string,
   circleStopColor: PropTypes.string
 };
+

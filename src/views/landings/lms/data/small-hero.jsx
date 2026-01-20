@@ -42,3 +42,4 @@ export const blogSmallHero1 = {
   captionLine: `A treasure trove of insights and information. Dive in to learn, grow, and innovate.`,
   headLine: <HeadlineTextBlog />
 };
+

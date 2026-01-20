@@ -11,3 +11,4 @@ export default function CommonLayout({ children }) {
 }
 
 CommonLayout.propTypes = { children: PropTypes.any };
+

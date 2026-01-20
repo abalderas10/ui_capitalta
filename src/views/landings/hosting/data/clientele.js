@@ -19,3 +19,4 @@ export const clientele5 = {
     { image: { component: 'clientele/Marketly', type: DynamicComponentType.IMAGE, props: { imageSize: { width: 96.3, height: 19 } } } }
   ]
 };
+

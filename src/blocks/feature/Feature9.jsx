@@ -21,10 +21,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Feature9](https://www.saasable.io/blocks/feature/feature9)
+ * - [Feature9](https://www.Capitalta.io/blocks/feature/feature9)
  *
  * API
- * - [Feature9 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature9#props-details)
+ * - [Feature9 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature9#props-details)
  */
 
 export default function Feature9({ heading, caption, features }) {
@@ -72,3 +72,4 @@ export default function Feature9({ heading, caption, features }) {
 }
 
 Feature9.propTypes = { heading: PropTypes.string, caption: PropTypes.string, features: PropTypes.array };
+

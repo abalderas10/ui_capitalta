@@ -29,7 +29,7 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Footer5](https://www.saasable.io/blocks/footer/footer5)
+ * - [Footer5](https://www.Capitalta.io/blocks/footer/footer5)
  */
 
 export default function Footer5() {
@@ -86,3 +86,4 @@ export default function Footer5() {
     </ContainerWrapper>
   );
 }
+

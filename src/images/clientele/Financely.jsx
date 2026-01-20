@@ -34,3 +34,4 @@ export default function Financely({ imageSize }) {
 }
 
 Financely.propTypes = { imageSize: PropTypes.object };
+

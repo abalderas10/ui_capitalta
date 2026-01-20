@@ -6,3 +6,4 @@ export { default as Faq5 } from './Faq5';
 export { default as Faq6 } from './Faq6';
 export { default as Faq7 } from './Faq7';
 export { default as Faq8 } from './Faq8';
+

@@ -143,3 +143,4 @@ export default function AuthRegister({ inputSx }) {
 }
 
 AuthRegister.propTypes = { inputSx: PropTypes.any };
+

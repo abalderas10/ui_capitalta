@@ -38,10 +38,10 @@ function BoxContent({ title, description }) {
 /**
  *
  * Demos:
- * - [Feature19](https://www.saasable.io/blocks/feature/feature19)
+ * - [Feature19](https://www.Capitalta.io/blocks/feature/feature19)
  *
  * API
- * - [Feature19 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature19#props-details)
+ * - [Feature19 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature19#props-details)
  */
 
 export default function Feature19({ heading, caption, blockData1, blockData2, blockData3, blockData4 }) {
@@ -171,3 +171,4 @@ Feature19.propTypes = {
   blockData3: PropTypes.any,
   blockData4: PropTypes.any
 };
+

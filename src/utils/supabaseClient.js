@@ -20,3 +20,4 @@ export function createSupabaseServerClient() {
   return createClient(supabaseUrl, supabaseServiceRoleKey);
 }
 
+

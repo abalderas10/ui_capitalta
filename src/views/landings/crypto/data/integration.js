@@ -55,3 +55,4 @@ export const integration4 = {
     { id: 'marqueeImage4', marqueeProps: { speed: 40, direction: 'right' }, data: marqueeImage4 }
   ]
 };
+

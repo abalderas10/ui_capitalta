@@ -21,10 +21,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Process6](https://www.saasable.io/blocks/process/process6)
+ * - [Process6](https://www.Capitalta.io/blocks/process/process6)
  *
  * API
- * - [Process6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/process/process6#props-details)
+ * - [Process6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/process/process6#props-details)
  */
 
 export default function Process6({ heading, caption, cards }) {
@@ -78,3 +78,4 @@ export default function Process6({ heading, caption, cards }) {
 }
 
 Process6.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array };
+

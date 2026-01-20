@@ -25,10 +25,10 @@ import { generateFocusVisibleStyles } from '@/utils/CommonFocusStyle';
 /**
  *
  * Demos:
- * - [Cookie1](https://www.saasable.io/blocks/cookie/cookie1)
+ * - [Cookie1](https://www.Capitalta.io/blocks/cookie/cookie1)
  *
  * API
- * - [Cookie1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cookie/cookie1#props-details)
+ * - [Cookie1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cookie/cookie1#props-details)
  */
 
 export default function Cookie1({ heading, primaryBtn, secondaryBtn, cookie }) {
@@ -113,3 +113,4 @@ export default function Cookie1({ heading, primaryBtn, secondaryBtn, cookie }) {
 }
 
 Cookie1.propTypes = { heading: PropTypes.string, primaryBtn: PropTypes.any, secondaryBtn: PropTypes.any, cookie: PropTypes.object };
+

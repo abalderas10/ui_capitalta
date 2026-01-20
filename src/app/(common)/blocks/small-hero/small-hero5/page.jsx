@@ -15,3 +15,4 @@ const data = {
 export default function BlockSmallHero5() {
   return <SmallHero5 {...data} />;
 }
+

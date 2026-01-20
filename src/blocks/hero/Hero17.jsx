@@ -35,10 +35,10 @@ const options = { root: null, rootMargin: '0px', threshold: 0.6 };
 /**
  *
  * Demos:
- * - [Hero17](https://www.saasable.io/blocks/hero/hero17)
+ * - [Hero17](https://www.Capitalta.io/blocks/hero/hero17)
  *
  * API:
- * - [Hero17 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero17#props-details)
+ * - [Hero17 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero17#props-details)
  */
 
 export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoSrc, videoThumbnail, listData }) {
@@ -248,3 +248,4 @@ Hero17.propTypes = {
   videoThumbnail: PropTypes.string,
   listData: PropTypes.array
 };
+

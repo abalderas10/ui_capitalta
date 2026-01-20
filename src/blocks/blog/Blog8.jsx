@@ -213,3 +213,4 @@ Blog8.propTypes = {
   categories: PropTypes.array,
   blogs: PropTypes.oneOfType([PropTypes.number, PropTypes.string, PropTypes.array])
 };
+

@@ -32,3 +32,4 @@ const data = {
 export default function BlockBlog7() {
   return <Blog7 {...data} />;
 }
+

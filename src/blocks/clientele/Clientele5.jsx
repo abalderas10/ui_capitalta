@@ -21,10 +21,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Clientele5](https://www.saasable.io/blocks/clientele/clientele5)
+ * - [Clientele5](https://www.Capitalta.io/blocks/clientele/clientele5)
  *
  * API:
- * - [Clientele5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/clientele/clientele5#props-details)
+ * - [Clientele5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/clientele/clientele5#props-details)
  */
 
 export default function Clientele5({ title, clienteleList, description }) {
@@ -100,3 +100,4 @@ export default function Clientele5({ title, clienteleList, description }) {
 }
 
 Clientele5.propTypes = { title: PropTypes.string, clienteleList: PropTypes.array, description: PropTypes.string };
+

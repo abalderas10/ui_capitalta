@@ -110,3 +110,4 @@ export const faq = {
   categories: ['General', 'Pricing & Licenses', 'Support & Updates'],
   activeCategory: 'General'
 };
+

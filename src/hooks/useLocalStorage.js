@@ -43,3 +43,4 @@ export default function useLocalStorage(key, defaultValue) {
 
   return { state, setState, setField, resetState };
 }
+

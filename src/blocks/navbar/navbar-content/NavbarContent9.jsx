@@ -24,10 +24,10 @@ import { withAlpha } from '@/utils/colorUtils';
 /**
  *
  * Demos:
- * - [NavbarContent9](https://www.saasable.io/blocks/navbar/navbar9)
+ * - [NavbarContent9](https://www.Capitalta.io/blocks/navbar/navbar9)
  *
  * API:
- * - [NavbarContent9 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/navbar/navbar-content/navbarcontent9#props-details)
+ * - [NavbarContent9 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/navbar/navbar-content/navbarcontent9#props-details)
  */
 
 export default function NavbarContent9({ landingBaseUrl, navItems, primaryBtn, secondaryBtn, customization, selectedTheme, animated }) {
@@ -124,3 +124,4 @@ NavbarContent9.propTypes = {
   selectedTheme: PropTypes.any,
   animated: PropTypes.any
 };
+

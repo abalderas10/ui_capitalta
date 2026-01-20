@@ -28,10 +28,10 @@ import DrawnArrow from '@/images/graphics/DrawnArrow';
 /**
  *
  * Demos:
- * - [SmallHero6](https://www.saasable.io/blocks/small-hero/small-hero6)
+ * - [SmallHero6](https://www.Capitalta.io/blocks/small-hero/small-hero6)
  *
  * API
- * - [SmallHero6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/smallhero/smallhero6#props-details)
+ * - [SmallHero6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/smallhero/smallhero6#props-details)
  */
 
 export default function SmallHero6({ headLine, tagline, list, primaryBtn }) {
@@ -92,3 +92,4 @@ export default function SmallHero6({ headLine, tagline, list, primaryBtn }) {
 }
 
 SmallHero6.propTypes = { headLine: PropTypes.any, tagline: PropTypes.string, list: PropTypes.array, primaryBtn: PropTypes.any };
+

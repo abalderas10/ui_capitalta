@@ -58,3 +58,4 @@ const data = {
 export default function BlockTeam6() {
   return <Team6 {...data} />;
 }
+

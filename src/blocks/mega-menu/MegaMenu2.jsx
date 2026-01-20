@@ -18,10 +18,10 @@ import { withAlpha } from '@/utils/colorUtils';
 /**
  *
  * Demos:
- * - [MegaMenu2](https://www.saasable.io/blocks/megamenu/megamenu2)
+ * - [MegaMenu2](https://www.Capitalta.io/blocks/megamenu/megamenu2)
  *
  * API
- * - [MegaMenu2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/megamenu/megamenu2#props-details)
+ * - [MegaMenu2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/megamenu/megamenu2#props-details)
  */
 
 export default function MegaMenu2({ menuItems }) {
@@ -68,3 +68,4 @@ export default function MegaMenu2({ menuItems }) {
 }
 
 MegaMenu2.propTypes = { menuItems: PropTypes.array };
+

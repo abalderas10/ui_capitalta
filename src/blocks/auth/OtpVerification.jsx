@@ -24,10 +24,10 @@ import BackgroundCircle from '@/components/BackgroundCircle';
 /**
  *
  * Demos:
- * - [OTPVerification](https://www.saasable.io/blocks/auth/otp-verification)
+ * - [OTPVerification](https://www.Capitalta.io/blocks/auth/otp-verification)
  *
  * API
- * - [OTPVerification API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/otp-verification#props-details)
+ * - [OTPVerification API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/otp-verification#props-details)
  */
 
 export default function OtpVerification({ heading, caption }) {
@@ -83,3 +83,4 @@ export default function OtpVerification({ heading, caption }) {
 }
 
 OtpVerification.propTypes = { heading: PropTypes.string, caption: PropTypes.object };
+

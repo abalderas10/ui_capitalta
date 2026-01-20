@@ -14,3 +14,4 @@ export const metadata = { ...SEO_CONTENT.lmsLanding };
 export default function LMSPage() {
   return <LMS />;
 }
+

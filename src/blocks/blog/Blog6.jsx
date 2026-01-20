@@ -29,10 +29,10 @@ const imageMinHeight = { xs: 173, md: 222 };
 /**
  *
  * Demos:
- * - [Blog6](https://www.saasable.io/blocks/blog/blog6)
+ * - [Blog6](https://www.Capitalta.io/blocks/blog/blog6)
  *
  * API:
- * - [Blog6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/blog/blog6#props-details)
+ * - [Blog6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/blog/blog6#props-details)
  */
 
 export default function Blog6({ heading, caption, blogs, exploreMore }) {
@@ -109,3 +109,4 @@ export default function Blog6({ heading, caption, blogs, exploreMore }) {
 }
 
 Blog6.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blogs: PropTypes.any, exploreMore: PropTypes.any };
+

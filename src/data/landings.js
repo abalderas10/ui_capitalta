@@ -55,3 +55,4 @@ export const landings = [
     link: { href: LANDING_PATH.lms, ...linkProps }
   }
 ];
+

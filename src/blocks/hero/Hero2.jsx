@@ -33,10 +33,10 @@ import { getBackgroundDots } from '@/utils/getBackgroundDots';
 /**
  *
  * Demos:
- * - [Hero2](https://www.saasable.io/blocks/hero/hero2)
+ * - [Hero2](https://www.Capitalta.io/blocks/hero/hero2)
  *
  * API:
- * - [Hero2 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero2#props-details)
+ * - [Hero2 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero2#props-details)
  */
 
 export default function Hero2({ chip, headLine, captionLine, image, primaryBtn, secondaryBtn }) {
@@ -183,3 +183,4 @@ Hero2.propTypes = {
   primaryBtn: PropTypes.any,
   secondaryBtn: PropTypes.any
 };
+

@@ -29,10 +29,10 @@ import GetImagePath from '@/utils/GetImagePath';
 /**
  *
  * Demos:
- * - [Testimonial6](https://www.saasable.io/blocks/testimonial/testimonial6)
+ * - [Testimonial6](https://www.Capitalta.io/blocks/testimonial/testimonial6)
  *
  * API:
- * - [Testimonial6 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/testimonial/testimonial6#props-details)
+ * - [Testimonial6 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/testimonial/testimonial6#props-details)
  */
 
 export default function Testimonial6({ heading, caption, testimonials }) {
@@ -125,3 +125,4 @@ export default function Testimonial6({ heading, caption, testimonials }) {
 }
 
 Testimonial6.propTypes = { heading: PropTypes.any, caption: PropTypes.any, testimonials: PropTypes.any };
+

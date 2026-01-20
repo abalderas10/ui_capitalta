@@ -14,10 +14,10 @@ import Typeset from '@/components/Typeset';
 /**
  *
  * Demos:
- * - [Team1](https://www.saasable.io/blocks/team/team1)
+ * - [Team1](https://www.Capitalta.io/blocks/team/team1)
  *
  * API
- * - [Team1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/team/team1#props-details)
+ * - [Team1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/team/team1#props-details)
  */
 
 export default function Team1({ heading, caption, members }) {
@@ -38,3 +38,4 @@ export default function Team1({ heading, caption, members }) {
 }
 
 Team1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
+

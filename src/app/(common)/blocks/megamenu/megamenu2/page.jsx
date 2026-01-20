@@ -51,3 +51,4 @@ export default function BlockMegamenu2() {
     </Stack>
   );
 }
+

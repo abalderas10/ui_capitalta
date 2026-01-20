@@ -16,7 +16,7 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // @project
-import { Feature15, Feature20 } from '@/blocks/feature';
+import { Feature15, Feature20, FeatureProducts } from '@/blocks/feature';
 import { Process1 } from '@/blocks/process';
 import { Hero17 } from '@/blocks/hero';
 import ContainerWrapper from '@/components/ContainerWrapper';
@@ -122,7 +122,7 @@ export default function Main() {
   return (
     <>
       <Hero17 {...hero} />
-      <Feature20 {...feature20} />
+      <FeatureProducts {...feature20} />
       <Feature15 {...aboutCapitalta} />
       <ContainerWrapper>
         <Box
@@ -361,3 +361,4 @@ export default function Main() {
     </>
   );
 }
+

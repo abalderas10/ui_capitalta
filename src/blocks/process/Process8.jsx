@@ -24,10 +24,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Process8](https://www.saasable.io/blocks/process/process8)
+ * - [Process8](https://www.Capitalta.io/blocks/process/process8)
  *
  * API
- * - [Process8 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/process/process8#props-details)
+ * - [Process8 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/process/process8#props-details)
  */
 
 export default function Process8({ heading, caption, image, cards }) {
@@ -79,3 +79,4 @@ export default function Process8({ heading, caption, image, cards }) {
 }
 
 Process8.propTypes = { heading: PropTypes.string, caption: PropTypes.string, image: PropTypes.any, cards: PropTypes.array };
+

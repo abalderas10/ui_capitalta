@@ -46,10 +46,10 @@ const buttonStyle = { borderRadius: '50%' };
 /**
  *
  * Demos:
- * - [Login1](https://www.saasable.io/blocks/auth/login/1)
+ * - [Login1](https://www.Capitalta.io/blocks/auth/login/1)
  *
  * API
- * - [Login1 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/auth/login/login1#props-details)
+ * - [Login1 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/auth/login/login1#props-details)
  */
 
 export default function Login1({ heading, caption, testimonials, image }) {
@@ -155,3 +155,4 @@ export default function Login1({ heading, caption, testimonials, image }) {
 }
 
 Login1.propTypes = { heading: PropTypes.string, caption: PropTypes.string, testimonials: PropTypes.array, image: PropTypes.any };
+

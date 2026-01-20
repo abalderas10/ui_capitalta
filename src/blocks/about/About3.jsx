@@ -27,10 +27,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [About3](https://www.saasable.io/blocks/about/about3)
+ * - [About3](https://www.Capitalta.io/blocks/about/about3)
  *
  * API
- * - [About3 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/about/about-3#props-details)
+ * - [About3 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/about/about-3#props-details)
  */
 
 export default function About3({ heading, image, description, list }) {
@@ -111,3 +111,4 @@ export default function About3({ heading, image, description, list }) {
 }
 
 About3.propTypes = { heading: PropTypes.string, image: PropTypes.any, description: PropTypes.string, list: PropTypes.array };
+

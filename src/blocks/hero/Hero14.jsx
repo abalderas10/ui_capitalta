@@ -28,10 +28,10 @@ import DrawnArrow from '@/images/graphics/DrawnArrow';
 /**
  *
  * Demos:
- * - [Hero14](https://www.saasable.io/blocks/hero/hero14)
+ * - [Hero14](https://www.Capitalta.io/blocks/hero/hero14)
  *
  * API:
- * - [Hero14 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero14#props-details)
+ * - [Hero14 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero14#props-details)
  */
 
 export default function Hero14({ headLine, captionLine, tagline, list, primaryBtn }) {
@@ -105,3 +105,4 @@ Hero14.propTypes = {
   list: PropTypes.array,
   primaryBtn: PropTypes.any
 };
+

@@ -45,3 +45,4 @@ export default function JoinUS({ stackProps, headingProps, captionProps }) {
 }
 
 JoinUS.propTypes = { stackProps: PropTypes.any, headingProps: PropTypes.any, captionProps: PropTypes.any };
+

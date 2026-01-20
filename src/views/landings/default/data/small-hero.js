@@ -34,3 +34,4 @@ export const smallHero4 = {
   exploreBtn: { children: 'See Open Position', href: '#' },
   image: { light: '/assets/images/graphics/ai/desktop1-light.svg', dark: '/assets/images/graphics/ai/desktop1-dark.svg' }
 };
+

@@ -31,3 +31,4 @@ export default function Graphic1() {
     </svg>
   );
 }
+

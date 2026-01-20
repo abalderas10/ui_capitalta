@@ -99,3 +99,4 @@ export const smallHero6 = {
   captionLine: `This Privacy Policy describes how ${branding.brandName} we collects, uses, and shares information about you when you use our website or services.`,
   headLine: <HeadlineText6 />
 };
+

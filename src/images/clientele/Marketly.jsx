@@ -32,3 +32,4 @@ export default function Marketly({ imageSize }) {
 }
 
 Marketly.propTypes = { imageSize: PropTypes.object };
+

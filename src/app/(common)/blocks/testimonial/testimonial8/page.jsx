@@ -29,3 +29,4 @@ const data = {
 export default function BlockTestimonial8() {
   return <Testimonial8 {...data} />;
 }
+

@@ -34,10 +34,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Hero5](https://www.saasable.io/blocks/hero/hero5)
+ * - [Hero5](https://www.Capitalta.io/blocks/hero/hero5)
  *
  * API:
- * - [Hero5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero5#props-details)
+ * - [Hero5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero5#props-details)
  */
 
 export default function Hero5({ chip, headLine, captionLine, image, listData, primaryBtn }) {
@@ -161,3 +161,4 @@ Hero5.propTypes = {
   listData: PropTypes.array,
   primaryBtn: PropTypes.any
 };
+

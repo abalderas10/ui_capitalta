@@ -6,3 +6,4 @@ import { Footer1 } from '@/blocks/footer';
 export default function BlockFooter1() {
   return <Footer1 />;
 }
+

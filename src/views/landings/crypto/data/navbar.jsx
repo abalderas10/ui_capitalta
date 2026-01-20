@@ -37,3 +37,4 @@ export const navbar = {
     { id: 'faq', title: `FAQ's`, link: `${LANDING_PATH.crypto}/faq` }
   ]
 };
+

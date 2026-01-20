@@ -31,10 +31,10 @@ import Wave from '@/images/graphics/Wave';
 /**
  *
  * Demos:
- * - [Hero9](https://www.saasable.io/blocks/hero/hero9)
+ * - [Hero9](https://www.Capitalta.io/blocks/hero/hero9)
  *
  * API:
- * - [Hero9 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/hero/hero9#props-details)
+ * - [Hero9 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/hero/hero9#props-details)
  */
 
 export default function Hero9({ chip, headLine, captionLine, primaryBtn, image, listData }) {
@@ -221,3 +221,4 @@ Hero9.propTypes = {
   image: PropTypes.any,
   listData: PropTypes.array
 };
+

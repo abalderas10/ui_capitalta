@@ -29,7 +29,7 @@ const policyItems = [
   {
     heading: '5. Your rights',
     caption:
-      'You have rights including access, rectification, deletion, and objection to the processing of your personal data. To exercise these rights, contact us at info@saasable.com.'
+      'You have rights including access, rectification, deletion, and objection to the processing of your personal data. To exercise these rights, contact us at info@Capitalta.com.'
   },
   {
     heading: '6. Data retention',
@@ -51,7 +51,7 @@ const policyItems = [
   },
   {
     heading: '10. Contact us',
-    caption: 'For questions about this Privacy Policy, contact us at: info@saasable.com'
+    caption: 'For questions about this Privacy Policy, contact us at: info@Capitalta.com'
   }
 ];
 
@@ -60,7 +60,7 @@ const policyItems = [
 /**
  *
  * Demos:
- * - [PrivacyPolicy2](https://www.saasable.io/blocks/privacy-policy/privacy-policy2)
+ * - [PrivacyPolicy2](https://www.Capitalta.io/blocks/privacy-policy/privacy-policy2)
  */
 
 export default function PrivacyPolicy2() {
@@ -77,3 +77,4 @@ export default function PrivacyPolicy2() {
     </ContainerWrapper>
   );
 }
+

@@ -15,3 +15,4 @@ export const metadata = { ...SEO_CONTENT.onBoard, openGraph: { ...SEO_CONTENT.on
 export default function OnBoardPage() {
   return <OnBoard />;
 }
+

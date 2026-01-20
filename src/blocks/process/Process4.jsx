@@ -71,10 +71,10 @@ function TimelineCard({ cards, isTimeline, activeStep, handleStep }) {
 /**
  *
  * Demos:
- * - [Process4](https://www.saasable.io/blocks/process/process4)
+ * - [Process4](https://www.Capitalta.io/blocks/process/process4)
  *
  * API
- * - [Process4 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/process/process4#props-details)
+ * - [Process4 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/process/process4#props-details)
  */
 
 export default function Process4({ heading, caption, cards, isTimeline = true }) {
@@ -135,3 +135,4 @@ export default function Process4({ heading, caption, cards, isTimeline = true })
 TimelineCard.propTypes = { cards: PropTypes.array, isTimeline: PropTypes.bool, activeStep: PropTypes.number, handleStep: PropTypes.func };
 
 Process4.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array, isTimeline: PropTypes.bool };
+

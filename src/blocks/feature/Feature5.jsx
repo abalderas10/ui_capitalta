@@ -59,10 +59,10 @@ function GetImageCard({ image1, isCoverImage1 }) {
 /**
  *
  * Demos:
- * - [Feature5](https://www.saasable.io/blocks/feature/feature5)
+ * - [Feature5](https://www.Capitalta.io/blocks/feature/feature5)
  *
  * API
- * - [Feature5 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature5#props-details)
+ * - [Feature5 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature5#props-details)
  */
 
 export default function Feature5({
@@ -318,3 +318,4 @@ Feature5.propTypes = {
   actionBtn: PropTypes.any,
   actionBtn2: PropTypes.any
 };
+

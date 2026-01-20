@@ -18,3 +18,4 @@ const data = {
 export default function BlockCookie3() {
   return <Cookie3 {...data} />;
 }
+

@@ -68,10 +68,10 @@ function CardText({ counter, caption, defaultUnit }) {
 /**
  *
  * Demos:
- * - [Metrics7](https://www.saasable.io/blocks/metrics/metrics7)
+ * - [Metrics7](https://www.Capitalta.io/blocks/metrics/metrics7)
  *
  * API
- * - [Metrics7 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/metrics/metrics7#props-details)
+ * - [Metrics7 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/metrics/metrics7#props-details)
  */
 
 export default function Metrics7({ bgImage1, bgImage2, heading, caption, blockDetail }) {
@@ -188,3 +188,4 @@ Metrics7.propTypes = {
   caption: PropTypes.any,
   blockDetail: PropTypes.any
 };
+

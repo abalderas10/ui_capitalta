@@ -33,3 +33,4 @@ ProfileGroup.propTypes = {
   position: PropTypes.oneOf(['center', 'end']),
   sx: PropTypes.any
 };
+

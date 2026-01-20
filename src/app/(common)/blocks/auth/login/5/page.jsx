@@ -30,3 +30,4 @@ const data = {
 export default function BlockLogin5() {
   return <Login5 {...data} />;
 }
+

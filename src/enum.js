@@ -50,3 +50,4 @@ export let DynamicComponentType;
   DynamicComponentType['ICON'] = 'icons';
   DynamicComponentType['IMAGE'] = 'images';
 })(DynamicComponentType || (DynamicComponentType = {}));
+

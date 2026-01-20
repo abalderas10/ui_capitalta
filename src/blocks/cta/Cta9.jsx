@@ -23,10 +23,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [CTA9](https://www.saasable.io/blocks/cta/cta9)
+ * - [CTA9](https://www.Capitalta.io/blocks/cta/cta9)
  *
  * API:
- * - [CTA9 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/cta/cta9#props-details)
+ * - [CTA9 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/cta/cta9#props-details)
  */
 
 export default function Cta9({ heading, caption, primaryBtn, image }) {
@@ -79,3 +79,4 @@ export default function Cta9({ heading, caption, primaryBtn, image }) {
 }
 
 Cta9.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, image: PropTypes.any };
+

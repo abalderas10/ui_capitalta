@@ -59,3 +59,4 @@ export default function AILayout({ children }) {
 }
 
 AILayout.propTypes = { children: PropTypes.any };
+

@@ -23,10 +23,10 @@ import { SECTION_COMMON_PY } from '@/utils/constant';
 /**
  *
  * Demos:
- * - [Feature11](https://www.saasable.io/blocks/feature/feature11)
+ * - [Feature11](https://www.Capitalta.io/blocks/feature/feature11)
  *
  * API
- * - [Feature11 API](https://phoenixcoded.gitbook.io/saasable/ui-kit/development/components/feature/feature11#props-details)
+ * - [Feature11 API](https://capitalta.gitbook.io/Capitalta/ui-kit/development/components/feature/feature11#props-details)
  */
 
 export default function Feature11({ heading, caption, image, features, showBorder = true }) {
@@ -115,3 +115,4 @@ Feature11.propTypes = {
   features: PropTypes.array,
   showBorder: PropTypes.bool
 };
+
