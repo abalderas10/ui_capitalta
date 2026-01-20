@@ -86,4 +86,3 @@ export default function Clientele8({ heading, caption, clienteleList }) {
 }
 
 Clientele8.propTypes = { heading: PropTypes.string, caption: PropTypes.string, clienteleList: PropTypes.array };
-

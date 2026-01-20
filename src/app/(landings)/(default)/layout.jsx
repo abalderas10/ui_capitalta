@@ -24,4 +24,3 @@ export default function Default({ children }) {
 }
 
 Default.propTypes = { children: PropTypes.any };
-

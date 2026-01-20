@@ -20,4 +20,3 @@ const data = {
 export default function BlockMetrics5() {
   return <Metrics5 {...data} />;
 }
-

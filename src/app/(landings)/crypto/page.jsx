@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.cryptoLanding };
 export default function CryptoPage() {
   return <Crypto />;
 }
-

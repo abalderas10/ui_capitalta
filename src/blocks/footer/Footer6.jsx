@@ -83,4 +83,3 @@ export default function Footer6() {
     </ContainerWrapper>
   );
 }
-

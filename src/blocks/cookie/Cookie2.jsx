@@ -63,4 +63,3 @@ export default function Cookie2({ heading, primaryBtn, secondaryBtn, cookie }) {
 }
 
 Cookie2.propTypes = { heading: PropTypes.string, primaryBtn: PropTypes.any, secondaryBtn: PropTypes.any, cookie: PropTypes.object };
-

@@ -74,4 +74,3 @@ export default function MegaMenu3({ menuItems, footerData, popperWidth = 725, fo
 }
 
 MegaMenu3.propTypes = { menuItems: PropTypes.array, footerData: PropTypes.node, popperWidth: PropTypes.number, footerSX: PropTypes.any };
-

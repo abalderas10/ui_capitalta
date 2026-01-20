@@ -6,4 +6,3 @@ export { default as Team5 } from './Team5';
 export { default as Team6 } from './Team6';
 export { default as Team7 } from './Team7';
 export { default as Team8 } from './Team8';
-

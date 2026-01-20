@@ -213,4 +213,3 @@ export default function Gallery4({ heading, caption, topics, images }) {
 GraphicsBox.propTypes = { boxData: PropTypes.array, setIndex: PropTypes.func, isChangingSlide: PropTypes.bool };
 
 Gallery4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, topics: PropTypes.array, images: PropTypes.any };
-

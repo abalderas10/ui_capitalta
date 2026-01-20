@@ -64,4 +64,3 @@ export default function Cta2({ bgImage, heading, primaryBtn }) {
 }
 
 Cta2.propTypes = { bgImage: PropTypes.any, heading: PropTypes.string, primaryBtn: PropTypes.any };
-

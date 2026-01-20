@@ -64,4 +64,3 @@ export default function SmallHero7({ heading, caption, primaryBtn, image }) {
 }
 
 SmallHero7.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, image: PropTypes.any };
-

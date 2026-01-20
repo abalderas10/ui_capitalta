@@ -250,4 +250,3 @@ Hero11.propTypes = {
   sliderTitle: PropTypes.string,
   listData: PropTypes.array
 };
-

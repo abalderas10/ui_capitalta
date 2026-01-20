@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.register, openGraph: { ...SEO_CONTENT.r
 export default function RegisterPage() {
   return <Register />;
 }
-

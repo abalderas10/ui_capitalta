@@ -179,4 +179,3 @@ export default function PrivacyPolicy1() {
     </ContainerWrapper>
   );
 }
-

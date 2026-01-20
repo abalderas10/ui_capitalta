@@ -171,18 +171,11 @@ export default function CalculadoraVentaKeyPage() {
   const totalIntereses = pagoMensual && plazoAjustado ? pagoMensual * plazoAjustado - montoCredito : 0;
   const totalAPagar = montoCredito + comision + totalIntereses;
 
-  const tablaCompleta = useMemo(
-    () => construirTablaAmortizacion(montoCredito, plazoAjustado),
-    [montoCredito, plazoAjustado]
-  );
+  const tablaCompleta = useMemo(() => construirTablaAmortizacion(montoCredito, plazoAjustado), [montoCredito, plazoAjustado]);
 
   const filasTabla =
     tablaCompleta.length > 15
-      ? [
-          ...tablaCompleta.slice(0, 12),
-          { mes: '...', pago: null, interes: null, capital: null, saldo: null },
-          ...tablaCompleta.slice(-3)
-        ]
+      ? [...tablaCompleta.slice(0, 12), { mes: '...', pago: null, interes: null, capital: null, saldo: null }, ...tablaCompleta.slice(-3)]
       : tablaCompleta;
 
   const fechaLiquidacion = useMemo(() => {
@@ -324,9 +317,7 @@ export default function CalculadoraVentaKeyPage() {
               </tr>
               <tr>
                 <td style="padding:4px;border:1px solid #ccc;">Fecha estimada de liquidación</td>
-                <td style="padding:4px;border:1px solid #ccc;">${
-                  fechaLiquidacion ? formatearFecha(fechaLiquidacion) : '-'
-                }</td>
+                <td style="padding:4px;border:1px solid #ccc;">${fechaLiquidacion ? formatearFecha(fechaLiquidacion) : '-'}</td>
               </tr>
             </tbody>
           </table>
@@ -545,9 +536,7 @@ export default function CalculadoraVentaKeyPage() {
                       <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                         Fecha de liquidación estimada
                       </Typography>
-                      <Typography variant="body2">
-                        {fechaLiquidacion ? formatearFecha(fechaLiquidacion) : '--'}
-                      </Typography>
+                      <Typography variant="body2">{fechaLiquidacion ? formatearFecha(fechaLiquidacion) : '--'}</Typography>
                     </Stack>
                   </Stack>
                 </Box>
@@ -568,8 +557,8 @@ export default function CalculadoraVentaKeyPage() {
             <Stack spacing={3}>
               <Typography variant="h4">Compártenos tus datos</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                Guarda esta simulación Venta Key junto con tus datos de contacto para que un asesor de Capitalta pueda ayudarte a estructurar
-                la operación adecuada para tu propiedad.
+                Guarda esta simulación Venta Key junto con tus datos de contacto para que un asesor de Capitalta pueda ayudarte a
+                estructurar la operación adecuada para tu propiedad.
               </Typography>
               <Box
                 component="form"
@@ -585,24 +574,9 @@ export default function CalculadoraVentaKeyPage() {
               >
                 <Stack spacing={2}>
                   <TextField label="Nombre completo" value={nombre} onChange={(event) => setNombre(event.target.value)} required />
-                  <TextField
-                    label="Email"
-                    type="email"
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
-                    required
-                  />
-                  <TextField
-                    label="Teléfono"
-                    value={telefono}
-                    onChange={(event) => setTelefono(event.target.value)}
-                    required
-                  />
-                  <TextField
-                    label="Empresa (opcional)"
-                    value={empresa}
-                    onChange={(event) => setEmpresa(event.target.value)}
-                  />
+                  <TextField label="Email" type="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
+                  <TextField label="Teléfono" value={telefono} onChange={(event) => setTelefono(event.target.value)} required />
+                  <TextField label="Empresa (opcional)" value={empresa} onChange={(event) => setEmpresa(event.target.value)} />
                   {leadError && (
                     <Typography variant="caption" sx={{ color: 'error.main' }}>
                       {leadError}
@@ -629,8 +603,8 @@ export default function CalculadoraVentaKeyPage() {
             <Stack spacing={2.5}>
               <Typography variant="h4">Tabla de amortización estimada</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary', maxWidth: 720 }}>
-                Visualiza cómo se distribuyen capital e intereses durante el plazo seleccionado sobre el monto de crédito estimado. Se muestran
-                los primeros 12 meses y los últimos 3 para una vista resumida; en el PDF encontrarás la tabla completa.
+                Visualiza cómo se distribuyen capital e intereses durante el plazo seleccionado sobre el monto de crédito estimado. Se
+                muestran los primeros 12 meses y los últimos 3 para una vista resumida; en el PDF encontrarás la tabla completa.
               </Typography>
               <TableContainer component={Paper}>
                 <Table size="small">
@@ -687,5 +661,3 @@ export default function CalculadoraVentaKeyPage() {
     </>
   );
 }
-
-

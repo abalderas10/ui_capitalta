@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.color, openGraph: { ...SEO_CONTENT.colo
 export default function ColorPage() {
   return <Color />;
 }
-

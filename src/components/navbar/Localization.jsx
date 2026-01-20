@@ -103,4 +103,3 @@ export default function Localization({ ...rest }) {
 }
 
 Localization.propTypes = { rest: PropTypes.any };
-

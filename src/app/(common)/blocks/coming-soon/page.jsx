@@ -19,4 +19,3 @@ const data = {
 export default function BlockComingSoon() {
   return <ComingSoon {...data} />;
 }
-

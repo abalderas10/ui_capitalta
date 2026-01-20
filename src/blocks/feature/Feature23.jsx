@@ -89,4 +89,3 @@ Feature23.propTypes = {
   caption2: PropTypes.string,
   primaryBtn: PropTypes.any
 };
-

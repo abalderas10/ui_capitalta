@@ -141,4 +141,3 @@ export default function Footer7() {
     </ContainerWrapper>
   );
 }
-

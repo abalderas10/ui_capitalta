@@ -166,4 +166,3 @@ export default function ContactUs2({ heading, caption, contactDetails, bgImage }
 ContactCard.propTypes = { icon: PropTypes.any, title: PropTypes.any, content: PropTypes.any, link: PropTypes.any };
 
 ContactUs2.propTypes = { heading: PropTypes.any, caption: PropTypes.any, contactDetails: PropTypes.any, bgImage: PropTypes.any };
-

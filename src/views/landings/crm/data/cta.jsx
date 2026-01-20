@@ -134,4 +134,3 @@ export const cta6 = {
     { image: { component: 'clientele/Realtor', type: DynamicComponentType.IMAGE } }
   ]
 };
-

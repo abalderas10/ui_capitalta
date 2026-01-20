@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.process, openGraph: { ...SEO_CONTENT.pr
 export default function ProcessPage() {
   return <Process />;
 }
-

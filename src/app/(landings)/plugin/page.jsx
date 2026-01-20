@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.pluginLanding };
 export default function PluginPage() {
   return <Plugin />;
 }
-

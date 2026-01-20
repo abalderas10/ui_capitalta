@@ -13,4 +13,3 @@ const data = {
 export default function BlockOtpVerification() {
   return <OtpVerification {...data} />;
 }
-

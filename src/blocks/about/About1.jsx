@@ -72,4 +72,3 @@ export default function About1({ heading, image, description1, description2 }) {
 }
 
 About1.propTypes = { heading: PropTypes.string, image: PropTypes.any, description1: PropTypes.string, description2: PropTypes.string };
-

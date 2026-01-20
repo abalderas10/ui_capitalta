@@ -133,4 +133,3 @@ Feature14.propTypes = {
   title2: PropTypes.string,
   description2: PropTypes.string
 };
-

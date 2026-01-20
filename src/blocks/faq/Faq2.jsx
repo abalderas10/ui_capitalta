@@ -170,4 +170,3 @@ Faq2.propTypes = {
   faqList: PropTypes.any,
   getInTouch: PropTypes.any
 };
-

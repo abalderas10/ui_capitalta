@@ -96,4 +96,3 @@ SmallHero4.propTypes = {
   image: PropTypes.any,
   isCoverImage: PropTypes.bool
 };
-

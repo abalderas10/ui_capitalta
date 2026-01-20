@@ -71,4 +71,3 @@ Cta14.propTypes = {
   price: PropTypes.number,
   primaryBtn: PropTypes.any
 };
-

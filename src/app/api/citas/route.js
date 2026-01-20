@@ -51,11 +51,7 @@ export async function GET(request) {
     return NextResponse.json({ error: 'cliente_id es requerido' }, { status: 400 });
   }
 
-  const { data, error } = await supabase
-    .from('citas')
-    .select('*')
-    .eq('cliente_id', clienteId)
-    .order('fecha', { ascending: true });
+  const { data, error } = await supabase.from('citas').select('*').eq('cliente_id', clienteId).order('fecha', { ascending: true });
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });
@@ -63,5 +59,3 @@ export async function GET(request) {
 
   return NextResponse.json({ citas: data || [] }, { status: 200 });
 }
-
-

@@ -79,4 +79,3 @@ export default function Cta9({ heading, caption, primaryBtn, image }) {
 }
 
 Cta9.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, image: PropTypes.any };
-

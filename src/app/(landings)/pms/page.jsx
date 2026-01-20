@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.pmsLanding };
 export default function PMSPage() {
   return <PMS />;
 }
-

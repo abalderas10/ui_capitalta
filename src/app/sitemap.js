@@ -258,4 +258,3 @@ export default function sitemap() {
     priority: route.priority
   }));
 }
-

@@ -138,4 +138,3 @@ export default function Sitemap({ list, isMenuDesign }) {
 }
 
 Sitemap.propTypes = { list: PropTypes.array, isMenuDesign: PropTypes.bool };
-

@@ -83,15 +83,13 @@ export default function CreditoRevolventePage() {
 
   const comparativa50 =
     lineaAjustada && plazoAjustado && tasaMensual
-      ? ((lineaAjustada * 0.5 * tasaMensual * Math.pow(1 + tasaMensual, plazoAjustado)) /
-          (Math.pow(1 + tasaMensual, plazoAjustado) - 1)) *
+      ? ((lineaAjustada * 0.5 * tasaMensual * Math.pow(1 + tasaMensual, plazoAjustado)) / (Math.pow(1 + tasaMensual, plazoAjustado) - 1)) *
         plazoAjustado
       : 0;
 
   const comparativa100 =
     lineaAjustada && plazoAjustado && tasaMensual
-      ? ((lineaAjustada * tasaMensual * Math.pow(1 + tasaMensual, plazoAjustado)) /
-          (Math.pow(1 + tasaMensual, plazoAjustado) - 1)) *
+      ? ((lineaAjustada * tasaMensual * Math.pow(1 + tasaMensual, plazoAjustado)) / (Math.pow(1 + tasaMensual, plazoAjustado) - 1)) *
         plazoAjustado
       : 0;
 
@@ -176,13 +174,13 @@ export default function CreditoRevolventePage() {
             <Stack spacing={2}>
               <Typography variant="h4">¿Qué es el Crédito Revolvente?</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                Es una línea de crédito que puedes usar, pagar y volver a usar, ideal para necesidades recurrentes de liquidez, inventarios o
-                gastos operativos de corto y mediano plazo.
+                Es una línea de crédito que puedes usar, pagar y volver a usar, ideal para necesidades recurrentes de liquidez, inventarios
+                o gastos operativos de corto y mediano plazo.
               </Typography>
               <Typography variant="subtitle1">Ideal para</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                Negocios con ciclos operativos marcados, necesidades constantes de capital de trabajo o empresas que requieren flexibilidad para
-                enfrentar imprevistos y aprovechar oportunidades.
+                Negocios con ciclos operativos marcados, necesidades constantes de capital de trabajo o empresas que requieren flexibilidad
+                para enfrentar imprevistos y aprovechar oportunidades.
               </Typography>
             </Stack>
           </Grid>
@@ -199,8 +197,8 @@ export default function CreditoRevolventePage() {
               <Stack spacing={1.5}>
                 <Typography variant="subtitle2">Uso típico del crédito</Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Compra de inventario, pago a proveedores, cobertura de gastos operativos estacionales y atención de oportunidades de negocio
-                  de corto plazo.
+                  Compra de inventario, pago a proveedores, cobertura de gastos operativos estacionales y atención de oportunidades de
+                  negocio de corto plazo.
                 </Typography>
               </Stack>
             </Box>
@@ -472,8 +470,8 @@ export default function CreditoRevolventePage() {
                 </Table>
               </TableContainer>
               <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-                Si usas 50% de la línea, el interés total estimado se aproxima al 50% del interés que pagarías usando el 100%, manteniendo las
-                mismas condiciones de tasa y plazo.
+                Si usas 50% de la línea, el interés total estimado se aproxima al 50% del interés que pagarías usando el 100%, manteniendo
+                las mismas condiciones de tasa y plazo.
               </Typography>
             </Stack>
           </Grid>
@@ -516,5 +514,3 @@ export default function CreditoRevolventePage() {
     </>
   );
 }
-
-

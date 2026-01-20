@@ -100,4 +100,3 @@ export default function Clientele5({ title, clienteleList, description }) {
 }
 
 Clientele5.propTypes = { title: PropTypes.string, clienteleList: PropTypes.array, description: PropTypes.string };
-

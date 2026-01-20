@@ -149,11 +149,7 @@ export default function CalculadoraEmpresarialPage() {
 
   const filasTabla =
     tablaCompleta.length > 15
-      ? [
-          ...tablaCompleta.slice(0, 12),
-          { mes: '...', pago: null, interes: null, capital: null, saldo: null },
-          ...tablaCompleta.slice(-3)
-        ]
+      ? [...tablaCompleta.slice(0, 12), { mes: '...', pago: null, interes: null, capital: null, saldo: null }, ...tablaCompleta.slice(-3)]
       : tablaCompleta;
 
   const handleLeadSubmit = (event) => {
@@ -322,8 +318,8 @@ export default function CalculadoraEmpresarialPage() {
                 </Typography>
                 <Typography variant="h2">Crédito Empresarial</Typography>
                 <Typography variant="body1" sx={{ maxWidth: 640 }}>
-                  Proyecta tu Crédito Empresarial con montos, plazos y tasas acordes al tamaño de tu operación, revisa la tabla de amortización
-                  y genera un PDF para compartir la propuesta internamente.
+                  Proyecta tu Crédito Empresarial con montos, plazos y tasas acordes al tamaño de tu operación, revisa la tabla de
+                  amortización y genera un PDF para compartir la propuesta internamente.
                 </Typography>
               </Stack>
             </Grid>
@@ -487,8 +483,8 @@ export default function CalculadoraEmpresarialPage() {
             <Stack spacing={3}>
               <Typography variant="h4">Compártenos tus datos</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                Guarda esta simulación junto con tus datos de contacto para que un asesor de Capitalta pueda ayudarte a ajustar la estructura
-                del crédito a tu empresa.
+                Guarda esta simulación junto con tus datos de contacto para que un asesor de Capitalta pueda ayudarte a ajustar la
+                estructura del crédito a tu empresa.
               </Typography>
               <Box
                 component="form"
@@ -504,24 +500,9 @@ export default function CalculadoraEmpresarialPage() {
               >
                 <Stack spacing={2}>
                   <TextField label="Nombre completo" value={nombre} onChange={(event) => setNombre(event.target.value)} required />
-                  <TextField
-                    label="Email"
-                    type="email"
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
-                    required
-                  />
-                  <TextField
-                    label="Teléfono"
-                    value={telefono}
-                    onChange={(event) => setTelefono(event.target.value)}
-                    required
-                  />
-                  <TextField
-                    label="Empresa (opcional)"
-                    value={empresa}
-                    onChange={(event) => setEmpresa(event.target.value)}
-                  />
+                  <TextField label="Email" type="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
+                  <TextField label="Teléfono" value={telefono} onChange={(event) => setTelefono(event.target.value)} required />
+                  <TextField label="Empresa (opcional)" value={empresa} onChange={(event) => setEmpresa(event.target.value)} />
                   {leadError && (
                     <Typography variant="caption" sx={{ color: 'error.main' }}>
                       {leadError}
@@ -548,8 +529,8 @@ export default function CalculadoraEmpresarialPage() {
             <Stack spacing={2.5}>
               <Typography variant="h4">Tabla de amortización estimada</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary', maxWidth: 720 }}>
-                Observa cómo se distribuyen capital e intereses durante la vida del crédito. Se muestran los primeros 12 meses y los últimos 3
-                para una vista resumida; en el PDF encontrarás la tabla completa.
+                Observa cómo se distribuyen capital e intereses durante la vida del crédito. Se muestran los primeros 12 meses y los últimos
+                3 para una vista resumida; en el PDF encontrarás la tabla completa.
               </Typography>
               <TableContainer component={Paper}>
                 <Table size="small">
@@ -605,5 +586,3 @@ export default function CalculadoraEmpresarialPage() {
     </>
   );
 }
-
-

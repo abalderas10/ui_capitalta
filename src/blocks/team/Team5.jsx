@@ -122,4 +122,3 @@ Team5.propTypes = {
   actionBtn: PropTypes.any,
   description: PropTypes.any
 };
-

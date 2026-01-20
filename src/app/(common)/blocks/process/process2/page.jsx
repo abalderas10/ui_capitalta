@@ -31,4 +31,3 @@ const data = {
 export default function BlockProcess2() {
   return <Process2 {...data} />;
 }
-

@@ -77,4 +77,3 @@ export default function Team7({ heading, caption, members }) {
 }
 
 Team7.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
-

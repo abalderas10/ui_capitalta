@@ -23,4 +23,3 @@ export const hero = {
     reviews: 'From 200+ reviews'
   }
 };
-

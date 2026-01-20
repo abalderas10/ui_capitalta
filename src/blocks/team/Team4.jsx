@@ -123,4 +123,3 @@ export default function Team4({ heading, caption, members }) {
 }
 
 Team4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
-

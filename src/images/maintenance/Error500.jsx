@@ -149,4 +149,3 @@ export default function Error500() {
     </svg>
   );
 }
-

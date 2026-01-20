@@ -161,4 +161,3 @@ Hero5.propTypes = {
   listData: PropTypes.array,
   primaryBtn: PropTypes.any
 };
-

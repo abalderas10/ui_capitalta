@@ -27,4 +27,3 @@ export default function Crypto({ children }) {
 }
 
 Crypto.propTypes = { children: PropTypes.any };
-

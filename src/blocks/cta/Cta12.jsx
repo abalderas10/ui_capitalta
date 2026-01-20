@@ -89,4 +89,3 @@ export default function Cta12({ heading, caption, primaryBtn, image }) {
 }
 
 Cta12.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, image: PropTypes.any };
-

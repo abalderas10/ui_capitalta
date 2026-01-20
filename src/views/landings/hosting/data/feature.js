@@ -192,4 +192,3 @@ export const aboutFeature24 = {
   description: `With our fast hosting technology, AI-powered Website Builder, and easy-to-operate Panel you can succeed online faster and easier.`,
   image: { light: '/assets/images/hosting/graphics/graphics7-light.svg', dark: '/assets/images/hosting/graphics/graphics7-dark.svg' }
 };
-

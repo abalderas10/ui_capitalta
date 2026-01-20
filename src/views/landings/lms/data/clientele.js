@@ -23,4 +23,3 @@ export const clientele8 = {
     { image: '/assets/images/lms/clientele/clientele-1.svg' }
   ]
 };
-

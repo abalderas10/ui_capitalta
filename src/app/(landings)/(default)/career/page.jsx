@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.careerPage };
 export default function CareerPage() {
   return <Career />;
 }
-

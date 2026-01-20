@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.cta, openGraph: { ...SEO_CONTENT.cta, u
 export default function CtaPage() {
   return <Cta />;
 }
-

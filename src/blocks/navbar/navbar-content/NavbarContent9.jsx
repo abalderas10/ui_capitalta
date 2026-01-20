@@ -124,4 +124,3 @@ NavbarContent9.propTypes = {
   selectedTheme: PropTypes.any,
   animated: PropTypes.any
 };
-

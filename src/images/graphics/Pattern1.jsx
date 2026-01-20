@@ -37,4 +37,3 @@ export default function Pattern1({ fill }) {
 }
 
 Pattern1.propTypes = { fill: PropTypes.string };
-

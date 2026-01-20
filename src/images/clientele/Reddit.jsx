@@ -44,4 +44,3 @@ export default function Reddit({ imageSize }) {
 }
 
 Reddit.propTypes = { imageSize: PropTypes.object };
-

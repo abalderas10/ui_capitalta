@@ -115,4 +115,3 @@ SmallHero5.propTypes = {
   caption: PropTypes.string,
   circleStopColor: PropTypes.string
 };
-

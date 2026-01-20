@@ -97,4 +97,3 @@ Feature4.propTypes = {
   image: PropTypes.any,
   showBorder: PropTypes.bool
 };
-

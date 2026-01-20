@@ -54,4 +54,3 @@ const data = {
 export default function BlockSmallHero6() {
   return <SmallHero6 {...data} />;
 }
-

@@ -96,4 +96,3 @@ export default function Testimonial8({ heading, caption, testimonials }) {
 }
 
 Testimonial8.propTypes = { heading: PropTypes.any, caption: PropTypes.any, testimonials: PropTypes.any };
-

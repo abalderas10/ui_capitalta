@@ -117,8 +117,8 @@ export default function MisCitasPage() {
               </Typography>
               <Typography variant="h3">Citas presenciales</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                Aquí puedes consultar tus citas presenciales para firma de contrato y entrega de garantías, así como descargar tu comprobante con
-                instrucciones detalladas.
+                Aquí puedes consultar tus citas presenciales para firma de contrato y entrega de garantías, así como descargar tu
+                comprobante con instrucciones detalladas.
               </Typography>
               <Stack spacing={1.5}>
                 <Typography variant="subtitle2">Instrucciones para tu cita</Typography>
@@ -150,25 +150,13 @@ export default function MisCitasPage() {
               <Stack direction="row" sx={{ justifyContent: 'space-between', alignItems: 'center', gap: 2 }}>
                 <Typography variant="h5">Historial de citas</Typography>
                 <Stack direction="row" spacing={1}>
-                  <Button
-                    size="small"
-                    variant={filtro === 'todas' ? 'contained' : 'outlined'}
-                    onClick={() => setFiltro('todas')}
-                  >
+                  <Button size="small" variant={filtro === 'todas' ? 'contained' : 'outlined'} onClick={() => setFiltro('todas')}>
                     Todas
                   </Button>
-                  <Button
-                    size="small"
-                    variant={filtro === 'futuras' ? 'contained' : 'outlined'}
-                    onClick={() => setFiltro('futuras')}
-                  >
+                  <Button size="small" variant={filtro === 'futuras' ? 'contained' : 'outlined'} onClick={() => setFiltro('futuras')}>
                     Futuras
                   </Button>
-                  <Button
-                    size="small"
-                    variant={filtro === 'pasadas' ? 'contained' : 'outlined'}
-                    onClick={() => setFiltro('pasadas')}
-                  >
+                  <Button size="small" variant={filtro === 'pasadas' ? 'contained' : 'outlined'} onClick={() => setFiltro('pasadas')}>
                     Pasadas
                   </Button>
                 </Stack>
@@ -251,5 +239,3 @@ export default function MisCitasPage() {
     </Box>
   );
 }
-
-

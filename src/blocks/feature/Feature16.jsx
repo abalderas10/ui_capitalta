@@ -105,4 +105,3 @@ export default function Feature16({ heading, caption, cards, actionBtn }) {
 }
 
 Feature16.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array, actionBtn: PropTypes.any };
-

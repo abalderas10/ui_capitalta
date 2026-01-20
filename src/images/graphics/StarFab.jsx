@@ -38,4 +38,3 @@ export default function StarFab({ size }) {
 }
 
 StarFab.propTypes = { size: PropTypes.number };
-

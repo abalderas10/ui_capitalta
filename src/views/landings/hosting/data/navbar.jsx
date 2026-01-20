@@ -16,4 +16,3 @@ export const navbar = {
     { id: 'contact', title: 'Contact', link: `${LANDING_PATH.hosting}/contact` }
   ]
 };
-

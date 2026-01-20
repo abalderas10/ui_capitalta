@@ -21,4 +21,3 @@ export default function ProfileCard4({ name, role }) {
 }
 
 ProfileCard4.propTypes = { name: PropTypes.string, role: PropTypes.string };
-

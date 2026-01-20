@@ -209,4 +209,3 @@ Faq6.propTypes = {
   categories: PropTypes.array,
   activeCategory: PropTypes.string
 };
-

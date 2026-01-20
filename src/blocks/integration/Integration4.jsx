@@ -106,4 +106,3 @@ Integration4.propTypes = {
   primaryBtn: PropTypes.any,
   marquees: PropTypes.array
 };
-

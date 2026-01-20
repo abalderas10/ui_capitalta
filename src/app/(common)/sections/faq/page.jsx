@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.faq, openGraph: { ...SEO_CONTENT.faq, u
 export default function FaqPage() {
   return <Faq />;
 }
-

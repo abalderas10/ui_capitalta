@@ -61,4 +61,3 @@ IconCard.propTypes = {
   contentProps: PropTypes.any,
   cardPadding: PropTypes.any
 };
-

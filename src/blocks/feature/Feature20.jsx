@@ -251,4 +251,3 @@ Feature20.propTypes = {
   actionBtn: PropTypes.any,
   secondaryBtn: PropTypes.any
 };
-

@@ -171,4 +171,3 @@ Pricing7.propTypes = {
   plans: PropTypes.any,
   benefitList: PropTypes.array
 };
-

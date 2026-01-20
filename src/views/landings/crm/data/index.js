@@ -14,4 +14,3 @@ export { process } from './process';
 export { smallHero5, smallHero4, smallHero3, privacySmallHero3, contactSmallHero5, faqsSmallHero5 } from './small-hero';
 export { team4 } from './team';
 export { testimonial9 } from './testimonial';
-

@@ -6,4 +6,3 @@ import { PrivacyPolicy2 } from '@/blocks/privacy-policy';
 export default function BlockPrivacyPolicy2() {
   return <PrivacyPolicy2 />;
 }
-

@@ -61,4 +61,3 @@ const data = {
 export default function BlockOther3() {
   return <Other3 {...data} />;
 }
-

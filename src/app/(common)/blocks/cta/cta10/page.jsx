@@ -37,4 +37,3 @@ const data = {
 export default function BlockCta10() {
   return <Cta10 {...data} />;
 }
-

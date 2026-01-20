@@ -244,4 +244,3 @@ export default function TypographyPage() {
 }
 
 FontSizeBlock.propTypes = { desktop: PropTypes.string, tablet: PropTypes.string, mobile: PropTypes.string, type: PropTypes.string };
-

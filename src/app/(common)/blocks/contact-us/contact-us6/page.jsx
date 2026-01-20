@@ -19,4 +19,3 @@ const data = {
 export default function BlockContactUs6() {
   return <ContactUs6 {...data} />;
 }
-

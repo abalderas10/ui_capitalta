@@ -30,4 +30,3 @@ const data = {
 export default function BlockCta5() {
   return <Cta5 {...data} />;
 }
-

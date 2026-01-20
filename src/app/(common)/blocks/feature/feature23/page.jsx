@@ -29,4 +29,3 @@ const data = {
 export default function BlockFeature23() {
   return <Feature23 {...data} />;
 }
-

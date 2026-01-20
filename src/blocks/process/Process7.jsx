@@ -243,4 +243,3 @@ Process7.propTypes = {
   card1sx: PropTypes.any,
   image2: PropTypes.any
 };
-

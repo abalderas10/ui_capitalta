@@ -79,4 +79,3 @@ export default function Pattern10() {
     </svg>
   );
 }
-

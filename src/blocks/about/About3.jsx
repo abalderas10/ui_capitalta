@@ -111,4 +111,3 @@ export default function About3({ heading, image, description, list }) {
 }
 
 About3.propTypes = { heading: PropTypes.string, image: PropTypes.any, description: PropTypes.string, list: PropTypes.array };
-

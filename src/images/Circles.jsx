@@ -68,4 +68,3 @@ export default function Circles({ stopColor }) {
 }
 
 Circles.propTypes = { stopColor: PropTypes.string };
-

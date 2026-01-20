@@ -288,4 +288,3 @@ export default function Integration5({ headLine, captionLine, primaryBtn }) {
 IconBox.propTypes = { icon: PropTypes.any };
 
 Integration5.propTypes = { headLine: PropTypes.string, captionLine: PropTypes.string, primaryBtn: PropTypes.any };
-

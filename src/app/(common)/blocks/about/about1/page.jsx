@@ -17,4 +17,3 @@ const data = {
 export default function BlockAbout1() {
   return <About1 {...data} />;
 }
-

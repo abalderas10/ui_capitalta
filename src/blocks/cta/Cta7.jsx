@@ -69,4 +69,3 @@ export default function Cta7({ headLine, caption, primaryBtn }) {
 }
 
 Cta7.propTypes = { headLine: PropTypes.node, caption: PropTypes.string, primaryBtn: PropTypes.any };
-

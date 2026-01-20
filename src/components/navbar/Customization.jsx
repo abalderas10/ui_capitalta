@@ -172,4 +172,3 @@ export default function Customization({ selectedTheme }) {
 }
 
 Customization.propTypes = { selectedTheme: PropTypes.any };
-

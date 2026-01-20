@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.aiLanding };
 export default function AIPage() {
   return <AI />;
 }
-

@@ -65,4 +65,3 @@ Team6.propTypes = {
   actionBtn: PropTypes.any,
   description: PropTypes.any
 };
-

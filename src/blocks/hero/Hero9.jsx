@@ -221,4 +221,3 @@ Hero9.propTypes = {
   image: PropTypes.any,
   listData: PropTypes.array
 };
-

@@ -20,4 +20,3 @@ export default function GradientFab({ icon, type, size }) {
 }
 
 GradientFab.propTypes = { icon: PropTypes.node, type: PropTypes.string, size: PropTypes.number };
-

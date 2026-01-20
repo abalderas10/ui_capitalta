@@ -86,4 +86,3 @@ export default function Hero13({ heading, caption, exploreBtn, images }) {
 }
 
 Hero13.propTypes = { heading: PropTypes.string, caption: PropTypes.string, exploreBtn: PropTypes.any, images: PropTypes.array };
-

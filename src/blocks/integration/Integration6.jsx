@@ -230,4 +230,3 @@ export default function Integration6({ headLine, captionLine, primaryBtn }) {
 IconBox.propTypes = { size: PropTypes.number, sx: PropTypes.any, icon: PropTypes.any };
 
 Integration6.propTypes = { headLine: PropTypes.string, captionLine: PropTypes.string, primaryBtn: PropTypes.any };
-

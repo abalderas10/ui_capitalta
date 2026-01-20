@@ -15,4 +15,3 @@ export default function Blocks({ children }) {
 }
 
 Blocks.propTypes = { children: PropTypes.any };
-

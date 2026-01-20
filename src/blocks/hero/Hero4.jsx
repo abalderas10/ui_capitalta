@@ -146,4 +146,3 @@ Hero4.propTypes = {
   image2: PropTypes.any,
   listData: PropTypes.array
 };
-

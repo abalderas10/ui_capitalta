@@ -105,4 +105,3 @@ export default function Blog10({ headLine, captionLine, blogs, blog }) {
 }
 
 Blog10.propTypes = { headLine: PropTypes.string, captionLine: PropTypes.string, blogs: PropTypes.array, blog: PropTypes.any };
-

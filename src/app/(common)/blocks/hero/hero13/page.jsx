@@ -22,4 +22,3 @@ const data = {
 export default function BlockHero13() {
   return <Hero13 {...data} />;
 }
-

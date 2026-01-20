@@ -13,4 +13,3 @@ const data = {
 export default function BlockNewPassword() {
   return <NewPassword {...data} />;
 }
-

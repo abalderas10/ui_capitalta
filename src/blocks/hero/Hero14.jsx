@@ -105,4 +105,3 @@ Hero14.propTypes = {
   list: PropTypes.array,
   primaryBtn: PropTypes.any
 };
-

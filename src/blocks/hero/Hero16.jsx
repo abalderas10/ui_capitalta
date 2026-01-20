@@ -119,4 +119,3 @@ Hero16.propTypes = {
   poster: PropTypes.any,
   videoSrc: PropTypes.string
 };
-

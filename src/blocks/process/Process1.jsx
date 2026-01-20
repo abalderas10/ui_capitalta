@@ -198,4 +198,3 @@ Process1.propTypes = {
   cards: PropTypes.array,
   image: PropTypes.any
 };
-

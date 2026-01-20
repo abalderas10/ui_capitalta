@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { createSupabaseServerClient } from '@/utils/supabaseClient';
 
 export async function GET(request, { params }) {
-  const { slug } = params;
+  const { slug } = await params;
 
   if (!slug) {
     return NextResponse.json({ error: 'Slug es requerido' }, { status: 400 });

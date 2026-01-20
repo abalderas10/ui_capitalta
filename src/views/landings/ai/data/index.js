@@ -12,4 +12,3 @@ export { navbar } from './navbar';
 export { pricing5 } from './pricing';
 export { smallHero, smallHero1, smallHero2, smallHero3 } from './small-hero';
 export { testimonial, testimonial9 } from './testimonial';
-

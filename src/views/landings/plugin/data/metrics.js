@@ -8,4 +8,3 @@ export const metrics = {
     { counter: 5, defaultUnit: 'K', caption: 'Website visitor' }
   ]
 };
-

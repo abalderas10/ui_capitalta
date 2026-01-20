@@ -76,4 +76,3 @@ Metrics3.propTypes = {
   exploreBtn: PropTypes.any,
   blockDetail: PropTypes.any
 };
-

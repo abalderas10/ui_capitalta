@@ -31,4 +31,3 @@ export default function Curve2({ size = 24, color }) {
 }
 
 Curve2.propTypes = { size: PropTypes.number, color: PropTypes.any };
-

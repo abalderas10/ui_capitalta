@@ -59,4 +59,3 @@ export default function HostingLayout({ children }) {
 }
 
 HostingLayout.propTypes = { children: PropTypes.any };
-

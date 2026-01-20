@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.megaMenu, openGraph: { ...SEO_CONTENT.m
 export default function MegaMenuPage() {
   return <MegaMenu />;
 }
-

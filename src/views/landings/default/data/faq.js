@@ -23,10 +23,7 @@ export const faq = {
       answer: {
         content: 'En la mayoría de los casos damos una respuesta inicial en menos de 72 horas hábiles.',
         type: 'list',
-        data: [
-          { primary: 'Revisión rápida de tu información.' },
-          { primary: 'Seguimiento personalizado durante el proceso.' }
-        ]
+        data: [{ primary: 'Revisión rápida de tu información.' }, { primary: 'Seguimiento personalizado durante el proceso.' }]
       },
       category: 'Proceso y tiempos'
     },
@@ -47,10 +44,7 @@ export const faq = {
         content:
           'Contamos con políticas de privacidad y medidas de seguridad para proteger tu información y cumplir con la regulación vigente.',
         type: 'list',
-        data: [
-          { primary: 'Uso responsable de tu información.' },
-          { primary: 'Cumplimiento de normativas de protección de datos.' }
-        ]
+        data: [{ primary: 'Uso responsable de tu información.' }, { primary: 'Cumplimiento de normativas de protección de datos.' }]
       },
       question: '¿Cómo protege Capitalta mis datos personales?',
       category: 'Seguridad y confianza'
@@ -60,4 +54,3 @@ export const faq = {
   categories: ['Créditos y elegibilidad', 'Proceso y tiempos', 'Seguridad y confianza'],
   activeCategory: 'Créditos y elegibilidad'
 };
-

@@ -13,4 +13,3 @@ const data = {
 export default function BlockRegister() {
   return <Register {...data} />;
 }
-

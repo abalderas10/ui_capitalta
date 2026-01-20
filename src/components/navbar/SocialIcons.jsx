@@ -48,4 +48,3 @@ export default function SocialIcons({ sx }) {
 }
 
 SocialIcons.propTypes = { sx: PropTypes.any };
-

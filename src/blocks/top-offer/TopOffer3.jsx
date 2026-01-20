@@ -106,4 +106,3 @@ export default function TopOffer3({ offer, handleClick }) {
 }
 
 TopOffer3.propTypes = { offer: PropTypes.any, handleClick: PropTypes.any };
-

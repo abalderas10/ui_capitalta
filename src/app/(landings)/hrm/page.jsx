@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.hrmLanding };
 export default function HRMPage() {
   return <HRM />;
 }
-

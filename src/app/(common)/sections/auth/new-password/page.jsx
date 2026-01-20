@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.newPassword, openGraph: { ...SEO_CONTEN
 export default function NewPasswordPage() {
   return <NewPassword />;
 }
-

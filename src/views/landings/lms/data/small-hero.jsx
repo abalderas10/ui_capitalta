@@ -41,4 +41,3 @@ export const blogSmallHero1 = {
   captionLine: `Noticias, consejos financieros y actualizaciones sobre el mundo del crédito y los negocios.`,
   headLine: <HeadlineTextBlog />
 };
-

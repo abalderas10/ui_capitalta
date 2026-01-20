@@ -91,4 +91,3 @@ export default function ContactUs1({ heading, caption, contactDetails }) {
 ContactCard.propTypes = { icon: PropTypes.any, title: PropTypes.any, content: PropTypes.any, link: PropTypes.any };
 
 ContactUs1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, contactDetails: PropTypes.any };
-

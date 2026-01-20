@@ -97,4 +97,3 @@ export default function Metrics2({ bgImage, heading, blockDetail }) {
 CounterBlock.propTypes = { counter: PropTypes.number, caption: PropTypes.string, defaultUnit: PropTypes.string };
 
 Metrics2.propTypes = { bgImage: PropTypes.any, heading: PropTypes.any, blockDetail: PropTypes.any };
-

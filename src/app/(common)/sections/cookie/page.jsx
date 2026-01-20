@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.cookie, openGraph: { ...SEO_CONTENT.coo
 export default function CookiePage() {
   return <Cookie />;
 }
-

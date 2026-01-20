@@ -13,4 +13,3 @@ export const metadata = { ...SEO_CONTENT.topOffer, openGraph: { ...SEO_CONTENT.t
 export default function TopOfferPage() {
   return <TopOffer />;
 }
-

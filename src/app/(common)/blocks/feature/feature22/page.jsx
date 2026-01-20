@@ -45,4 +45,3 @@ const data = {
 export default function BlockFeature22() {
   return <Feature22 {...data} />;
 }
-

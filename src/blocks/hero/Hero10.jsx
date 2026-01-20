@@ -117,4 +117,3 @@ Hero10.propTypes = {
   image: PropTypes.any,
   reviewData: PropTypes.object
 };
-

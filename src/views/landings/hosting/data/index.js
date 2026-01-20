@@ -13,4 +13,3 @@ export { pricing3, pricing5 } from './pricing';
 export { process7, process4, process8 } from './process';
 export { smallHero5 } from './smallHero';
 export { testimonial3, testimonial6, serviceTestimonial3, testimonial10 } from './testimonial';
-

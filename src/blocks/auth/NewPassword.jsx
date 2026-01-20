@@ -52,4 +52,3 @@ export default function NewPassword({ heading, caption }) {
 }
 
 NewPassword.propTypes = { heading: PropTypes.string, caption: PropTypes.string };
-

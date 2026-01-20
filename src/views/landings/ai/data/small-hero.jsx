@@ -56,4 +56,3 @@ export const smallHero3 = {
   captionLine: `SaasAI harnesses the power of AI to help businesses automate routine tasks, unlock insights, and take action to improve efficiency and performance.`,
   headLine: <HeadlineText3 />
 };
-

@@ -136,4 +136,3 @@ About2.propTypes = {
   title: PropTypes.string,
   primaryBtn: PropTypes.any
 };
-

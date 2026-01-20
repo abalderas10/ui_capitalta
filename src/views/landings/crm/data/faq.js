@@ -195,4 +195,3 @@ export const faq6 = {
   categories: ['Getting Started', 'Security & Safety', 'Fees & Charges', 'Technical Support & Assistance', 'Regulation & Compliance'],
   activeCategory: 'Getting Started'
 };
-

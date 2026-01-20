@@ -78,4 +78,3 @@ export default function Process6({ heading, caption, cards }) {
 }
 
 Process6.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array };
-

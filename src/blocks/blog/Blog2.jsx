@@ -128,4 +128,3 @@ export default function Blog2({ heading, caption, blogs }) {
 }
 
 Blog2.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blogs: PropTypes.any };
-

@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.blogDetails, openGraph: { ...SEO_CONTEN
 export default function BlogDetailsPage() {
   return <BlogDetails />;
 }
-

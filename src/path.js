@@ -346,4 +346,3 @@ export const PRIVIEW_PATH = {
   typography: path([BLOCK_PATH, 'typography']),
   underMaintenance: path([BLOCK_PATH, 'under-maintenance'])
 };
-

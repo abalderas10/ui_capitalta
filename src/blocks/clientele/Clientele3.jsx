@@ -124,4 +124,3 @@ export default function Clientele3({ title, clienteleList }) {
 }
 
 Clientele3.propTypes = { title: PropTypes.string, clienteleList: PropTypes.array };
-

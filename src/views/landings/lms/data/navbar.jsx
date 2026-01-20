@@ -15,4 +15,3 @@ export const navbar = {
     { id: 'faq', title: 'FAQ', link: `${LANDING_PATH.lms}/faq` }
   ]
 };
-

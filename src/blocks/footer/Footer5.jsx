@@ -86,4 +86,3 @@ export default function Footer5() {
     </ContainerWrapper>
   );
 }
-

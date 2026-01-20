@@ -69,4 +69,3 @@ export default function Clientele7({ title, clienteleList, exploreBtn }) {
 }
 
 Clientele7.propTypes = { title: PropTypes.string, clienteleList: PropTypes.array, exploreBtn: PropTypes.any };
-

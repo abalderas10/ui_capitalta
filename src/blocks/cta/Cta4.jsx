@@ -127,4 +127,3 @@ Cta4.propTypes = {
   list: PropTypes.array,
   clientContent: PropTypes.string
 };
-

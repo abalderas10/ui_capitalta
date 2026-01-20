@@ -42,4 +42,3 @@ const data = {
 export default function BlockFaq8() {
   return <Faq8 {...data} />;
 }
-

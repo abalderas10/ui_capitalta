@@ -8,4 +8,3 @@ export const metrics = {
     { counter: 95, defaultUnit: '%', progress: 95, caption: 'Compliance adherence rate' }
   ]
 };
-

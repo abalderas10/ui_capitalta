@@ -56,4 +56,3 @@ export default function AuthForgotPassword({ inputSx }) {
 }
 
 AuthForgotPassword.propTypes = { inputSx: PropTypes.any };
-

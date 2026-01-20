@@ -124,4 +124,3 @@ BlogDetails.propTypes = {
   subTitle: PropTypes.any,
   blogDetails: PropTypes.any
 };
-

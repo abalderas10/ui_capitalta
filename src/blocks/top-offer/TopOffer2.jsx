@@ -122,4 +122,3 @@ TopOffer2.propTypes = {
   icon: PropTypes.any,
   handleClick: PropTypes.any
 };
-

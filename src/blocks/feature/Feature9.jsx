@@ -72,4 +72,3 @@ export default function Feature9({ heading, caption, features }) {
 }
 
 Feature9.propTypes = { heading: PropTypes.string, caption: PropTypes.string, features: PropTypes.array };
-

@@ -144,4 +144,3 @@ Hero6.propTypes = {
   secondaryBtn: PropTypes.any,
   images: PropTypes.array
 };
-

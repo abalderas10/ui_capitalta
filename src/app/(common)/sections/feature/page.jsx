@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.feature, openGraph: { ...SEO_CONTENT.fe
 export default function FeaturePage() {
   return <Feature />;
 }
-

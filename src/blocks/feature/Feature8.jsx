@@ -141,4 +141,3 @@ export default function Feature8({ heading, caption, cards }) {
 StepperCard.propTypes = { cards: PropTypes.array, activeStep: PropTypes.number, handleStep: PropTypes.func };
 
 Feature8.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array };
-

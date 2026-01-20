@@ -75,4 +75,3 @@ export default function Navbar7({ children, isFixed = true, ...props }) {
 }
 
 Navbar7.propTypes = { children: PropTypes.any, isFixed: PropTypes.bool, props: PropTypes.any };
-

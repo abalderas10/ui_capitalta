@@ -45,4 +45,3 @@ const data = {
 export default function BlockContactUs3() {
   return <ContactUs3 {...data} />;
 }
-

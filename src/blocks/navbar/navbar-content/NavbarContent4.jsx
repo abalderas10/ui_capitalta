@@ -114,4 +114,3 @@ NavbarContent4.propTypes = {
   customization: PropTypes.any,
   selectedTheme: PropTypes.any
 };
-

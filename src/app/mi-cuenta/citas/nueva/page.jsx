@@ -91,10 +91,7 @@ export default function NuevaCitaPage() {
 
   const fechasDisponibles = useMemo(() => obtenerProximasFechas(), []);
 
-  const sucursalSeleccionada = useMemo(
-    () => sucursalesMock.find((sucursal) => sucursal.id === sucursalId) || null,
-    [sucursalId]
-  );
+  const sucursalSeleccionada = useMemo(() => sucursalesMock.find((sucursal) => sucursal.id === sucursalId) || null, [sucursalId]);
 
   const esUltimoPaso = paso === 3;
   const puedeVolver = paso > 0;
@@ -149,16 +146,15 @@ export default function NuevaCitaPage() {
     <Stack spacing={3}>
       <Typography variant="h5">Paso 1: Selecciona fecha y horario</Typography>
       <Typography variant="body2" sx={{ color: 'text.secondary', maxWidth: 640 }}>
-        Elige la fecha y el horario en el que deseas acudir a la sucursal para firmar tu contrato y entregar las garantías. Mostramos solo días
-        hábiles y horarios de atención.
+        Elige la fecha y el horario en el que deseas acudir a la sucursal para firmar tu contrato y entregar las garantías. Mostramos solo
+        días hábiles y horarios de atención.
       </Typography>
 
       <Stack spacing={2}>
         <Typography variant="subtitle2">Fecha</Typography>
         <Stack direction="row" sx={{ flexWrap: 'wrap', gap: 1.5 }}>
           {fechasDisponibles.map((fecha) => {
-            const seleccionada =
-              fechaSeleccionada && fecha.toDateString() === fechaSeleccionada.toDateString();
+            const seleccionada = fechaSeleccionada && fecha.toDateString() === fechaSeleccionada.toDateString();
 
             return (
               <Chip
@@ -212,7 +208,8 @@ export default function NuevaCitaPage() {
     <Stack spacing={3}>
       <Typography variant="h5">Paso 2: Selecciona sucursal</Typography>
       <Typography variant="body2" sx={{ color: 'text.secondary', maxWidth: 640 }}>
-        Elige la sucursal de Capitalta donde te resulta más conveniente acudir. Podrás ver la dirección y datos de contacto de cada ubicación.
+        Elige la sucursal de Capitalta donde te resulta más conveniente acudir. Podrás ver la dirección y datos de contacto de cada
+        ubicación.
       </Typography>
       <Grid container spacing={2}>
         {sucursalesMock.map((sucursal) => {
@@ -246,9 +243,7 @@ export default function NuevaCitaPage() {
                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                     Tel. {sucursal.telefono}
                   </Typography>
-                  {seleccionada && (
-                    <Chip size="small" label="Seleccionada" color="primary" sx={{ alignSelf: 'flex-start', mt: 0.5 }} />
-                  )}
+                  {seleccionada && <Chip size="small" label="Seleccionada" color="primary" sx={{ alignSelf: 'flex-start', mt: 0.5 }} />}
                 </Stack>
               </Box>
             </Grid>
@@ -332,8 +327,8 @@ export default function NuevaCitaPage() {
       <Typography variant="h5">Paso 4: Cita confirmada</Typography>
       <Typography variant="h4">Tu cita presencial ha sido agendada</Typography>
       <Typography variant="body2" sx={{ color: 'text.secondary', maxWidth: 640 }}>
-        Te hemos enviado un correo con los detalles de tu cita y las instrucciones para el día de la firma. Conserva tu código de cita, ya que lo
-        utilizaremos para dar seguimiento a tu proceso.
+        Te hemos enviado un correo con los detalles de tu cita y las instrucciones para el día de la firma. Conserva tu código de cita, ya
+        que lo utilizaremos para dar seguimiento a tu proceso.
       </Typography>
 
       <Box
@@ -422,8 +417,8 @@ export default function NuevaCitaPage() {
               </Typography>
               <Typography variant="h3">Agendar cita presencial</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                Completa estos pasos para elegir fecha, horario y sucursal para tu cita presencial. Esta visita es obligatoria para formalizar tu
-                crédito con Capitalta.
+                Completa estos pasos para elegir fecha, horario y sucursal para tu cita presencial. Esta visita es obligatoria para
+                formalizar tu crédito con Capitalta.
               </Typography>
               {!esElegible && (
                 <Box
@@ -439,7 +434,8 @@ export default function NuevaCitaPage() {
                     Aún no puedes agendar una cita
                   </Typography>
                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                    Tu crédito sigue en revisión. Te notificaremos por correo cuando esté aprobado para que puedas agendar tu cita presencial.
+                    Tu crédito sigue en revisión. Te notificaremos por correo cuando esté aprobado para que puedas agendar tu cita
+                    presencial.
                   </Typography>
                 </Box>
               )}
@@ -514,5 +510,3 @@ export default function NuevaCitaPage() {
     </Box>
   );
 }
-
-

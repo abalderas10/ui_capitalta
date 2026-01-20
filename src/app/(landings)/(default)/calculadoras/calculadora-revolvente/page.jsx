@@ -365,8 +365,8 @@ export default function CalculadoraRevolventePage() {
                 </Typography>
                 <Typography variant="h2">Crédito Revolvente</Typography>
                 <Typography variant="body1" sx={{ maxWidth: 640 }}>
-                  Simula cómo cambia tu pago y el interés total en función del porcentaje de la línea que realmente utilizas, con una tabla de
-                  amortización completa y comparativas claras.
+                  Simula cómo cambia tu pago y el interés total en función del porcentaje de la línea que realmente utilizas, con una tabla
+                  de amortización completa y comparativas claras.
                 </Typography>
               </Stack>
             </Grid>
@@ -602,24 +602,9 @@ export default function CalculadoraRevolventePage() {
               >
                 <Stack spacing={2}>
                   <TextField label="Nombre completo" value={nombre} onChange={(event) => setNombre(event.target.value)} required />
-                  <TextField
-                    label="Email"
-                    type="email"
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
-                    required
-                  />
-                  <TextField
-                    label="Teléfono"
-                    value={telefono}
-                    onChange={(event) => setTelefono(event.target.value)}
-                    required
-                  />
-                  <TextField
-                    label="Empresa (opcional)"
-                    value={empresa}
-                    onChange={(event) => setEmpresa(event.target.value)}
-                  />
+                  <TextField label="Email" type="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
+                  <TextField label="Teléfono" value={telefono} onChange={(event) => setTelefono(event.target.value)} required />
+                  <TextField label="Empresa (opcional)" value={empresa} onChange={(event) => setEmpresa(event.target.value)} />
                   {leadError && (
                     <Typography variant="caption" sx={{ color: 'error.main' }}>
                       {leadError}
@@ -646,8 +631,8 @@ export default function CalculadoraRevolventePage() {
             <Stack spacing={2.5}>
               <Typography variant="h4">Tabla de amortización estimada</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary', maxWidth: 720 }}>
-                Aunque se trata de una línea revolvente, aquí se muestra una estructura de pagos estimada sobre el monto utilizado para fines
-                de referencia. Se incluyen los primeros 12 meses y los últimos 3; la tabla completa estará disponible en el PDF.
+                Aunque se trata de una línea revolvente, aquí se muestra una estructura de pagos estimada sobre el monto utilizado para
+                fines de referencia. Se incluyen los primeros 12 meses y los últimos 3; la tabla completa estará disponible en el PDF.
               </Typography>
               <TableContainer component={Paper}>
                 <Table size="small">
@@ -711,5 +696,3 @@ export default function CalculadoraRevolventePage() {
     </>
   );
 }
-
-

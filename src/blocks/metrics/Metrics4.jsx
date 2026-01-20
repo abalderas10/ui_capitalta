@@ -57,4 +57,3 @@ export default function Metrics4({ heading, caption, exploreBtn, blockDetail }) 
 }
 
 Metrics4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, exploreBtn: PropTypes.any, blockDetail: PropTypes.any };
-

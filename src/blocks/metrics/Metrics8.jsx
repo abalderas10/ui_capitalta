@@ -119,4 +119,3 @@ export default function Metrics8({ heading, caption, blockDetail }) {
 }
 
 Metrics8.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blockDetail: PropTypes.any };
-

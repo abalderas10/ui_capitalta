@@ -45,4 +45,3 @@ export const team4 = {
     }
   ]
 };
-

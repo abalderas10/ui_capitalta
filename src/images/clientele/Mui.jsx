@@ -36,4 +36,3 @@ export default function Mui({ imageSize }) {
 }
 
 Mui.propTypes = { imageSize: PropTypes.object };
-

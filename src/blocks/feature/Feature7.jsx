@@ -211,4 +211,3 @@ export default function Feature7({ heading, caption, breadcrumbs, testimonials }
 }
 
 Feature7.propTypes = { heading: PropTypes.string, caption: PropTypes.string, breadcrumbs: PropTypes.array, testimonials: PropTypes.array };
-

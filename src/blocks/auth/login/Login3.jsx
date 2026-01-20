@@ -88,4 +88,3 @@ export default function Login3({ heading, caption }) {
 }
 
 Login3.propTypes = { heading: PropTypes.string, caption: PropTypes.string };
-

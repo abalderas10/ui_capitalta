@@ -153,4 +153,3 @@ export default function Login5({ heading, caption, testimonials }) {
 }
 
 Login5.propTypes = { heading: PropTypes.string, caption: PropTypes.string, testimonials: PropTypes.array };
-

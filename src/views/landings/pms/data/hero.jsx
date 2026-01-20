@@ -18,4 +18,3 @@ export const hero = {
   primaryBtn: { children: 'Get Started' },
   secondaryBtn: { children: 'Explore' }
 };
-

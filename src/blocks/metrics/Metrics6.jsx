@@ -100,4 +100,3 @@ export default function Metrics6({ bgImage, heading, caption, blockDetail }) {
 CounterCard.propTypes = { counter: PropTypes.any, caption: PropTypes.any, defaultUnit: PropTypes.any };
 
 Metrics6.propTypes = { bgImage: PropTypes.any, heading: PropTypes.any, caption: PropTypes.any, blockDetail: PropTypes.any };
-

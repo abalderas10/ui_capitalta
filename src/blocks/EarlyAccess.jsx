@@ -101,4 +101,3 @@ export default function EarlyAccess({ heading, caption, primaryBtn, image }) {
 }
 
 EarlyAccess.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, image: PropTypes.any };
-

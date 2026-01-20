@@ -35,4 +35,3 @@ export const blog = {
   ],
   exploreMore: { children: 'Explore all Blog', sx: { textTransform: 'none' } }
 };
-

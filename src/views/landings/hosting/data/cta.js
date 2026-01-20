@@ -42,4 +42,3 @@ export const cta12 = {
     'Hosting takes pride in actively contributing 5% of its resources to WordPress Five for the Future, making the platform better for all users. Furthermore, we sponsor major WordCamp events in the United States, Europe, and Asia to support its success.',
   image: { light: '/assets/images/hosting/graphics/graphics10-light.svg', dark: '/assets/images/hosting/graphics/graphics10-dark.svg' }
 };
-

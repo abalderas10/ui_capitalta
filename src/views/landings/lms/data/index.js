@@ -14,4 +14,3 @@ export { contactUS1 } from './contact-us';
 export { smallHero1, aboutSmallHero1, blogSmallHero1 } from './small-hero';
 export { metrics10 } from './metrics';
 export { process7 } from './process';
-

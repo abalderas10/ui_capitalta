@@ -21,4 +21,3 @@ export const clientele3 = {
     { image: { component: 'clientele/Reddit', type: DynamicComponentType.IMAGE } }
   ]
 };
-

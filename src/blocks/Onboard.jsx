@@ -85,4 +85,3 @@ export default function OnBoard({ heading, caption, primaryBtn, secondaryBtn }) 
 }
 
 OnBoard.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, secondaryBtn: PropTypes.any };
-

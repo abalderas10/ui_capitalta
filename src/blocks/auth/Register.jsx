@@ -87,4 +87,3 @@ export default function Register({ heading, caption }) {
 }
 
 Register.propTypes = { heading: PropTypes.string, caption: PropTypes.string };
-

@@ -14,4 +14,3 @@ export const hero = {
     { icon: 'tabler-chart-histogram', title: 'Real-time performance insights' }
   ]
 };
-

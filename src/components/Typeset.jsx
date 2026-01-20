@@ -34,4 +34,3 @@ Typeset.propTypes = {
   headingProps: PropTypes.any,
   captionProps: PropTypes.any
 };
-

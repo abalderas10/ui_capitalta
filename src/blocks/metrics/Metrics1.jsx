@@ -81,4 +81,3 @@ export default function Metrics1({ heading, caption, bgImage, blockDetail }) {
 CounterBlock.propTypes = { counter: PropTypes.number, caption: PropTypes.string, defaultUnit: PropTypes.string };
 
 Metrics1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, bgImage: PropTypes.any, blockDetail: PropTypes.any };
-

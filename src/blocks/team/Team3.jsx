@@ -159,4 +159,3 @@ export default function Team3({ heading, caption, members }) {
 }
 
 Team3.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
-

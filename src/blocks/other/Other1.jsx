@@ -179,4 +179,3 @@ export default function Other1({ heading, description, primaryBtn, sections }) {
 }
 
 Other1.propTypes = { heading: PropTypes.string, description: PropTypes.string, primaryBtn: PropTypes.any, sections: PropTypes.array };
-

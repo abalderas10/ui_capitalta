@@ -107,4 +107,3 @@ Feature17.propTypes = {
   image: PropTypes.any,
   actionBtn: PropTypes.any
 };
-

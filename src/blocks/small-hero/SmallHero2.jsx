@@ -61,4 +61,3 @@ export default function SmallHero2({ chip, headLine, captionLine }) {
 }
 
 SmallHero2.propTypes = { chip: PropTypes.any, headLine: PropTypes.any, captionLine: PropTypes.any };
-

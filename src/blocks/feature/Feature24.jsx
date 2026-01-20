@@ -149,4 +149,3 @@ Feature24.propTypes = {
   list: PropTypes.array,
   description: PropTypes.oneOfType([PropTypes.node, PropTypes.string])
 };
-

@@ -94,4 +94,3 @@ export default function Gallery1({ heading, caption, images }) {
 }
 
 Gallery1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, images: PropTypes.any };
-

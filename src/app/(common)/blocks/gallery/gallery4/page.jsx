@@ -23,4 +23,3 @@ const data = {
 export default function BlockGallery4() {
   return <Gallery4 {...data} />;
 }
-

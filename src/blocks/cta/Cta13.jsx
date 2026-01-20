@@ -103,4 +103,3 @@ export default function Cta13({ heading, caption, listData }) {
 }
 
 Cta13.propTypes = { heading: PropTypes.string, caption: PropTypes.string, listData: PropTypes.array };
-

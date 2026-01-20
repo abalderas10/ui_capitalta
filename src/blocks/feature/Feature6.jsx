@@ -103,4 +103,3 @@ export default function Feature6({ heading, caption, image, features }) {
 }
 
 Feature6.propTypes = { heading: PropTypes.string, caption: PropTypes.string, image: PropTypes.any, features: PropTypes.array };
-

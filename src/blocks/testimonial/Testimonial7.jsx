@@ -149,4 +149,3 @@ export default function Testimonial7({ heading, primaryBtn, testimonials }) {
 }
 
 Testimonial7.propTypes = { heading: PropTypes.any, primaryBtn: PropTypes.any, testimonials: PropTypes.any };
-

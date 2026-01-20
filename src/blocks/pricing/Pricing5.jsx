@@ -223,4 +223,3 @@ Pricing5.propTypes = {
   plans: PropTypes.array,
   user: PropTypes.string
 };
-

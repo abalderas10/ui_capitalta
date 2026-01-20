@@ -81,4 +81,3 @@ export default function ForgotPassword({ heading, caption }) {
 }
 
 ForgotPassword.propTypes = { heading: PropTypes.string, caption: PropTypes.string };
-

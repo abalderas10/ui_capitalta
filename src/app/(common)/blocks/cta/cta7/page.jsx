@@ -31,4 +31,3 @@ const data = {
 export default function BlockCta7() {
   return <Cta7 {...data} />;
 }
-

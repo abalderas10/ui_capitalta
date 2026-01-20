@@ -76,4 +76,3 @@ export default function Metrics10({ blockDetail }) {
 CounterBlock.propTypes = { counter: PropTypes.number, caption: PropTypes.string, defaultUnit: PropTypes.string };
 
 Metrics10.propTypes = { blockDetail: PropTypes.any };
-

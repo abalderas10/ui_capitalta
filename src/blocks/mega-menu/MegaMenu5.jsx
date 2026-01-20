@@ -106,4 +106,3 @@ export default function MegaMenu5({ menuItems, bannerData, popperWidth = 750 }) 
 }
 
 MegaMenu5.propTypes = { menuItems: PropTypes.array, bannerData: PropTypes.node, popperWidth: PropTypes.number };
-

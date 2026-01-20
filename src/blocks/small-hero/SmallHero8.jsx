@@ -94,4 +94,3 @@ export default function SmallHero8({ heading, caption, video }) {
 }
 
 SmallHero8.propTypes = { heading: PropTypes.string, caption: PropTypes.string, video: PropTypes.object };
-

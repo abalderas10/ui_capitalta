@@ -186,4 +186,3 @@ NavList.propTypes = { item: PropTypes.any, menuTextColor: PropTypes.string };
 NavMenu.propTypes = { navItems: PropTypes.array, menuTextColor: PropTypes.string };
 
 NavMenuDrawer.propTypes = { navItems: PropTypes.array, menuTextColor: PropTypes.string };
-

@@ -318,4 +318,3 @@ Feature5.propTypes = {
   actionBtn: PropTypes.any,
   actionBtn2: PropTypes.any
 };
-

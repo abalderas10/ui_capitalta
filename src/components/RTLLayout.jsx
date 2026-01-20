@@ -34,4 +34,3 @@ export default function RTLLayout({ children }) {
 }
 
 RTLLayout.propTypes = { children: PropTypes.node };
-

@@ -144,4 +144,3 @@ Faq5.propTypes = {
   image: PropTypes.any,
   getInTouch: PropTypes.any
 };
-

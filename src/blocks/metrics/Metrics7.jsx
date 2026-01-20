@@ -188,4 +188,3 @@ Metrics7.propTypes = {
   caption: PropTypes.any,
   blockDetail: PropTypes.any
 };
-

@@ -27,4 +27,3 @@ const data = {
 export default function BlockLogin4() {
   return <Login4 {...data} />;
 }
-

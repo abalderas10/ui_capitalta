@@ -11,16 +11,7 @@ export async function POST(request) {
 
   const body = await request.json();
 
-  const {
-    lead_id,
-    monto,
-    plazo,
-    tasa_anual,
-    pago_mensual,
-    interes_total,
-    total_a_pagar,
-    tabla_amortizacion
-  } = body;
+  const { lead_id, monto, plazo, tasa_anual, pago_mensual, interes_total, total_a_pagar, tabla_amortizacion } = body;
 
   if (
     !lead_id ||
@@ -57,5 +48,3 @@ export async function POST(request) {
 
   return NextResponse.json({ cotizacion: data }, { status: 201 });
 }
-
-

@@ -4,7 +4,8 @@ import { DOCS_URL } from '@/path';
 
 export const integration = {
   headLine: 'Soluciones para cada sector',
-  captionLine: 'Desde la construcción hasta la tecnología, impulsamos el crecimiento de empresas en diversas industrias con financiamiento a la medida.',
+  captionLine:
+    'Desde la construcción hasta la tecnología, impulsamos el crecimiento de empresas en diversas industrias con financiamiento a la medida.',
   primaryBtn: {
     children: 'Ver requisitos',
     startIcon: <SvgIcon name="tabler-file-check" color="background.default" />,

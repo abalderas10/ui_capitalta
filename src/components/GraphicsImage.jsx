@@ -63,4 +63,3 @@ export default function GraphicsImage({ children, image, sx, cardMediaProps }) {
 }
 
 GraphicsImage.propTypes = { children: PropTypes.any, image: PropTypes.any, sx: PropTypes.any, cardMediaProps: PropTypes.any };
-

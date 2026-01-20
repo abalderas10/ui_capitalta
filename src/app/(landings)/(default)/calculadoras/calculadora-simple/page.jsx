@@ -150,11 +150,7 @@ export default function CalculadoraSimplePage() {
 
   const filasTabla =
     tablaCompleta.length > 15
-      ? [
-          ...tablaCompleta.slice(0, 12),
-          { mes: '...', pago: null, interes: null, capital: null, saldo: null },
-          ...tablaCompleta.slice(-3)
-        ]
+      ? [...tablaCompleta.slice(0, 12), { mes: '...', pago: null, interes: null, capital: null, saldo: null }, ...tablaCompleta.slice(-3)]
       : tablaCompleta;
 
   const handleLeadSubmit = async (event) => {
@@ -220,8 +216,7 @@ export default function CalculadoraSimplePage() {
         if (!respuestaCotizacion.ok) {
           const dataCotizacion = await respuestaCotizacion.json().catch(() => ({}));
           setLeadError(
-            dataCotizacion.error ||
-              'Guardamos tus datos, pero no pudimos registrar la cotización. Intenta nuevamente más tarde.'
+            dataCotizacion.error || 'Guardamos tus datos, pero no pudimos registrar la cotización. Intenta nuevamente más tarde.'
           );
           return;
         }
@@ -553,8 +548,8 @@ export default function CalculadoraSimplePage() {
             <Stack spacing={3}>
               <Typography variant="h4">Compártenos tus datos</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                Déjanos tu información básica junto con los parámetros de esta simulación y un asesor de Capitalta te contactará para revisar
-                opciones y siguientes pasos.
+                Déjanos tu información básica junto con los parámetros de esta simulación y un asesor de Capitalta te contactará para
+                revisar opciones y siguientes pasos.
               </Typography>
               <Box
                 component="form"
@@ -570,24 +565,9 @@ export default function CalculadoraSimplePage() {
               >
                 <Stack spacing={2}>
                   <TextField label="Nombre completo" value={nombre} onChange={(event) => setNombre(event.target.value)} required />
-                  <TextField
-                    label="Email"
-                    type="email"
-                    value={email}
-                    onChange={(event) => setEmail(event.target.value)}
-                    required
-                  />
-                  <TextField
-                    label="Teléfono"
-                    value={telefono}
-                    onChange={(event) => setTelefono(event.target.value)}
-                    required
-                  />
-                  <TextField
-                    label="Empresa (opcional)"
-                    value={empresa}
-                    onChange={(event) => setEmpresa(event.target.value)}
-                  />
+                  <TextField label="Email" type="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
+                  <TextField label="Teléfono" value={telefono} onChange={(event) => setTelefono(event.target.value)} required />
+                  <TextField label="Empresa (opcional)" value={empresa} onChange={(event) => setEmpresa(event.target.value)} />
                   {leadError && (
                     <Typography variant="caption" sx={{ color: 'error.main' }}>
                       {leadError}
@@ -614,8 +594,8 @@ export default function CalculadoraSimplePage() {
             <Stack spacing={2.5}>
               <Typography variant="h4">Tabla de amortización estimada</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary', maxWidth: 720 }}>
-                Visualiza cómo se distribuyen capital e intereses a lo largo del tiempo. Se muestran los primeros 12 meses y los últimos 3 para
-                una vista resumida; en el PDF encontrarás la tabla completa.
+                Visualiza cómo se distribuyen capital e intereses a lo largo del tiempo. Se muestran los primeros 12 meses y los últimos 3
+                para una vista resumida; en el PDF encontrarás la tabla completa.
               </Typography>
               <TableContainer component={Paper}>
                 <Table size="small">
@@ -671,5 +651,3 @@ export default function CalculadoraSimplePage() {
     </>
   );
 }
-
-

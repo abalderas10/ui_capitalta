@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.earlyAccess, openGraph: { ...SEO_CONTEN
 export default function EarlyAccessPage() {
   return <EarlyAccess />;
 }
-

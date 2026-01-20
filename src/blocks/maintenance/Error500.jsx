@@ -46,4 +46,3 @@ export default function Error500Page({ primaryBtn, heading }) {
 }
 
 Error500Page.propTypes = { primaryBtn: PropTypes.any, heading: PropTypes.string };
-

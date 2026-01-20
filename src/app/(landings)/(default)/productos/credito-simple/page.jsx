@@ -123,11 +123,7 @@ export default function CreditoSimplePage() {
 
   const filasTabla =
     tablaCompleta.length > 15
-      ? [
-          ...tablaCompleta.slice(0, 12),
-          { mes: '...', pago: null, interes: null, capital: null, saldo: null },
-          ...tablaCompleta.slice(-3)
-        ]
+      ? [...tablaCompleta.slice(0, 12), { mes: '...', pago: null, interes: null, capital: null, saldo: null }, ...tablaCompleta.slice(-3)]
       : tablaCompleta;
 
   return (
@@ -198,13 +194,13 @@ export default function CreditoSimplePage() {
             <Stack spacing={2}>
               <Typography variant="h4">¿Qué es el Crédito Simple?</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                Es un crédito con un solo desembolso inicial que te permite financiar proyectos específicos, consolidar pasivos o fortalecer tu
-                capital de trabajo con pagos mensuales fijos durante toda la vida del crédito.
+                Es un crédito con un solo desembolso inicial que te permite financiar proyectos específicos, consolidar pasivos o fortalecer
+                tu capital de trabajo con pagos mensuales fijos durante toda la vida del crédito.
               </Typography>
               <Typography variant="subtitle1">Ideal para</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                Nuevos inversionistas, personas físicas con actividad empresarial y empresas que necesitan recursos claros y programados para
-                ejecutar sus planes.
+                Nuevos inversionistas, personas físicas con actividad empresarial y empresas que necesitan recursos claros y programados
+                para ejecutar sus planes.
               </Typography>
             </Stack>
           </Grid>
@@ -532,8 +528,8 @@ export default function CreditoSimplePage() {
               <Stack spacing={1}>
                 <Typography variant="h5">¿Listo para impulsar tu próximo proyecto?</Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Comparte algunos datos básicos y un asesor de Capitalta te acompañará para estructurar el Crédito Simple que mejor se adapte
-                  a tu capacidad de pago.
+                  Comparte algunos datos básicos y un asesor de Capitalta te acompañará para estructurar el Crédito Simple que mejor se
+                  adapte a tu capacidad de pago.
                 </Typography>
               </Stack>
             </Grid>
@@ -553,5 +549,3 @@ export default function CreditoSimplePage() {
     </>
   );
 }
-
-

@@ -163,4 +163,3 @@ Cta10.propTypes = {
   secondaryBtn: PropTypes.any,
   image: PropTypes.any
 };
-

@@ -39,4 +39,3 @@ export default function Devto({ imageSize }) {
 }
 
 Devto.propTypes = { imageSize: PropTypes.object };
-

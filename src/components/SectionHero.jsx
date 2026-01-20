@@ -74,7 +74,7 @@ const options = [
 
 /***************************  SECTION HERO  ***************************/
 
-export default function SectionHero({ heading, search = true, offer = false, breadcrumbs }) {
+export default function SectionHero({ heading, caption, search = true, offer = false, breadcrumbs }) {
   const theme = useTheme();
   const router = useRouter();
 
@@ -166,6 +166,11 @@ export default function SectionHero({ heading, search = true, offer = false, bre
           <Typography variant="h1" sx={{ textAlign: 'center', width: { xs: 345, sm: 550, md: 700 } }}>
             {heading}
           </Typography>
+          {caption && (
+            <Typography variant="h5" color="text.secondary" sx={{ textAlign: 'center', maxWidth: { xs: 345, sm: 550, md: 700 }, mt: 2 }}>
+              {caption}
+            </Typography>
+          )}
           <Box sx={{ py: { xs: 0.575, md: 0.875 } }}>
             <Wave />
           </Box>
@@ -228,4 +233,3 @@ export default function SectionHero({ heading, search = true, offer = false, bre
 }
 
 SectionHero.propTypes = { heading: PropTypes.string, search: PropTypes.bool, offer: PropTypes.bool, breadcrumbs: PropTypes.array };
-

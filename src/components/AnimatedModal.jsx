@@ -46,4 +46,3 @@ AnimatedModal.propTypes = {
   sx: PropTypes.any,
   modalSize: PropTypes.any
 };
-

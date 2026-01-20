@@ -14,4 +14,3 @@ export { navbar } from './navbar';
 export { pricing } from './pricing';
 export { process } from './process';
 export { testimonial } from './testimonial';
-

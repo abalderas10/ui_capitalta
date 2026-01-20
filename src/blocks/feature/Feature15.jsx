@@ -205,4 +205,3 @@ Feature15.propTypes = {
   blockData3: PropTypes.any,
   blockData4: PropTypes.any
 };
-

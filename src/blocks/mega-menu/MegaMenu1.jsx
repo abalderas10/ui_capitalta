@@ -106,4 +106,3 @@ export default function MegaMenu1({ menuItems, footerData, footerSX }) {
 }
 
 MegaMenu1.propTypes = { menuItems: PropTypes.array, footerData: PropTypes.any, footerSX: PropTypes.any };
-

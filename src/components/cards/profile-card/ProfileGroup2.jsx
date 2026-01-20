@@ -49,4 +49,3 @@ ProfileGroup2.propTypes = {
   totalReviews: PropTypes.string,
   starColor: PropTypes.string
 };
-

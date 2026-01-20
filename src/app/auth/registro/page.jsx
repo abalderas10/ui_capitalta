@@ -81,10 +81,7 @@ export default function RegistroWizardPage() {
     return Math.min(PLAZO_MAX, Math.max(PLAZO_MIN, plazo));
   }, [plazo]);
 
-  const pagoMensual = useMemo(
-    () => calcularPagoMensual(montoAjustado, plazoAjustado, TASA_ANUAL),
-    [montoAjustado, plazoAjustado]
-  );
+  const pagoMensual = useMemo(() => calcularPagoMensual(montoAjustado, plazoAjustado, TASA_ANUAL), [montoAjustado, plazoAjustado]);
 
   const pasos = ['Monto y plazo', 'Tipo de cliente', 'Datos personales', 'Verificación', 'Confirmación'];
 
@@ -198,7 +195,8 @@ export default function RegistroWizardPage() {
           <Typography variant="subtitle2">Pago mensual estimado</Typography>
           <Typography variant="h5">{formatoMoneda(pagoMensual)}</Typography>
           <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-            Estimado calculado con una tasa de referencia del {TASA_ANUAL}% anual. El monto final puede variar tras el análisis de Capitalta.
+            Estimado calculado con una tasa de referencia del {TASA_ANUAL}% anual. El monto final puede variar tras el análisis de
+            Capitalta.
           </Typography>
         </Stack>
       </Box>
@@ -220,19 +218,11 @@ export default function RegistroWizardPage() {
             setErrorPaso('');
           }}
         >
-          <FormControlLabel
-            value="persona_fisica"
-            control={<Radio />}
-            label="Persona Física"
-          />
+          <FormControlLabel value="persona_fisica" control={<Radio />} label="Persona Física" />
           <FormHelperText sx={{ ml: 4, mb: 1 }}>
             Créditos a nombre de una persona, con ingresos comprobables y garantías personales o hipotecarias.
           </FormHelperText>
-          <FormControlLabel
-            value="persona_moral"
-            control={<Radio />}
-            label="Persona Moral"
-          />
+          <FormControlLabel value="persona_moral" control={<Radio />} label="Persona Moral" />
           <FormHelperText sx={{ ml: 4 }}>
             Créditos a nombre de una empresa constituida, con documentación legal y fiscal actualizada.
           </FormHelperText>
@@ -249,41 +239,16 @@ export default function RegistroWizardPage() {
       </Typography>
       <Grid container spacing={2}>
         <Grid item xs={12} md={6}>
-          <TextField
-            label="Nombre"
-            value={nombre}
-            onChange={(event) => setNombre(event.target.value)}
-            required
-            fullWidth
-          />
+          <TextField label="Nombre" value={nombre} onChange={(event) => setNombre(event.target.value)} required fullWidth />
         </Grid>
         <Grid item xs={12} md={6}>
-          <TextField
-            label="Apellido"
-            value={apellido}
-            onChange={(event) => setApellido(event.target.value)}
-            required
-            fullWidth
-          />
+          <TextField label="Apellido" value={apellido} onChange={(event) => setApellido(event.target.value)} required fullWidth />
         </Grid>
         <Grid item xs={12} md={6}>
-          <TextField
-            label="Email"
-            type="email"
-            value={email}
-            onChange={(event) => setEmail(event.target.value)}
-            required
-            fullWidth
-          />
+          <TextField label="Email" type="email" value={email} onChange={(event) => setEmail(event.target.value)} required fullWidth />
         </Grid>
         <Grid item xs={12} md={6}>
-          <TextField
-            label="Teléfono"
-            value={telefono}
-            onChange={(event) => setTelefono(event.target.value)}
-            required
-            fullWidth
-          />
+          <TextField label="Teléfono" value={telefono} onChange={(event) => setTelefono(event.target.value)} required fullWidth />
         </Grid>
         <Grid item xs={12} md={6}>
           <TextField
@@ -315,11 +280,7 @@ export default function RegistroWizardPage() {
         identidad y proteger tu información.
       </Typography>
       <Stack spacing={2}>
-        <TextField
-          label="Código OTP"
-          placeholder="Ingresa los 6 dígitos"
-          inputProps={{ maxLength: 6, inputMode: 'numeric' }}
-        />
+        <TextField label="Código OTP" placeholder="Ingresa los 6 dígitos" inputProps={{ maxLength: 6, inputMode: 'numeric' }} />
         <Button variant="text" sx={{ alignSelf: 'flex-start' }}>
           Reenviar código
         </Button>
@@ -332,8 +293,8 @@ export default function RegistroWizardPage() {
       <Typography variant="h5">Paso 5: Confirmación</Typography>
       <Typography variant="h4">¡Bienvenido a Capitalta!</Typography>
       <Typography variant="body2" sx={{ color: 'text.secondary', maxWidth: 640 }}>
-        Hemos recibido tu solicitud con los datos proporcionados. Un asesor revisará tu información y te contactará para los siguientes pasos,
-        incluyendo la coordinación de tu cita presencial para firma y entrega de garantías.
+        Hemos recibido tu solicitud con los datos proporcionados. Un asesor revisará tu información y te contactará para los siguientes
+        pasos, incluyendo la coordinación de tu cita presencial para firma y entrega de garantías.
       </Typography>
 
       <Box
@@ -367,9 +328,7 @@ export default function RegistroWizardPage() {
             <Typography variant="caption" sx={{ color: 'text.secondary' }}>
               Tipo de cliente
             </Typography>
-            <Typography variant="body2">
-              {tipoCliente === 'persona_moral' ? 'Persona Moral' : 'Persona Física'}
-            </Typography>
+            <Typography variant="body2">{tipoCliente === 'persona_moral' ? 'Persona Moral' : 'Persona Física'}</Typography>
           </Grid>
           <Grid item xs={12} sm={6}>
             <Typography variant="caption" sx={{ color: 'text.secondary' }}>
@@ -426,8 +385,8 @@ export default function RegistroWizardPage() {
               </Typography>
               <Typography variant="h3">Abre tu solicitud de crédito con Capitalta</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                Este flujo en cinco pasos te permite avanzar de forma segura y no invasiva. Podrás ajustar tu monto y plazo, definir tu tipo de
-                cliente y registrar tus datos básicos antes de agendar la cita presencial.
+                Este flujo en cinco pasos te permite avanzar de forma segura y no invasiva. Podrás ajustar tu monto y plazo, definir tu tipo
+                de cliente y registrar tus datos básicos antes de agendar la cita presencial.
               </Typography>
               <Stack spacing={1.5}>
                 <Typography variant="subtitle2">Progreso</Typography>
@@ -500,5 +459,3 @@ export default function RegistroWizardPage() {
     </Box>
   );
 }
-
-

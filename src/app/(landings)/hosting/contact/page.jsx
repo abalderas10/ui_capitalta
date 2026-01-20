@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.contactUs };
 export default function ContactPage() {
   return <Contact />;
 }
-

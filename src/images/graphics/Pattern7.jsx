@@ -24,4 +24,3 @@ export default function Pattern7() {
     </svg>
   );
 }
-

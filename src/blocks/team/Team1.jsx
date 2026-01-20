@@ -38,4 +38,3 @@ export default function Team1({ heading, caption, members }) {
 }
 
 Team1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any };
-

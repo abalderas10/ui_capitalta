@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.comingSoon, openGraph: { ...SEO_CONTENT
 export default function ComingSoonPage() {
   return <ComingSoon />;
 }
-

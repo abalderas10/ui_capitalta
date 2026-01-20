@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.error500, openGraph: { ...SEO_CONTENT.e
 export default function Error500Page() {
   return <Error500 />;
 }
-

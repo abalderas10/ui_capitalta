@@ -149,4 +149,3 @@ export default function Gallery3({ heading, caption, images }) {
 GraphicsBox.propTypes = { boxData: PropTypes.array, setIndex: PropTypes.func };
 
 Gallery3.propTypes = { heading: PropTypes.any, caption: PropTypes.any, images: PropTypes.any };
-

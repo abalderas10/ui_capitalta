@@ -77,4 +77,3 @@ export default function FollowUS({ heading = true, color }) {
 }
 
 FollowUS.propTypes = { heading: PropTypes.oneOfType([PropTypes.bool, PropTypes.string]), color: PropTypes.string };
-

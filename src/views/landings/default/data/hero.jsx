@@ -36,4 +36,3 @@ export const hero = {
   videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
   listData: []
 };
-

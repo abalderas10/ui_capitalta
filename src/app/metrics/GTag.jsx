@@ -6,4 +6,3 @@ export default function GTag({ gaId }) {
 }
 
 GTag.propTypes = { gaId: PropTypes.string };
-

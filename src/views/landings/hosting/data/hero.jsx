@@ -68,4 +68,3 @@ export const contacthero19 = {
   primaryBtn: { children: 'Contact Now' },
   secondaryBtn: { children: 'Chat Now' }
 };
-

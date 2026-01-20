@@ -57,4 +57,3 @@ export const pricing5 = {
     }
   ]
 };
-

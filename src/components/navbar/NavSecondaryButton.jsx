@@ -24,4 +24,3 @@ export default function NavSecondaryButton({ sx, children, ...rest }) {
 }
 
 NavSecondaryButton.propTypes = { sx: PropTypes.any, children: PropTypes.any, rest: PropTypes.any };
-

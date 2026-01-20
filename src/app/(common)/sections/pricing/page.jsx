@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.pricing, openGraph: { ...SEO_CONTENT.pr
 export default function PricingPage() {
   return <Pricing />;
 }
-

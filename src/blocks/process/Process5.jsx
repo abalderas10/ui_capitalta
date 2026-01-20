@@ -143,4 +143,3 @@ export default function Process5({ heading, caption, cards }) {
 }
 
 Process5.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array };
-

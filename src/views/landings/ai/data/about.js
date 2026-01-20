@@ -10,4 +10,3 @@ export const about = {
     'Empower your business with our AI platform, streamlining sales, marketing, and service processes to drive growth and build stronger customer relationships.',
   primaryBtn: { children: 'Subscribe', component: Link, href: '#', scroll: false }
 };
-

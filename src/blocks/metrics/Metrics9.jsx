@@ -59,4 +59,3 @@ export default function Metrics9({ heading, caption, blockDetail, exploreBtn }) 
 }
 
 Metrics9.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blockDetail: PropTypes.any, exploreBtn: PropTypes.any };
-

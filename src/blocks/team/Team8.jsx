@@ -113,4 +113,3 @@ export default function Team8({ heading, caption, members, isFilter = true }) {
 }
 
 Team8.propTypes = { heading: PropTypes.any, caption: PropTypes.any, members: PropTypes.any, isFilter: PropTypes.bool };
-

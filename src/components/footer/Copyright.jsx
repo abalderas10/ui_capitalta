@@ -74,4 +74,3 @@ Copyright.propTypes = {
   textProps: PropTypes.any,
   isDivider: PropTypes.bool
 };
-

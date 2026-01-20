@@ -133,4 +133,3 @@ Hero8.propTypes = {
   image: PropTypes.any,
   listData: PropTypes.array
 };
-

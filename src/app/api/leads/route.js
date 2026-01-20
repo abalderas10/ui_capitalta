@@ -11,18 +11,7 @@ export async function POST(request) {
 
   const body = await request.json();
 
-  const {
-    email,
-    nombre,
-    apellido,
-    telefono,
-    tipo_cliente,
-    empresa,
-    rfc,
-    monto_solicitado,
-    plazo_meses,
-    tipo_credito
-  } = body;
+  const { email, nombre, apellido, telefono, tipo_cliente, empresa, rfc, monto_solicitado, plazo_meses, tipo_credito } = body;
 
   if (!email || !nombre || !telefono) {
     return NextResponse.json({ error: 'Faltan campos obligatorios' }, { status: 400 });
@@ -52,4 +41,3 @@ export async function POST(request) {
 
   return NextResponse.json({ lead: data }, { status: 201 });
 }
-

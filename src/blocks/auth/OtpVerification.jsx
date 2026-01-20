@@ -83,4 +83,3 @@ export default function OtpVerification({ heading, caption }) {
 }
 
 OtpVerification.propTypes = { heading: PropTypes.string, caption: PropTypes.object };
-

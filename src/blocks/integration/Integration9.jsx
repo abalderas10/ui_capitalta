@@ -101,4 +101,3 @@ export default function Integration9({ headLine, captionLine, tagList, primaryBt
 IntegrationTag.propTypes = { label: PropTypes.any, icon: PropTypes.any };
 
 Integration9.propTypes = { headLine: PropTypes.string, captionLine: PropTypes.string, tagList: PropTypes.array, primaryBtn: PropTypes.any };
-

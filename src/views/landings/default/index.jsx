@@ -23,13 +23,7 @@ import ContainerWrapper from '@/components/ContainerWrapper';
 import LazySection from '@/components/LazySection';
 
 // @data
-import {
-  metrics,
-  faq,
-  aboutCapitalta,
-  feature20,
-  hero
-} from './data';
+import { metrics, faq, aboutCapitalta, feature20, hero } from './data';
 
 /***************************  PAGE - MAIN  ***************************/
 
@@ -41,9 +35,7 @@ export default function Main() {
 
   const tasaMensual = tasaAnual / 12 / 100;
   const pagoMensual =
-    tasaMensual > 0 && plazo > 0
-      ? (monto * tasaMensual * Math.pow(1 + tasaMensual, plazo)) / (Math.pow(1 + tasaMensual, plazo) - 1)
-      : 0;
+    tasaMensual > 0 && plazo > 0 ? (monto * tasaMensual * Math.pow(1 + tasaMensual, plazo)) / (Math.pow(1 + tasaMensual, plazo) - 1) : 0;
   const totalPagar = pagoMensual * plazo;
   const interesTotal = totalPagar - monto;
 
@@ -138,7 +130,8 @@ export default function Main() {
               </Typography>
               <Typography variant="h3">Fundamentos que guían cada crédito</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary', maxWidth: 720, mx: 'auto' }}>
-                En Capitalta ponemos por delante la transparencia, la responsabilidad y la cercanía para construir relaciones de largo plazo.
+                En Capitalta ponemos por delante la transparencia, la responsabilidad y la cercanía para construir relaciones de largo
+                plazo.
               </Typography>
             </Stack>
             <Grid container spacing={3}>
@@ -258,8 +251,8 @@ export default function Main() {
               <Stack spacing={2.5}>
                 <Typography variant="h3">Calculadora rápida de crédito</Typography>
                 <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                  Ingresa un monto y plazo estimado para conocer un pago mensual aproximado. Los resultados son informativos y pueden variar según
-                  análisis de Capitalta.
+                  Ingresa un monto y plazo estimado para conocer un pago mensual aproximado. Los resultados son informativos y pueden variar
+                  según análisis de Capitalta.
                 </Typography>
                 <TextField
                   label="Monto solicitado (MXN)"
@@ -346,19 +339,14 @@ export default function Main() {
       <Process1 {...capitaltaProcess} />
 
       <LazySection
-        sections={[
-          { importFunc: () => import('@/blocks/metrics').then((module) => ({ default: module.Metrics5 })), props: metrics }
-        ]}
+        sections={[{ importFunc: () => import('@/blocks/metrics').then((module) => ({ default: module.Metrics5 })), props: metrics }]}
         offset="200px"
       />
 
       <LazySection
-        sections={[
-          { importFunc: () => import('@/blocks/faq').then((module) => ({ default: module.Faq6 })), props: faq }
-        ]}
+        sections={[{ importFunc: () => import('@/blocks/faq').then((module) => ({ default: module.Faq6 })), props: faq }]}
         offset="200px"
       />
     </>
   );
 }
-

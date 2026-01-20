@@ -96,4 +96,3 @@ export default function Error5001() {
     </svg>
   );
 }
-

@@ -302,4 +302,3 @@ ColorBox.propTypes = {
 };
 
 ColorPalette.propTypes = { title: PropTypes.string, palette: PropTypes.array };
-

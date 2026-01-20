@@ -245,4 +245,3 @@ Review.propTypes = { review: PropTypes.string };
 ReviewCard.propTypes = { ratings: PropTypes.any, review: PropTypes.any, profile: PropTypes.any };
 
 Testimonial1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, testimonials: PropTypes.any, link: PropTypes.any };
-

@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.section };
 export default function SectionsPage() {
   return <Sections />;
 }
-

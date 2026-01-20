@@ -21,14 +21,7 @@ export const mainMetadata = {
   },
   description,
   applicationName: title,
-  keywords: [
-    'Crédito',
-    `${branding.brandName}`,
-    'Financiamiento',
-    'Crédito Empresarial',
-    'Crédito Simple',
-    'México'
-  ],
+  keywords: ['Crédito', `${branding.brandName}`, 'Financiamiento', 'Crédito Empresarial', 'Crédito Simple', 'México'],
   creator: `${branding.company.name}`,
   metadataBase: new URL(process.env.NEXT_PUBLIC_METADATA_BASE || 'http://localhost:3000'),
   alternates: {
@@ -345,4 +338,3 @@ export const SEO_CONTENT = {
     description: `${branding.brandName} typography page provides a curated selection of font styles, sizes, and weights to ensure a cohesive and visually appealing text hierarchy, enhancing readability and consistency across your application’s design.`
   }
 };
-

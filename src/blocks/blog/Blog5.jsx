@@ -241,4 +241,3 @@ BlogCard.propTypes = {
 };
 
 Blog5.propTypes = { heading: PropTypes.any, caption: PropTypes.any, viewMore: PropTypes.any, blogs: PropTypes.any };
-

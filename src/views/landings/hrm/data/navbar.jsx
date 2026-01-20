@@ -25,4 +25,3 @@ export const navbar = {
     { id: 'docs', title: 'Docs', link: DOCS_URL, ...linkProps, icon: 'tabler-pin-invoke' }
   ]
 };
-

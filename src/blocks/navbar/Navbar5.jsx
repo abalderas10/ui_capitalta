@@ -60,4 +60,3 @@ export default function Navbar5({ children, isFixed = true, ...props }) {
 }
 
 Navbar5.propTypes = { children: PropTypes.any, isFixed: PropTypes.bool, props: PropTypes.any };
-

@@ -25,4 +25,3 @@ const data = {
 export default function BlockClientele7() {
   return <Clientele7 {...data} />;
 }
-

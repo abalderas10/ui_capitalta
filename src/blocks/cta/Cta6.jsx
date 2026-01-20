@@ -158,4 +158,3 @@ Cta6.propTypes = {
   primaryBtn: PropTypes.any,
   clienteleList: PropTypes.array
 };
-

@@ -94,4 +94,3 @@ export const pricing7 = {
     }
   ]
 };
-

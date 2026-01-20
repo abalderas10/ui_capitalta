@@ -155,4 +155,3 @@ export default function Login1({ heading, caption, testimonials, image }) {
 }
 
 Login1.propTypes = { heading: PropTypes.string, caption: PropTypes.string, testimonials: PropTypes.array, image: PropTypes.any };
-

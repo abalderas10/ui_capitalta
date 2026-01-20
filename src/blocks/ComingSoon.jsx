@@ -158,4 +158,3 @@ export default function ComingSoon({ chip, primaryBtn, description }) {
 }
 
 ComingSoon.propTypes = { chip: PropTypes.object, primaryBtn: PropTypes.any, description: PropTypes.string };
-

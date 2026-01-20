@@ -16,4 +16,3 @@ const data = {
 export default function BlockOnBoardPage() {
   return <OnboardPage {...data} />;
 }
-

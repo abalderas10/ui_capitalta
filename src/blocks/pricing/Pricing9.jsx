@@ -179,4 +179,3 @@ export default function Pricing9({ heading, caption, features, plans }) {
 }
 
 Pricing9.propTypes = { heading: PropTypes.string, caption: PropTypes.string, features: PropTypes.array, plans: PropTypes.array };
-

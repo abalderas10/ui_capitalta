@@ -161,4 +161,3 @@ Process3.propTypes = {
   image: PropTypes.any,
   defaultExpanded: PropTypes.string
 };
-

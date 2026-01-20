@@ -24,4 +24,3 @@ function ModalCard({ children, sx, ref, ...rest }) {
 export default ModalCard;
 
 ModalCard.propTypes = { children: PropTypes.node, sx: PropTypes.any, ref: PropTypes.any, rest: PropTypes.any };
-

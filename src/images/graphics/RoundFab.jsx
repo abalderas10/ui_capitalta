@@ -35,4 +35,3 @@ export default function RoundFab({ size }) {
 }
 
 RoundFab.propTypes = { size: PropTypes.number };
-

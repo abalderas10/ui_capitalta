@@ -37,4 +37,3 @@ export const hero = {
   },
   image: { light: '/assets/images/graphics/plugin/graphics1-light.svg', dark: '/assets/images/graphics/plugin/graphics1-dark.svg' }
 };
-

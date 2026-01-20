@@ -142,4 +142,3 @@ Feature13.propTypes = {
   cards: PropTypes.array,
   actionBtn: PropTypes.any
 };
-

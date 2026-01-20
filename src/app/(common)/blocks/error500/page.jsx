@@ -18,4 +18,3 @@ const data = {
 export default function BlockError500Page() {
   return <Error500Page {...data} />;
 }
-

@@ -63,4 +63,3 @@ const data = {
 export default function BlockTeam3() {
   return <Team3 {...data} />;
 }
-

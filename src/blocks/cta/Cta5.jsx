@@ -198,4 +198,3 @@ Cta5.propTypes = {
   saleData: PropTypes.any,
   profileGroups: PropTypes.object
 };
-

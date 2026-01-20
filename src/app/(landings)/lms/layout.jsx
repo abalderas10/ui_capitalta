@@ -27,4 +27,3 @@ export default function LMS({ children }) {
 }
 
 LMS.propTypes = { children: PropTypes.any };
-

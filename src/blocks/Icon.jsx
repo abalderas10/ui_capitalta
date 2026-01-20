@@ -169,4 +169,3 @@ export default function Icon() {
 }
 
 IconAvatar.propTypes = { icon: PropTypes.string, type: PropTypes.any };
-

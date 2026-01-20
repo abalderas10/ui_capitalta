@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.integration, openGraph: { ...SEO_CONTEN
 export default function IntegrationPage() {
   return <Integration />;
 }
-

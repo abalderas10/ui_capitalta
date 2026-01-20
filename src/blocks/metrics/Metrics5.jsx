@@ -97,4 +97,3 @@ export default function Metrics5({ heading, caption, blockDetail }) {
 AnimatedCounter.propTypes = { startCount: PropTypes.number, endCount: PropTypes.number };
 
 Metrics5.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blockDetail: PropTypes.any };
-

@@ -103,4 +103,3 @@ export default function AuthNewPassword({ inputSx }) {
 }
 
 AuthNewPassword.propTypes = { inputSx: PropTypes.any };
-

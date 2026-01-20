@@ -37,4 +37,3 @@ export default function ElevationScroll({ children, window, isFixed, triggerSX }
 }
 
 ElevationScroll.propTypes = { children: PropTypes.node, window: PropTypes.func, isFixed: PropTypes.bool, triggerSX: PropTypes.any };
-

@@ -155,4 +155,3 @@ CounterCard.propTypes = { counter: PropTypes.string, caption: PropTypes.string, 
 CounterBox.propTypes = { blockDetail: PropTypes.array };
 
 Login4.propTypes = { reviewData: PropTypes.object, heading: PropTypes.string, blockDetail: PropTypes.array };
-

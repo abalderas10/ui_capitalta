@@ -65,4 +65,3 @@ export default function Blog7({ heading, blogs }) {
 }
 
 Blog7.propTypes = { heading: PropTypes.any, blogs: PropTypes.any };
-

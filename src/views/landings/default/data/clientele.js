@@ -22,4 +22,3 @@ export const clientele2 = {
     { image: { component: 'clientele/Realtor', type: DynamicComponentType.IMAGE } }
   ]
 };
-

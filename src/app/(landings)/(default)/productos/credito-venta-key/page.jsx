@@ -469,15 +469,13 @@ export default function CreditoVentaKeyPage() {
                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                       Fecha de liquidación estimada
                     </Typography>
-                    <Typography variant="body1">
-                      {fechaLiquidacion ? formatearFecha(fechaLiquidacion) : '--'}
-                    </Typography>
+                    <Typography variant="body1">{fechaLiquidacion ? formatearFecha(fechaLiquidacion) : '--'}</Typography>
                   </Stack>
                 </Stack>
               </Box>
               <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-                La fecha de liquidación puede ajustarse según el momento en que se concrete la venta del inmueble y los acuerdos específicos de
-                la operación.
+                La fecha de liquidación puede ajustarse según el momento en que se concrete la venta del inmueble y los acuerdos específicos
+                de la operación.
               </Typography>
               <Stack direction="row" spacing={2}>
                 <Button variant="contained" color="primary" href="/auth/registro">
@@ -529,5 +527,3 @@ export default function CreditoVentaKeyPage() {
     </>
   );
 }
-
-

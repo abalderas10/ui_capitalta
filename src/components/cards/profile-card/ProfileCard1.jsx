@@ -73,4 +73,3 @@ export default function ProfileCard1({ name, role, avatar }) {
 }
 
 ProfileCard1.propTypes = { name: PropTypes.any, role: PropTypes.any, avatar: PropTypes.any };
-

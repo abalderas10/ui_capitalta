@@ -8,4 +8,3 @@ export const metrics = {
     { counter: 98, defaultUnit: '%', caption: 'Tasa de satisfacción' }
   ]
 };
-

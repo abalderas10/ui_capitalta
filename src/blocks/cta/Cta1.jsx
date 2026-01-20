@@ -88,4 +88,3 @@ export default function Cta1({ bgImage, heading, caption, primaryBtn }) {
 }
 
 Cta1.propTypes = { bgImage: PropTypes.any, heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any };
-

@@ -92,4 +92,3 @@ export default function SmallHero6({ headLine, tagline, list, primaryBtn }) {
 }
 
 SmallHero6.propTypes = { headLine: PropTypes.any, tagline: PropTypes.string, list: PropTypes.array, primaryBtn: PropTypes.any };
-

@@ -59,4 +59,3 @@ export default function PMSLayout({ children }) {
 }
 
 PMSLayout.propTypes = { children: PropTypes.any };
-

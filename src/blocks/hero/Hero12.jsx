@@ -101,4 +101,3 @@ Hero12.propTypes = {
   headLine: PropTypes.oneOfType([PropTypes.node, PropTypes.string]),
   captionLine: PropTypes.oneOfType([PropTypes.node, PropTypes.string])
 };
-

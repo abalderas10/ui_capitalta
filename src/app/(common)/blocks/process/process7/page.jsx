@@ -32,4 +32,3 @@ const data = {
 export default function BlockProcess7() {
   return <Process7 {...data} />;
 }
-

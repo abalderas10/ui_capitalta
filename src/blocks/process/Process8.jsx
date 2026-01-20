@@ -79,4 +79,3 @@ export default function Process8({ heading, caption, image, cards }) {
 }
 
 Process8.propTypes = { heading: PropTypes.string, caption: PropTypes.string, image: PropTypes.any, cards: PropTypes.array };
-

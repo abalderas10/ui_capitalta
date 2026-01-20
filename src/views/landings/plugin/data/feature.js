@@ -63,4 +63,3 @@ export const feature7 = {
   ],
   breadcrumbs: [{ title: 'Efficiency' }, { title: 'Decision Making' }, { title: 'Scalability' }]
 };
-

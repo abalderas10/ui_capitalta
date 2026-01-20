@@ -177,4 +177,3 @@ Feature12.propTypes = {
   icon: PropTypes.any,
   icon2: PropTypes.any
 };
-

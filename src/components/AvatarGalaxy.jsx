@@ -47,4 +47,3 @@ export default function AvatarGalaxy({ avatarList, centerIcon }) {
 }
 
 AvatarGalaxy.propTypes = { avatarList: PropTypes.array, centerIcon: PropTypes.node };
-

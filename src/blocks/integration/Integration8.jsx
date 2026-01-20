@@ -129,4 +129,3 @@ export default function Integration8({ headLine, captionLine, primaryBtn }) {
 IntegrationAvatar.propTypes = { src: PropTypes.any, reverse: PropTypes.bool };
 
 Integration8.propTypes = { headLine: PropTypes.string, captionLine: PropTypes.string, primaryBtn: PropTypes.any };
-

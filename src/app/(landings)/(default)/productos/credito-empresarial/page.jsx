@@ -123,11 +123,7 @@ export default function CreditoEmpresarialPage() {
 
   const filasTabla =
     tablaCompleta.length > 15
-      ? [
-          ...tablaCompleta.slice(0, 12),
-          { mes: '...', pago: null, interes: null, capital: null, saldo: null },
-          ...tablaCompleta.slice(-3)
-        ]
+      ? [...tablaCompleta.slice(0, 12), { mes: '...', pago: null, interes: null, capital: null, saldo: null }, ...tablaCompleta.slice(-3)]
       : tablaCompleta;
 
   return (
@@ -199,8 +195,8 @@ export default function CreditoEmpresarialPage() {
             <Stack spacing={2}>
               <Typography variant="h4">¿Qué es el Crédito Empresarial?</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                Es un crédito estructurado para acompañar el crecimiento de tu empresa, permitiéndote financiar expansión, compra de activos,
-                nuevos proyectos o consolidación de pasivos con pagos programados.
+                Es un crédito estructurado para acompañar el crecimiento de tu empresa, permitiéndote financiar expansión, compra de
+                activos, nuevos proyectos o consolidación de pasivos con pagos programados.
               </Typography>
               <Typography variant="subtitle1">Ideal para</Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -222,8 +218,8 @@ export default function CreditoEmpresarialPage() {
               <Stack spacing={1.5}>
                 <Typography variant="subtitle2">Uso típico del crédito</Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                  Expansión de capacidades productivas, compra de maquinaria o inmuebles, capital para nuevos proyectos y refinanciamiento de
-                  obligaciones existentes en mejores condiciones.
+                  Expansión de capacidades productivas, compra de maquinaria o inmuebles, capital para nuevos proyectos y refinanciamiento
+                  de obligaciones existentes en mejores condiciones.
                 </Typography>
               </Stack>
             </Box>
@@ -554,5 +550,3 @@ export default function CreditoEmpresarialPage() {
     </>
   );
 }
-
-

@@ -68,4 +68,3 @@ export default function MegaMenu2({ menuItems }) {
 }
 
 MegaMenu2.propTypes = { menuItems: PropTypes.array };
-

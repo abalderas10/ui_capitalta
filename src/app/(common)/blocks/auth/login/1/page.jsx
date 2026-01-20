@@ -31,4 +31,3 @@ const data = {
 export default function BlockLogin1() {
   return <Login1 {...data} />;
 }
-

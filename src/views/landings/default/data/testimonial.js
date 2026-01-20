@@ -5,13 +5,15 @@ export const testimonial = {
     {
       title: '¡Respaldo total!',
       ratings: 5,
-      review: 'Capitalta entendió mi modelo de negocio cuando otros bancos me cerraron las puertas. Su crédito simple fue clave para abrir mi segunda sucursal.',
+      review:
+        'Capitalta entendió mi modelo de negocio cuando otros bancos me cerraron las puertas. Su crédito simple fue clave para abrir mi segunda sucursal.',
       profile: { avatar: '/assets/images/user/avatar1.png', name: 'Carlos M.', role: 'Dueño de Restaurante' }
     },
     {
       title: 'Agilidad y claridad',
       ratings: 5,
-      review: 'El proceso fue increíblemente rápido. En menos de una semana tenía los recursos para comprar inventario. Sin letras chiquitas.',
+      review:
+        'El proceso fue increíblemente rápido. En menos de una semana tenía los recursos para comprar inventario. Sin letras chiquitas.',
       profile: { avatar: '/assets/images/user/avatar2.png', name: 'Ana P.', role: 'Comercializadora Textil' }
     },
     {
@@ -23,13 +25,15 @@ export const testimonial = {
     {
       title: 'Excelente servicio',
       ratings: 5,
-      review: 'La atención personalizada es su gran diferenciador. Siempre hay alguien disponible para resolver mis dudas sobre mi crédito revolvente.',
+      review:
+        'La atención personalizada es su gran diferenciador. Siempre hay alguien disponible para resolver mis dudas sobre mi crédito revolvente.',
       profile: { avatar: '/assets/images/user/avatar4.png', name: 'Sofía L.', role: 'Gerente de Finanzas' }
     },
     {
       title: 'Impulso real',
       ratings: 5,
-      review: 'Gracias al factoraje de Capitalta pude cobrar mis facturas de inmediato y seguir operando sin problemas de flujo de efectivo.',
+      review:
+        'Gracias al factoraje de Capitalta pude cobrar mis facturas de inmediato y seguir operando sin problemas de flujo de efectivo.',
       profile: { avatar: '/assets/images/user/avatar5.png', name: 'Javier R.', role: 'Proveedor de Servicios' }
     },
     {

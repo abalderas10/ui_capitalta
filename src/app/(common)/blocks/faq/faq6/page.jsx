@@ -108,4 +108,3 @@ const data = {
 export default function BlockFaq6() {
   return <Faq6 {...data} />;
 }
-

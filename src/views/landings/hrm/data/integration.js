@@ -13,4 +13,3 @@ export const integration = {
     sx: { textTransform: 'none' }
   }
 };
-

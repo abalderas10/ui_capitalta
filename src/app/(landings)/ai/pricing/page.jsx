@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.pricingPage };
 export default function PricingPage() {
   return <Price />;
 }
-

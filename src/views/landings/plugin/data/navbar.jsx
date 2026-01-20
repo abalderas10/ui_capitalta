@@ -16,4 +16,3 @@ export const navbar = {
     { id: 'docs', title: 'Docs', link: DOCS_URL, target: '_blank', rel: 'noopener noreferrer', icon: 'tabler-pin-invoke' }
   ]
 };
-

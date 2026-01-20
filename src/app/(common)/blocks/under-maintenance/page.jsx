@@ -18,4 +18,3 @@ const data = {
 export default function BlockUnderMaintenancePage() {
   return <UnderMaintenancePage {...data} />;
 }
-

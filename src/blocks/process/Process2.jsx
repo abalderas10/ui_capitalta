@@ -85,4 +85,3 @@ export default function Process2({ heading, caption, cards, bgImage }) {
 }
 
 Process2.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array, bgImage: PropTypes.any };
-

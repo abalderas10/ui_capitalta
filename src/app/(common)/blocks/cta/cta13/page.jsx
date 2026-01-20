@@ -45,4 +45,3 @@ const data = {
 export default function BlockCta13() {
   return <Cta13 {...data} />;
 }
-

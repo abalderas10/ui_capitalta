@@ -125,4 +125,3 @@ export default function Blog1({ heading, caption, blogs }) {
 }
 
 Blog1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, blogs: PropTypes.any };
-

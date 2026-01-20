@@ -64,4 +64,3 @@ export default function BlockMegamenu1() {
     </Stack>
   );
 }
-

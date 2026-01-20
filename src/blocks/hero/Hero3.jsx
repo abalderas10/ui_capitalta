@@ -267,4 +267,3 @@ Hero3.propTypes = {
   description: PropTypes.string,
   exploreBtn: PropTypes.any
 };
-

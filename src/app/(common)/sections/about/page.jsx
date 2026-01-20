@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.about, openGraph: { ...SEO_CONTENT.abou
 export default function AboutPage() {
   return <About />;
 }
-

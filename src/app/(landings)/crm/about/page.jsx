@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.aboutPage };
 export default function AboutPage() {
   return <About />;
 }
-

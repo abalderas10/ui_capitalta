@@ -94,4 +94,3 @@ export const integration3 = {
   captionLine:
     'Experience seamless success with your favorite applications. Just click, configure, and launch with our efficient cloud hosting service.'
 };
-

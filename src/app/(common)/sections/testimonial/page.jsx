@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.testimonial, openGraph: { ...SEO_CONTEN
 export default function TestimonialPage() {
   return <Testimonial />;
 }
-

@@ -113,4 +113,3 @@ export default function Faq1({ heading, caption, defaultExpanded, faqList }) {
 }
 
 Faq1.propTypes = { heading: PropTypes.any, caption: PropTypes.any, defaultExpanded: PropTypes.any, faqList: PropTypes.any };
-

@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.faqPage };
 export default function FaqPage() {
   return <Faq />;
 }
-

@@ -129,4 +129,3 @@ export default function ContactUs4({ heading, caption, list, showForm = true }) 
 ContactCard.propTypes = { icon: PropTypes.any, title: PropTypes.any, content: PropTypes.any, link: PropTypes.any };
 
 ContactUs4.propTypes = { heading: PropTypes.any, caption: PropTypes.any, list: PropTypes.any, showForm: PropTypes.bool };
-

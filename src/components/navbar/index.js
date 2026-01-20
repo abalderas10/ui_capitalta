@@ -7,4 +7,3 @@ export { default as SocialIcons } from './SocialIcons';
 export { default as SearchInput } from './SearchInput';
 export { NavMenu } from './NavItems';
 export { NavMenuDrawer } from './NavItems';
-

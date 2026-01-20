@@ -59,4 +59,3 @@ export default function LMSLayout({ children }) {
 }
 
 LMSLayout.propTypes = { children: PropTypes.any };
-

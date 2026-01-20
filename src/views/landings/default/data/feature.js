@@ -97,15 +97,13 @@ export const aboutCapitalta = {
   blockData3: {
     icon: 'tabler-eye',
     title: 'Nuestra visión',
-    description:
-      'Ser el socio financiero preferido de emprendedores, inversionistas y empresas que buscan crecer con orden y claridad.',
+    description: 'Ser el socio financiero preferido de emprendedores, inversionistas y empresas que buscan crecer con orden y claridad.',
     description2: 'Queremos construir relaciones duraderas basadas en confianza y resultados.'
   },
   blockData4: {
     icon: 'tabler-shield-check',
     title: 'Fundamentos corporativos',
-    description:
-      'Operamos bajo principios que guían cada decisión de crédito, desde el análisis hasta el seguimiento.',
+    description: 'Operamos bajo principios que guían cada decisión de crédito, desde el análisis hasta el seguimiento.',
     list: [
       { primary: 'Transparencia en condiciones, riesgos y costos' },
       { primary: 'Agilidad sin sacrificar profundidad en el análisis' },
@@ -155,8 +153,6 @@ export const feature20 = {
     }
   ]
 };
-
-
 
 export const feature = {
   heading: `Beneficios de elegir ${branding.brandName}`,
@@ -337,4 +333,3 @@ export const feature18 = {
     }
   ]
 };
-

@@ -148,4 +148,3 @@ export default function Pricing10({ heading, caption, plans }) {
 PlanIcon.propTypes = { icon: PropTypes.string, isActive: PropTypes.bool };
 
 Pricing10.propTypes = { heading: PropTypes.any, caption: PropTypes.any, plans: PropTypes.any };
-

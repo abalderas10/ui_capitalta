@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.smallHero, openGraph: { ...SEO_CONTENT.
 export default function SmallHeroPage() {
   return <SmallHero />;
 }
-

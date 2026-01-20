@@ -53,4 +53,3 @@ export default function Error404Page({ primaryBtn, heading }) {
 }
 
 Error404Page.propTypes = { primaryBtn: PropTypes.any, heading: PropTypes.string };
-

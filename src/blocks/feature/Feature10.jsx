@@ -206,4 +206,3 @@ Feature10.propTypes = {
   primaryBtn: PropTypes.any,
   secondaryBtn: PropTypes.any
 };
-

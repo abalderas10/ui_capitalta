@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.error404, openGraph: { ...SEO_CONTENT.e
 export default function Error404Page() {
   return <Error404 />;
 }
-

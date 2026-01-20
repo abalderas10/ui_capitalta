@@ -176,4 +176,3 @@ Faq3.propTypes = {
   getInTouch: PropTypes.any,
   bgImage: PropTypes.any
 };
-

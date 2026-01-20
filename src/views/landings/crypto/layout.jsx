@@ -59,4 +59,3 @@ export default function CryptoLayout({ children }) {
 }
 
 CryptoLayout.propTypes = { children: PropTypes.any };
-

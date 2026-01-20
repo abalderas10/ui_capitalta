@@ -25,4 +25,3 @@ export default function SlickArrows({ sliderRef }) {
 }
 
 SlickArrows.propTypes = { sliderRef: PropTypes.any };
-

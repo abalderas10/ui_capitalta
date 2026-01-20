@@ -20,4 +20,3 @@ export const metrics5 = {
     { counter: 4.5, defaultUnit: '/5', caption: 'Satisfaction rating' }
   ]
 };
-

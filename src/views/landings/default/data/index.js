@@ -12,4 +12,3 @@ export { pricing } from './pricing';
 export { smallHero, smallHero1, smallHero4 } from './small-hero';
 export { team } from './team';
 export { testimonial } from './testimonial';
-

@@ -27,4 +27,3 @@ export const otpSchema = {
   required: 'OTP is required',
   minLength: { value: 6, message: 'OTP must be exactly 6 characters' }
 };
-

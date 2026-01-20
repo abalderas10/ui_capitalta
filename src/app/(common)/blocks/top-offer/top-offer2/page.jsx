@@ -15,4 +15,3 @@ const data = {
 export default function BlockTopOffer2() {
   return <TopOffer2 {...data} />;
 }
-

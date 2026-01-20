@@ -93,4 +93,3 @@ export default function TopOffer3({ heading, cookie, primaryBtn, secondaryBtn })
 }
 
 TopOffer3.propTypes = { heading: PropTypes.string, cookie: PropTypes.object, primaryBtn: PropTypes.any, secondaryBtn: PropTypes.any };
-

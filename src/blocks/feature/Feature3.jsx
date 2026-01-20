@@ -153,4 +153,3 @@ Feature3.propTypes = {
   blockData3: PropTypes.any,
   actionBtn: PropTypes.any
 };
-

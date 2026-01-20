@@ -287,4 +287,3 @@ Pricing8.propTypes = {
   features: PropTypes.array,
   plans: PropTypes.array
 };
-

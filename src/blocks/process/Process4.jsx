@@ -135,4 +135,3 @@ export default function Process4({ heading, caption, cards, isTimeline = true })
 TimelineCard.propTypes = { cards: PropTypes.array, isTimeline: PropTypes.bool, activeStep: PropTypes.number, handleStep: PropTypes.func };
 
 Process4.propTypes = { heading: PropTypes.string, caption: PropTypes.string, cards: PropTypes.array, isTimeline: PropTypes.bool };
-

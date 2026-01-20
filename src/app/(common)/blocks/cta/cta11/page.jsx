@@ -21,4 +21,3 @@ export default function BlockCta11() {
 
   return <Cta11 {...data} />;
 }
-

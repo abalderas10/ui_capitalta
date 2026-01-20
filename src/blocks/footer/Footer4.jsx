@@ -185,4 +185,3 @@ export default function Footer4() {
     </ContainerWrapper>
   );
 }
-

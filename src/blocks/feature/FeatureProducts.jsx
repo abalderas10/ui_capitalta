@@ -33,11 +33,7 @@ export default function FeatureProducts({ heading, caption, features }) {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <Typeset
-            heading={heading}
-            caption={caption}
-            stackProps={{ sx: { maxWidth: { md: 600 }, textAlign: 'center', mx: 'auto' } }}
-          />
+          <Typeset heading={heading} caption={caption} stackProps={{ sx: { maxWidth: { md: 600 }, textAlign: 'center', mx: 'auto' } }} />
         </motion.div>
 
         <Grid container spacing={3}>
@@ -97,7 +93,10 @@ export default function FeatureProducts({ heading, caption, features }) {
                           <Stack direction="row" alignItems="center" spacing={1}>
                             <SvgIcon name="tabler-currency-dollar" size={18} color="text.secondary" />
                             <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>
-                              Monto: <Typography component="span" variant="body2">{item.monto}</Typography>
+                              Monto:{' '}
+                              <Typography component="span" variant="body2">
+                                {item.monto}
+                              </Typography>
                             </Typography>
                           </Stack>
                         )}
@@ -105,7 +104,10 @@ export default function FeatureProducts({ heading, caption, features }) {
                           <Stack direction="row" alignItems="center" spacing={1}>
                             <SvgIcon name="tabler-calendar-time" size={18} color="text.secondary" />
                             <Typography variant="subtitle2" sx={{ fontWeight: 600 }}>
-                              Plazo: <Typography component="span" variant="body2">{item.plazo}</Typography>
+                              Plazo:{' '}
+                              <Typography component="span" variant="body2">
+                                {item.plazo}
+                              </Typography>
                             </Typography>
                           </Stack>
                         )}
@@ -141,4 +143,3 @@ FeatureProducts.propTypes = {
   caption: PropTypes.string,
   features: PropTypes.array
 };
-

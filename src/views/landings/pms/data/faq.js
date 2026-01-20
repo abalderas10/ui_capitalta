@@ -45,4 +45,3 @@ export const faq = {
     link: { children: 'Get in Touch', href: branding.company.socialLink.support, target: '_blank', rel: 'noopener noreferrer' }
   }
 };
-

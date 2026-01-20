@@ -21,4 +21,3 @@ export default function SearchInput({ sx, ...rest }) {
 }
 
 SearchInput.propTypes = { sx: PropTypes.any, rest: PropTypes.any };
-

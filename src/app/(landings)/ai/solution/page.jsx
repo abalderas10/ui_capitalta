@@ -14,4 +14,3 @@ export const metadata = { ...SEO_CONTENT.solutionsPage };
 export default function SolutionsPage() {
   return <Solution />;
 }
-

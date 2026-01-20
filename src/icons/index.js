@@ -8,4 +8,3 @@ export { default as Curve2 } from './Curve2';
 export { default as Line } from './Line';
 export { default as OpenEye } from './OpenEye';
 export { default as Quote } from './Quote';
-

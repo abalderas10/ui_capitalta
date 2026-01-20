@@ -151,4 +151,3 @@ export default function Other2() {
     </ContainerWrapper>
   );
 }
-

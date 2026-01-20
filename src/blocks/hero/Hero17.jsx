@@ -248,4 +248,3 @@ Hero17.propTypes = {
   videoThumbnail: PropTypes.string,
   listData: PropTypes.array
 };
-

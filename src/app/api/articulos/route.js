@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { createSupabaseBrowserClient, createSupabaseServerClient } from '@/utils/supabaseClient';
+import { createSupabaseServerClient } from '@/utils/supabaseClient';
 
 export async function GET(request) {
   // Intentamos usar el cliente de servidor para mayor seguridad/acceso,
@@ -7,7 +7,7 @@ export async function GET(request) {
   // Sin embargo, en API Routes de Next.js es mejor usar createServerClient (o la versión que tengas configurada para server).
   // Aquí usaremos createSupabaseServerClient si tienes acceso a cookies/headers, o createSupabaseBrowserClient como fallback
   // dado que es una lectura pública.
-  
+
   // Nota: createSupabaseServerClient suele requerir cookies() de next/headers.
   // Si tu utilidad 'createSupabaseServerClient' usa process.env.SUPABASE_SERVICE_ROLE_KEY directamente sin cookies,
   // entonces es un cliente admin.
@@ -25,7 +25,7 @@ export async function GET(request) {
   const category = searchParams.get('category');
   const limit = parseInt(searchParams.get('limit') || '10');
   const page = parseInt(searchParams.get('page') || '1');
-  
+
   // Calcular rango para paginación
   const from = (page - 1) * limit;
   const to = from + limit - 1;
@@ -57,4 +57,3 @@ export async function GET(request) {
     }
   });
 }
-

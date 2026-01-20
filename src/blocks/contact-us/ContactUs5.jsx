@@ -128,4 +128,3 @@ export default function ContactUs5({ heading, caption, contactDetails }) {
 ContactCard.propTypes = { icon: PropTypes.any, title: PropTypes.any, content: PropTypes.any, link: PropTypes.any };
 
 ContactUs5.propTypes = { heading: PropTypes.any, caption: PropTypes.any, contactDetails: PropTypes.any };
-

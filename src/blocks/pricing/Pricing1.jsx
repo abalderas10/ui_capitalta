@@ -124,4 +124,3 @@ export default function Pricing1({ heading, caption, defaultUnit, plans }) {
 }
 
 Pricing1.propTypes = { heading: PropTypes.string, caption: PropTypes.string, defaultUnit: PropTypes.string, plans: PropTypes.array };
-

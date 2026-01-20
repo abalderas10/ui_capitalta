@@ -266,4 +266,3 @@ export default function Feature18({ heading, caption, topics }) {
 }
 
 Feature18.propTypes = { heading: PropTypes.string, caption: PropTypes.string, topics: PropTypes.array };
-

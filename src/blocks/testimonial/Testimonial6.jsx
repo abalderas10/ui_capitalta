@@ -125,4 +125,3 @@ export default function Testimonial6({ heading, caption, testimonials }) {
 }
 
 Testimonial6.propTypes = { heading: PropTypes.any, caption: PropTypes.any, testimonials: PropTypes.any };
-

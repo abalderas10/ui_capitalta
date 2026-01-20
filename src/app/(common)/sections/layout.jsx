@@ -23,4 +23,3 @@ export default function Sections({ children }) {
 }
 
 Sections.propTypes = { children: PropTypes.any };
-

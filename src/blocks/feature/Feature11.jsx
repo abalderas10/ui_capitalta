@@ -115,4 +115,3 @@ Feature11.propTypes = {
   features: PropTypes.array,
   showBorder: PropTypes.bool
 };
-

@@ -84,4 +84,3 @@ export default function Cta8({ heading, caption, primaryBtn, image }) {
 }
 
 Cta8.propTypes = { heading: PropTypes.string, caption: PropTypes.string, primaryBtn: PropTypes.any, image: PropTypes.any };
-

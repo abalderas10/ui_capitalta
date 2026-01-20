@@ -72,4 +72,3 @@ export default function SmallHero3({ chip, headLine, captionLine, exploreBtn }) 
 }
 
 SmallHero3.propTypes = { chip: PropTypes.any, headLine: PropTypes.any, captionLine: PropTypes.any, exploreBtn: PropTypes.any };
-

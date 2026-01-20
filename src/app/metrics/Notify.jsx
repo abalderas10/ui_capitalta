@@ -7,4 +7,3 @@ export default function Notify({ notifyId }) {
 }
 
 Notify.propTypes = { notifyId: PropTypes.string };
-

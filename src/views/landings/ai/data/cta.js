@@ -21,4 +21,3 @@ export const cta11 = {
   secondaryBtn: { children: 'Google Play', startIcon: 'tabler-brand-google-play' },
   image: { light: '/assets/images/ai/graphics/graphics5-light.svg', dark: '/assets/images/ai/graphics/graphics5-dark.svg' }
 };
-

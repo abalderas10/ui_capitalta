@@ -42,4 +42,3 @@ export default function UnderMaintenance({ heading }) {
 }
 
 UnderMaintenance.propTypes = { heading: PropTypes.string };
-

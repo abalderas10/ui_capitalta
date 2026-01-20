@@ -122,4 +122,3 @@ export default function Testimonial12({ testimonials }) {
 }
 
 Testimonial12.propTypes = { testimonials: PropTypes.array };
-

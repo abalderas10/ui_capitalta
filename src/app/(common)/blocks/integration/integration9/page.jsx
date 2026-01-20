@@ -28,4 +28,3 @@ const data = {
 export default function BlockIntegration9() {
   return <Integration9 {...data} />;
 }
-

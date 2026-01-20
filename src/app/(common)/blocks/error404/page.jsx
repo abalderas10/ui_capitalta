@@ -18,4 +18,3 @@ const data = {
 export default function BlockError404Page() {
   return <Error404Page {...data} />;
 }
-

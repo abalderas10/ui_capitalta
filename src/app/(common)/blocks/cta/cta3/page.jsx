@@ -53,4 +53,3 @@ export default function BlockCta3() {
 
   return <Cta3 {...data} />;
 }
-

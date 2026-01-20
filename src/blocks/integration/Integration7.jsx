@@ -109,4 +109,3 @@ export default function Integration7({ headLine, primaryBtn, marquees }) {
 IntegrationTag.propTypes = { label: PropTypes.any, image: PropTypes.any };
 
 Integration7.propTypes = { headLine: PropTypes.string, primaryBtn: PropTypes.any, marquees: PropTypes.array };
-

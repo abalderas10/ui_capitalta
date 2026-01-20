@@ -208,4 +208,3 @@ Other3.propTypes = {
   categories: PropTypes.array,
   items: PropTypes.oneOfType([PropTypes.number, PropTypes.string, PropTypes.array])
 };
-

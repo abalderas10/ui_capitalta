@@ -15,4 +15,3 @@ export const metadata = { ...SEO_CONTENT.clientele, openGraph: { ...SEO_CONTENT.
 export default function ClientelePage() {
   return <Clientele />;
 }
-

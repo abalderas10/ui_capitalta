@@ -53,4 +53,3 @@ export const cta5 = {
     review: '10k+ Reviews (4.5 out of 5)'
   }
 };
-

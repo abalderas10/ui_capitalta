@@ -49,4 +49,3 @@ const data = {
 export default function BlockPricing7() {
   return <Pricing7 {...data} />;
 }
-

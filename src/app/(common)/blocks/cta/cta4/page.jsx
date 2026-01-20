@@ -43,4 +43,3 @@ const data = {
 export default function BlockCta4() {
   return <Cta4 {...data} />;
 }
-
