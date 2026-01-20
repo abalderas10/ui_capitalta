@@ -3,7 +3,7 @@
 /***************************  DEFAULT - NAVBAR  ***************************/
 
 export const navbar = {
-  customization: true,
+  customization: false,
   secondaryBtn: { children: 'Iniciar sesión', href: '/auth/login' },
   primaryBtn: { children: 'Solicitar crédito', href: '/auth/registro' },
   animated: true,

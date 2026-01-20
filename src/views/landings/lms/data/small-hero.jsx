@@ -12,23 +12,22 @@ function HeadlineText() {
 }
 
 function HeadlineTextBlog() {
-  return <Typography variant="h2">Explore our knowledge hub</Typography>;
+  return <Typography variant="h2">Explora nuestro centro de conocimiento</Typography>;
 }
 
 /***************************  SMALL-HERO - DATA  ***************************/
 
 export const aboutSmallHero1 = {
   chip: {
-    label: 'About us'
+    label: 'Sobre nosotros'
   },
-  captionLine: `Discover a world of knowledge, connect with expert instructors, and achieve your goals
- with our live, interactive learning experiences.`,
+  captionLine: `Descubre quiénes somos y cómo impulsamos el crecimiento financiero de nuestros clientes.`,
   headLine: <HeadlineTextAbout />
 };
 
 export const smallHero1 = {
   chip: {
-    label: 'Our All Courses'
+    label: 'Nuestros Cursos'
   },
   captionLine: `A world of learning at your fingertips. Discover courses designed 
 to inspire and empower.`,
@@ -39,7 +38,7 @@ export const blogSmallHero1 = {
   chip: {
     label: 'Blog'
   },
-  captionLine: `A treasure trove of insights and information. Dive in to learn, grow, and innovate.`,
+  captionLine: `Noticias, consejos financieros y actualizaciones sobre el mundo del crédito y los negocios.`,
   headLine: <HeadlineTextBlog />
 };
 

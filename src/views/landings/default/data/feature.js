@@ -159,37 +159,37 @@ export const feature20 = {
 
 
 export const feature = {
-  heading: `What’s inside of ${branding.brandName} plus version`,
+  heading: `Beneficios de elegir ${branding.brandName}`,
   features: [
     {
       image: '/assets/images/shared/react.svg',
-      title: 'CRA JavaScript',
-      content: 'Ensure accessibility with WCAG compliant design for browsing.'
+      title: 'Tecnología',
+      content: 'Plataforma digital ágil y segura.'
     },
     {
       image: '/assets/images/shared/next-js.svg',
-      title: 'Next.js JavaScript',
-      content: 'Tailor typography for optimal readability across all screen sizes.'
+      title: 'Rapidez',
+      content: 'Procesos optimizados para respuestas rápidas.'
     },
     {
       image: '/assets/images/shared/react.svg',
-      title: 'CRA TypeScript',
-      content: 'Customize Material 3 design MUI components for enhanced aesthetics.'
+      title: 'Seguridad',
+      content: 'Protección de datos con estándares bancarios.'
     },
     {
       image: '/assets/images/shared/next-js.svg',
-      title: 'Next.js TypeScript',
-      content: 'Adjust content layout for visual coherence on various screen sizes.'
+      title: 'Flexibilidad',
+      content: 'Productos adaptables a tu flujo de efectivo.'
     },
     {
       image: '/assets/images/shared/figma.svg',
-      title: 'Figma ',
-      content: 'Boost visibility with SEO-friendly features for better search rankings.'
+      title: 'Claridad',
+      content: 'Sin letras chiquitas ni costos ocultos.'
     },
     {
-      title: 'Check out our pricing plan',
-      content: 'Choose the plan that aligns with your SaaS product requirements.',
-      actionBtn: { children: 'Pricing Plan', href: BUY_NOW_URL, ...linkProps }
+      title: 'Conoce nuestros planes',
+      content: 'Encuentra el financiamiento ideal para ti.',
+      actionBtn: { children: 'Ver Productos', href: '/productos', ...linkProps }
     }
   ]
 };

@@ -1,67 +1,42 @@
 export const testimonial = {
-  heading: 'See what our customers are saying',
-  caption: `Trusted by thousands of users worldwide, hear how capitalta helps bring their projects to life.`,
+  heading: 'Lo que dicen nuestros clientes',
+  caption: 'Confianza construida con resultados. Conoce la experiencia de empresarios que han crecido con Capitalta.',
   testimonials: [
     {
-      title: 'Strongly endorsed!',
+      title: '¡Respaldo total!',
       ratings: 5,
-      review: 'This platform exceeded my expectations! The features are robust, and the user interface is incredibly intuitive.',
-      profile: { avatar: '/assets/images/mui-reviews/matt-s.png', name: 'Sarah T.', role: 'Business Owner' }
+      review: 'Capitalta entendió mi modelo de negocio cuando otros bancos me cerraron las puertas. Su crédito simple fue clave para abrir mi segunda sucursal.',
+      profile: { avatar: '/assets/images/user/avatar1.png', name: 'Carlos M.', role: 'Dueño de Restaurante' }
     },
     {
-      title: 'Top pick!',
-      ratings: 4,
-      review: `I've tried several platforms, and this one stands out for its reliability and user-friendly`,
-      profile: { avatar: '', name: 'Alex M.', role: 'Project Manager' }
-    },
-    {
-      title: 'Widely praised!',
-      ratings: 4,
-      review: `Outstanding customer support! They're responsive and go above and beyond to ensure a smooth experience. Highly satisfied.`,
-      profile: { avatar: '', name: 'Emily P.', role: 'Freelancer' }
-    },
-    {
-      title: 'Outstanding choice!',
-      ratings: 4,
-      review: `This platform transformed the way we work. It's flexible, scalable, and adapts seamlessly to our evolving needs.`,
-      profile: { avatar: '', name: 'James L.', role: 'IT Professional' }
-    },
-    {
-      title: 'Hugely endorsed!',
+      title: 'Agilidad y claridad',
       ratings: 5,
-      review: `I've recommended this platform to colleagues, and they've all been impressed. It's versatile, efficient, and simply fantastic.`,
-      profile: { avatar: '', name: 'Maria S.', role: 'Marketing Specialist' }
+      review: 'El proceso fue increíblemente rápido. En menos de una semana tenía los recursos para comprar inventario. Sin letras chiquitas.',
+      profile: { avatar: '/assets/images/user/avatar2.png', name: 'Ana P.', role: 'Comercializadora Textil' }
     },
     {
-      title: 'A must-consider!',
-      ratings: 5,
-      review: `As a tech enthusiast, I appreciate the innovation behind this platform. It's modern, sleek, and delivers on its promises.`,
-      profile: { avatar: '', name: 'Kevin R.', role: 'Software Developer' }
-    },
-    {
-      title: 'Exceptional suggestion!',
+      title: 'Aliados estratégicos',
       ratings: 4,
-      review: `Our team's productivity soared after adopting this platform. It's a reliable solution that brings tangible results.`,
-      profile: { avatar: '', name: 'Eric H.', role: 'Operations Manager' }
+      review: 'Más que un crédito, encontré un aliado. Me asesoraron sobre qué producto me convenía más para no descapitalizarme.',
+      profile: { avatar: '/assets/images/user/avatar3.png', name: 'Roberto G.', role: 'Director de Constructora' }
     },
     {
-      title: 'Highly recommended!',
+      title: 'Excelente servicio',
       ratings: 5,
-      review: `I've used many platforms in my career, and this one is a standout. The functionality is unmatched, making it a joy to work with.`,
-      profile: { avatar: '', name: 'Jessica W.', role: 'UX/UI Designer' }
+      review: 'La atención personalizada es su gran diferenciador. Siempre hay alguien disponible para resolver mis dudas sobre mi crédito revolvente.',
+      profile: { avatar: '/assets/images/user/avatar4.png', name: 'Sofía L.', role: 'Gerente de Finanzas' }
     },
     {
-      title: 'Superbly recommended!',
+      title: 'Impulso real',
+      ratings: 5,
+      review: 'Gracias al factoraje de Capitalta pude cobrar mis facturas de inmediato y seguir operando sin problemas de flujo de efectivo.',
+      profile: { avatar: '/assets/images/user/avatar5.png', name: 'Javier R.', role: 'Proveedor de Servicios' }
+    },
+    {
+      title: 'Transparencia',
       ratings: 4,
-      review: `What I love most is the seamless integration with other tools. It streamlines our workflow and saves us valuable time.`,
-      profile: { avatar: '', name: 'Brian C.', role: 'Content Creator' }
-    },
-    {
-      title: 'Customer quality`',
-      ratings: 5,
-      review: 'The author is very nice and solved my problem immediately',
-      profile: { avatar: '', name: 'Richi.', role: '' }
+      review: 'Me gustó la claridad en las tasas y comisiones desde el principio. Sabía exactamente cuánto iba a pagar mes a mes.',
+      profile: { avatar: '/assets/images/user/avatar6.png', name: 'Mariana T.', role: 'Emprendedora Digital' }
     }
   ]
 };
-

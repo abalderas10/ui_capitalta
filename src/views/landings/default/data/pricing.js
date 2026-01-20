@@ -4,51 +4,46 @@ import { BUY_NOW_URL } from '@/path';
 const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
 
 export const pricing = {
-  heading: 'The affordable unfair advantage',
-  caption: 'Choose the plan that aligns with your SaaS product requirements.',
+  heading: 'Planes de Financiamiento',
+  caption: 'Elige la opción que mejor se adapte a tu estrategia de crecimiento.',
   features: [
-    { id: 1, label: 'One end product' },
-    { id: 2, label: 'UI kit & Admin interface' },
-    { id: 3, label: '1 year free updates' },
-    { id: 4, label: '6 months of support' },
-    { id: 5, label: 'Lifetime license' },
-    { id: 6, label: 'Next.js JavaScript' },
-    { id: 7, label: 'Next.js TypeScript' },
-    { id: 8, label: 'Figma design system' },
-    { id: 9, label: 'Use for SaaS end product' }
+    { id: 1, label: 'Atención personalizada' },
+    { id: 2, label: 'Respuesta en 48 horas' },
+    { id: 3, label: 'Sin penalización por prepago' },
+    { id: 4, label: 'Tasas competitivas' },
+    { id: 5, label: 'Plazos flexibles' },
+    { id: 6, label: 'Asesoría financiera incluida' },
+    { id: 7, label: 'Trámite 100% digital' },
+    { id: 8, label: 'Renovación automática' }
   ],
   plans: [
     {
-      title: 'Standard',
-      price: 69,
+      title: 'Emprendedor',
+      price: 'Desde 18%',
       active: false,
-      featureTitle: 'Includes',
-      content: 'Learn more about the standard',
-      contentLink: { children: 'license', href: 'https://mui.com/store/license/', ...linkProps },
-      exploreLink: { children: 'Get Started', href: BUY_NOW_URL, ...linkProps },
-      featuresID: [1, 2, 3, 4, 5, 6]
+      featureTitle: 'Incluye',
+      content: 'Ideal para negocios en etapa temprana.',
+      exploreLink: { children: 'Solicitar ahora', href: '/auth/registro' },
+      featuresID: [1, 2, 4, 5, 7]
     },
     {
-      title: 'Plus',
+      title: 'Pyme',
       active: true,
-      price: 129,
-      featureTitle: 'Recommended',
-      content: 'Learn more about the standard',
-      contentLink: { children: 'license', href: 'https://mui.com/store/license/', ...linkProps },
-      exploreLink: { children: 'Get Started', href: BUY_NOW_URL, ...linkProps },
-      featuresID: [1, 2, 3, 4, 5, 6, 7, 8]
+      price: 'Desde 15%',
+      featureTitle: 'Recomendado',
+      content: 'Para empresas en expansión consolidada.',
+      exploreLink: { children: 'Solicitar ahora', href: '/auth/registro' },
+      featuresID: [1, 2, 3, 4, 5, 6, 7]
     },
     {
-      title: 'Extended',
-      price: 599,
+      title: 'Corporativo',
+      price: 'A medida',
       active: false,
-      featureTitle: 'Includes',
-      content: 'Learn more about the standard',
-      contentLink: { children: 'license', href: 'https://mui.com/store/license/', ...linkProps },
-      link: { children: 'Contact us', href: '/contact', sx: { textTransform: 'none' } },
-      exploreLink: { children: 'Get Started', href: BUY_NOW_URL, ...linkProps },
-      featuresID: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+      featureTitle: 'Incluye',
+      content: 'Soluciones estructuradas de alto volumen.',
+      link: { children: 'Contactar asesor', href: '/contacto', sx: { textTransform: 'none' } },
+      exploreLink: { children: 'Cotizar', href: '/contacto' },
+      featuresID: [1, 2, 3, 4, 5, 6, 7, 8]
     }
   ]
 };
-

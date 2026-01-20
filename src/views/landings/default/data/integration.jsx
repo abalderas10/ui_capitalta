@@ -3,31 +3,26 @@ import SvgIcon from '@/components/SvgIcon';
 import { DOCS_URL } from '@/path';
 
 export const integration = {
-  headLine: 'Tailored for every industry',
-  captionLine: 'From project management to AI, see how our UI Kit helps you build SaaS applications tailored for a variety of industries.',
+  headLine: 'Soluciones para cada sector',
+  captionLine: 'Desde la construcción hasta la tecnología, impulsamos el crecimiento de empresas en diversas industrias con financiamiento a la medida.',
   primaryBtn: {
-    children: 'Documentation',
-    startIcon: <SvgIcon name="tabler-help" color="background.default" />,
-    href: DOCS_URL,
-    target: '_blank',
-    rel: 'noopener noreferrer'
+    children: 'Ver requisitos',
+    startIcon: <SvgIcon name="tabler-file-check" color="background.default" />,
+    href: '/auth/registro',
+    target: '_self'
   },
   tagList: [
-    { label: 'Project Management' },
-    { label: 'Customer Relationship Management (CRM)' },
-    { label: 'HR & Recruitment' },
-    { label: 'Finance & Accounting' },
-    { label: 'E-commerce Solutions' },
-    { label: 'Marketing Automation' },
-    { label: 'Healthcare & Telemedicine' },
-    { label: 'LMS' },
-    { label: 'AI & ML Platforms' },
-    { label: 'Inventory & Supply Chain Management' },
-    { label: 'Customer Support & Help Desk' },
-    { label: 'Email Marketing and SEO Tools' },
-    { label: 'Networking Platforms' },
-    { label: 'Blogging Tools' },
-    { label: 'Data Analytics & Business Intelligence' }
+    { label: 'Construcción e Inmobiliario' },
+    { label: 'Manufactura e Industria' },
+    { label: 'Comercio y Retail' },
+    { label: 'Logística y Transporte' },
+    { label: 'Servicios Profesionales' },
+    { label: 'Tecnología y Software' },
+    { label: 'Salud y Farmacéutica' },
+    { label: 'Agroindustria' },
+    { label: 'Turismo y Hospitalidad' },
+    { label: 'Energía y Sustentabilidad' },
+    { label: 'Educación' },
+    { label: 'Automotriz' }
   ]
 };
-
