@@ -76,6 +76,7 @@ export const aboutCapitalta = {
   caption:
     'Capitalta es una firma financiera mexicana que diseña soluciones de crédito claras, transparentes y accesibles para personas y empresas.',
   blockData1: {
+    image: '/assets/images/capitalta/riccardo-oliva-C5DLhUkEWfM-unsplash.jpg',
     icon: 'tabler-building-bank',
     title: 'Capitalta en pocas palabras',
     description:
