@@ -167,7 +167,7 @@ export default function Main() {
                   icon: 'tabler-users'
                 }
               ].map((item, index) => (
-                <Grid item xs={12} sm={6} md={4} key={index}>
+                <Grid item xs={12} sm={6} md={4} key={index} sx={{ display: 'flex' }}>
                   <Box
                     component={motion.div}
                     initial={{ opacity: 0, y: 20 }}
@@ -183,6 +183,8 @@ export default function Main() {
                       borderColor: 'grey.200',
                       boxShadow: theme.customShadows ? theme.customShadows.z1 : '0 2px 8px rgba(0,0,0,0.05)',
                       height: '100%',
+                      display: 'flex',
+                      flexDirection: 'column',
                       transition: 'all 0.3s ease-in-out',
                       '&:hover': {
                         borderColor: 'primary.main',
@@ -191,19 +193,19 @@ export default function Main() {
                       }
                     }}
                   >
-                    <Stack spacing={2} alignItems="flex-start">
+                    <Stack spacing={2} alignItems="flex-start" sx={{ height: '100%' }}>
                       <Box
                         sx={{
                           p: 1.5,
                           borderRadius: 2,
-                          bgcolor: 'primary.lighter',
-                          color: 'primary.main',
+                          bgcolor: 'primary.main',
+                          color: 'common.white',
                           display: 'flex'
                         }}
                       >
                         <SvgIcon name={item.icon} type={IconType.STROKE} size={32} stroke={1.5} />
                       </Box>
-                      <Stack spacing={1}>
+                      <Stack spacing={1} sx={{ flexGrow: 1 }}>
                         <Typography variant="h5" sx={{ fontWeight: 600 }}>
                           {item.title}
                         </Typography>
