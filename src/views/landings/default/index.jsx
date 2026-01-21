@@ -239,18 +239,18 @@ export default function Main() {
             borderColor: 'grey.200'
           }}
         >
+          <Box sx={{ textAlign: 'center', mb: 5 }}>
+            <Typography variant="h3" gutterBottom>
+              Calculadora de Crédito
+            </Typography>
+            <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 600, mx: 'auto' }}>
+              Simula tu plan de pagos ideal. Ajusta el monto y plazo para ver cómo quedaría tu mensualidad.
+            </Typography>
+          </Box>
+
           <Grid container spacing={6} alignItems="center">
             <Grid item xs={12} md={6}>
               <Stack spacing={4}>
-                <Box>
-                  <Typography variant="h3" gutterBottom>
-                    Calculadora de Crédito
-                  </Typography>
-                  <Typography variant="body1" color="text.secondary">
-                    Simula tu plan de pagos ideal. Ajusta el monto y plazo para ver cómo quedaría tu mensualidad.
-                  </Typography>
-                </Box>
-
                 <Stack spacing={3}>
                   <Box>
                     <Stack direction="row" justifyContent="space-between" alignItems="center" mb={1}>
