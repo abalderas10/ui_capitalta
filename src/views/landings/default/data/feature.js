@@ -96,6 +96,7 @@ export const aboutCapitalta = {
     description2: 'Creemos en el crédito como una herramienta estratégica, no solo táctica.'
   },
   blockData3: {
+    image: '/assets/images/capitalta/crecimiento-empresarial.jpg',
     icon: 'tabler-eye',
     title: 'Nuestra visión',
     description: 'Ser el socio financiero preferido de emprendedores, inversionistas y empresas que buscan crecer con orden y claridad.',
