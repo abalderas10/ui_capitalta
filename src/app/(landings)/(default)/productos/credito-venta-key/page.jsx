@@ -1,13 +1,12 @@
 'use client';
 
 import { addMonths } from 'date-fns';
-import { es } from 'date-fns/locale';
 
 import { useMemo, useState } from 'react';
 
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Grid from '@mui/material/Grid';
+import Grid from '@mui/material/Grid2';
 import InputAdornment from '@mui/material/InputAdornment';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
@@ -127,7 +126,7 @@ export default function CreditoVentaKeyPage() {
       >
         <ContainerWrapper>
           <Grid container spacing={4} alignItems="center">
-            <Grid item xs={12} md={7}>
+            <Grid size={{ xs: 12, md: 7 }}>
               <Stack spacing={2}>
                 <Typography variant="overline" sx={{ letterSpacing: 1 }}>
                   Producto
@@ -147,7 +146,7 @@ export default function CreditoVentaKeyPage() {
                 </Stack>
               </Stack>
             </Grid>
-            <Grid item xs={12} md={5}>
+            <Grid size={{ xs: 12, md: 5 }}>
               <Box
                 sx={{
                   p: 3,
@@ -180,7 +179,7 @@ export default function CreditoVentaKeyPage() {
 
       <ContainerWrapper>
         <Grid container spacing={4} sx={{ mb: { xs: 4, sm: 6 } }}>
-          <Grid item xs={12} md={7}>
+          <Grid size={{ xs: 12, md: 7 }}>
             <Stack spacing={2}>
               <Typography variant="h4">¿Qué es Crédito Venta Key?</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary' }}>
@@ -194,7 +193,7 @@ export default function CreditoVentaKeyPage() {
               </Typography>
             </Stack>
           </Grid>
-          <Grid item xs={12} md={5}>
+          <Grid size={{ xs: 12, md: 5 }}>
             <Box
               sx={{
                 p: 3,
@@ -218,11 +217,11 @@ export default function CreditoVentaKeyPage() {
 
       <ContainerWrapper>
         <Grid container spacing={4} sx={{ mb: { xs: 4, sm: 6 } }}>
-          <Grid item xs={12} md={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Stack spacing={2}>
               <Typography variant="h5">Requisitos clave</Typography>
               <Grid container spacing={2.5}>
-                <Grid item xs={12} sm={6}>
+                <Grid size={{ xs: 12, sm: 6 }}>
                   <Box
                     sx={{
                       p: 2.5,
@@ -241,7 +240,7 @@ export default function CreditoVentaKeyPage() {
                     </Stack>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid size={{ xs: 12, sm: 6 }}>
                   <Box
                     sx={{
                       p: 2.5,
@@ -260,7 +259,7 @@ export default function CreditoVentaKeyPage() {
                     </Stack>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid size={{ xs: 12, sm: 6 }}>
                   <Box
                     sx={{
                       p: 2.5,
@@ -279,7 +278,7 @@ export default function CreditoVentaKeyPage() {
                     </Stack>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid size={{ xs: 12, sm: 6 }}>
                   <Box
                     sx={{
                       p: 2.5,
@@ -301,11 +300,11 @@ export default function CreditoVentaKeyPage() {
               </Grid>
             </Stack>
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid size={{ xs: 12, md: 6 }}>
             <Stack spacing={2}>
               <Typography variant="h5">Condiciones destacadas</Typography>
               <Grid container spacing={2.5}>
-                <Grid item xs={12} sm={6}>
+                <Grid size={{ xs: 12, sm: 6 }}>
                   <Box
                     sx={{
                       p: 2.5,
@@ -324,7 +323,7 @@ export default function CreditoVentaKeyPage() {
                     </Stack>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid size={{ xs: 12, sm: 6 }}>
                   <Box
                     sx={{
                       p: 2.5,
@@ -343,7 +342,7 @@ export default function CreditoVentaKeyPage() {
                     </Stack>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid size={{ xs: 12, sm: 6 }}>
                   <Box
                     sx={{
                       p: 2.5,
@@ -362,7 +361,7 @@ export default function CreditoVentaKeyPage() {
                     </Stack>
                   </Box>
                 </Grid>
-                <Grid item xs={12} sm={6}>
+                <Grid size={{ xs: 12, sm: 6 }}>
                   <Box
                     sx={{
                       p: 2.5,
@@ -389,7 +388,7 @@ export default function CreditoVentaKeyPage() {
 
       <ContainerWrapper>
         <Grid container spacing={4} sx={{ mb: { xs: 4, sm: 6 } }}>
-          <Grid item xs={12} md={5}>
+          <Grid size={{ xs: 12, md: 5 }}>
             <Stack spacing={2.5}>
               <Typography variant="h4">Calcula tu Crédito Venta Key</Typography>
               <Typography variant="body1" sx={{ color: 'text.secondary' }}>
@@ -422,7 +421,7 @@ export default function CreditoVentaKeyPage() {
               />
             </Stack>
           </Grid>
-          <Grid item xs={12} md={7}>
+          <Grid size={{ xs: 12, md: 7 }}>
             <Stack spacing={2.5}>
               <Typography variant="h5">Resultados estimados</Typography>
               <Box
@@ -502,7 +501,7 @@ export default function CreditoVentaKeyPage() {
           }}
         >
           <Grid container spacing={3} alignItems="center">
-            <Grid item xs={12} md={8}>
+            <Grid size={{ xs: 12, md: 8 }}>
               <Stack spacing={1}>
                 <Typography variant="h5">¿Listo para darle movimiento a tu patrimonio?</Typography>
                 <Typography variant="body2" sx={{ color: 'text.secondary' }}>
@@ -511,7 +510,7 @@ export default function CreditoVentaKeyPage() {
                 </Typography>
               </Stack>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid size={{ xs: 12, md: 4 }}>
               <Stack direction="row" spacing={2} sx={{ justifyContent: { xs: 'flex-start', md: 'flex-end' } }}>
                 <Button variant="contained" color="primary" href="/auth/registro">
                   Solicitar Venta Key ahora

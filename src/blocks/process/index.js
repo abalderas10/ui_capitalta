@@ -6,3 +6,4 @@ export { default as Process5 } from './Process5';
 export { default as Process6 } from './Process6';
 export { default as Process7 } from './Process7';
 export { default as Process8 } from './Process8';
+export { default as ProcessTimeline } from './ProcessTimeline';

@@ -1,26 +1,30 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 // @third-party
-import axios from 'axios';
+import { motion } from 'framer-motion';
 
 // @mui
+import { useTheme } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import InputAdornment from '@mui/material/InputAdornment';
 import MenuItem from '@mui/material/MenuItem';
+import Slider from '@mui/material/Slider';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
 // @project
-import { Feature15, Feature20, FeatureProducts } from '@/blocks/feature';
-import { Process1 } from '@/blocks/process';
+import { Feature15, FeatureProducts } from '@/blocks/feature';
+import { ProcessTimeline } from '@/blocks/process';
 import { Hero17 } from '@/blocks/hero';
 import ContainerWrapper from '@/components/ContainerWrapper';
 import LazySection from '@/components/LazySection';
+import SvgIcon from '@/components/SvgIcon';
+import { IconType } from '@/enum';
 
 // @data
 import { metrics, faq, aboutCapitalta, feature20, hero } from './data';
@@ -28,6 +32,7 @@ import { metrics, faq, aboutCapitalta, feature20, hero } from './data';
 /***************************  PAGE - MAIN  ***************************/
 
 export default function Main() {
+  const theme = useTheme();
   const [monto, setMonto] = useState(250000);
   const [plazo, setPlazo] = useState(24);
   const [tipoCredito, setTipoCredito] = useState('simple');
@@ -135,101 +140,81 @@ export default function Main() {
               </Typography>
             </Stack>
             <Grid container spacing={3}>
-              <Grid item xs={12} sm={6} md={4}>
-                <Box
-                  sx={{
-                    p: 3,
-                    borderRadius: 3,
-                    border: '1px solid',
-                    borderColor: 'grey.200',
-                    bgcolor: 'background.paper',
-                    height: '100%'
-                  }}
-                >
-                  <Stack sx={{ gap: 1 }}>
-                    <Typography variant="h6">Honestidad</Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                      Transparencia total en condiciones, costos y riesgos en cada operación.
-                    </Typography>
-                  </Stack>
-                </Box>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Box
-                  sx={{
-                    p: 3,
-                    borderRadius: 3,
-                    border: '1px solid',
-                    borderColor: 'grey.200',
-                    bgcolor: 'background.paper',
-                    height: '100%'
-                  }}
-                >
-                  <Stack sx={{ gap: 1 }}>
-                    <Typography variant="h6">Responsabilidad</Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                      Diseñamos créditos sostenibles, alineados a la capacidad de pago de cada cliente.
-                    </Typography>
-                  </Stack>
-                </Box>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Box
-                  sx={{
-                    p: 3,
-                    borderRadius: 3,
-                    border: '1px solid',
-                    borderColor: 'grey.200',
-                    bgcolor: 'background.paper',
-                    height: '100%'
-                  }}
-                >
-                  <Stack sx={{ gap: 1 }}>
-                    <Typography variant="h6">Lealtad</Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                      Construimos relaciones de confianza, acompañando a nuestros clientes en cada etapa.
-                    </Typography>
-                  </Stack>
-                </Box>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Box
-                  sx={{
-                    p: 3,
-                    borderRadius: 3,
-                    border: '1px solid',
-                    borderColor: 'grey.200',
-                    bgcolor: 'background.paper',
-                    height: '100%'
-                  }}
-                >
-                  <Stack sx={{ gap: 1 }}>
-                    <Typography variant="h6">Respeto</Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                      Escuchamos cada historia y tratamos a todas las personas con empatía y equidad.
-                    </Typography>
-                  </Stack>
-                </Box>
-              </Grid>
-              <Grid item xs={12} sm={6} md={4}>
-                <Box
-                  sx={{
-                    p: 3,
-                    borderRadius: 3,
-                    border: '1px solid',
-                    borderColor: 'grey.200',
-                    bgcolor: 'background.paper',
-                    height: '100%'
-                  }}
-                >
-                  <Stack sx={{ gap: 1 }}>
-                    <Typography variant="h6">Trabajo en equipo</Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                      Colaboramos con clientes, aliados e inversionistas para lograr mejores resultados.
-                    </Typography>
-                  </Stack>
-                </Box>
-              </Grid>
+              {[
+                {
+                  title: 'Honestidad',
+                  desc: 'Transparencia total en condiciones, costos y riesgos en cada operación.',
+                  icon: 'tabler-shield-check'
+                },
+                {
+                  title: 'Responsabilidad',
+                  desc: 'Diseñamos créditos sostenibles, alineados a la capacidad de pago de cada cliente.',
+                  icon: 'tabler-briefcase'
+                },
+                {
+                  title: 'Lealtad',
+                  desc: 'Construimos relaciones de confianza, acompañando a nuestros clientes en cada etapa.',
+                  icon: 'tabler-star'
+                },
+                {
+                  title: 'Respeto',
+                  desc: 'Escuchamos cada historia y tratamos a todas las personas con empatía y equidad.',
+                  icon: 'tabler-heart'
+                },
+                {
+                  title: 'Trabajo en equipo',
+                  desc: 'Colaboramos con clientes, aliados e inversionistas para lograr mejores resultados.',
+                  icon: 'tabler-users'
+                }
+              ].map((item, index) => (
+                <Grid item xs={12} sm={6} md={4} key={index}>
+                  <Box
+                    component={motion.div}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    whileHover={{ translateY: -8 }}
+                    sx={{
+                      p: 4,
+                      borderRadius: 4,
+                      bgcolor: 'background.paper',
+                      border: '1px solid',
+                      borderColor: 'grey.200',
+                      boxShadow: theme.customShadows ? theme.customShadows.z1 : '0 2px 8px rgba(0,0,0,0.05)',
+                      height: '100%',
+                      transition: 'all 0.3s ease-in-out',
+                      '&:hover': {
+                        borderColor: 'primary.main',
+                        boxShadow: theme.customShadows ? theme.customShadows.z8 : '0 8px 24px rgba(0,0,0,0.1)',
+                        background: `linear-gradient(135deg, ${theme.palette.background.paper} 0%, ${theme.palette.primary.lighter} 150%)`
+                      }
+                    }}
+                  >
+                    <Stack spacing={2} alignItems="flex-start">
+                      <Box
+                        sx={{
+                          p: 1.5,
+                          borderRadius: 2,
+                          bgcolor: 'primary.lighter',
+                          color: 'primary.main',
+                          display: 'flex'
+                        }}
+                      >
+                        <SvgIcon name={item.icon} type={IconType.STROKE} size={32} stroke={1.5} />
+                      </Box>
+                      <Stack spacing={1}>
+                        <Typography variant="h5" sx={{ fontWeight: 600 }}>
+                          {item.title}
+                        </Typography>
+                        <Typography variant="body1" sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
+                          {item.desc}
+                        </Typography>
+                      </Stack>
+                    </Stack>
+                  </Box>
+                </Grid>
+              ))}
             </Grid>
           </Stack>
         </Box>
@@ -239,104 +224,240 @@ export default function Main() {
           sx={{
             mt: { xs: 6, sm: 8 },
             mb: { xs: 6, sm: 8 },
-            p: { xs: 3, sm: 4 },
+            p: { xs: 3, sm: 4, md: 5 },
             borderRadius: 4,
-            bgcolor: 'primary.lighter',
+            bgcolor: 'background.paper',
+            boxShadow: theme.customShadows ? theme.customShadows.z1 : '0 2px 8px rgba(0,0,0,0.05)',
             border: '1px solid',
-            borderColor: 'primary.light'
+            borderColor: 'grey.200'
           }}
         >
-          <Grid container spacing={4}>
+          <Grid container spacing={6} alignItems="center">
             <Grid item xs={12} md={6}>
-              <Stack spacing={2.5}>
-                <Typography variant="h3">Calculadora rápida de crédito</Typography>
-                <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                  Ingresa un monto y plazo estimado para conocer un pago mensual aproximado. Los resultados son informativos y pueden variar
-                  según análisis de Capitalta.
-                </Typography>
-                <TextField
-                  label="Monto solicitado (MXN)"
-                  type="number"
-                  value={monto}
-                  onChange={(event) => setMonto(Number(event.target.value) || 0)}
-                  InputProps={{
-                    startAdornment: <InputAdornment position="start">$</InputAdornment>
-                  }}
-                />
-                <TextField
-                  label="Plazo en meses"
-                  type="number"
-                  value={plazo}
-                  onChange={(event) => setPlazo(Number(event.target.value) || 0)}
-                />
-                <TextField select label="Tipo de crédito" value={tipoCredito} onChange={(event) => setTipoCredito(event.target.value)}>
-                  <MenuItem value="simple">Crédito Simple</MenuItem>
-                  <MenuItem value="empresarial">Crédito Empresarial</MenuItem>
-                  <MenuItem value="revolvente">Crédito Revolvente</MenuItem>
-                  <MenuItem value="venta-key">Crédito Venta Key</MenuItem>
-                </TextField>
-                <TextField
-                  label="Tasa anual estimada (%)"
-                  type="number"
-                  value={tasaAnual}
-                  onChange={(event) => setTasaAnual(Number(event.target.value) || 0)}
-                />
-                <Stack direction="row" spacing={2}>
-                  <Button variant="contained" color="primary" href={`/calculadoras/calculadora-${tipoCredito}`}>
-                    Ver calculadora completa
-                  </Button>
-                  <Button variant="outlined" color="primary" href="/auth/registro">
-                    Solicitar este crédito
-                  </Button>
+              <Stack spacing={4}>
+                <Box>
+                  <Typography variant="h3" gutterBottom>
+                    Calculadora de Crédito
+                  </Typography>
+                  <Typography variant="body1" color="text.secondary">
+                    Simula tu plan de pagos ideal. Ajusta el monto y plazo para ver cómo quedaría tu mensualidad.
+                  </Typography>
+                </Box>
+
+                <Stack spacing={3}>
+                  <Box>
+                    <Stack direction="row" justifyContent="space-between" alignItems="center" mb={1}>
+                      <Typography variant="subtitle1" fontWeight={600}>
+                        Monto Solicitado
+                      </Typography>
+                      <TextField
+                        variant="standard"
+                        value={monto}
+                        onChange={(e) => setMonto(Number(e.target.value))}
+                        InputProps={{
+                          startAdornment: <InputAdornment position="start">$</InputAdornment>,
+                          disableUnderline: true,
+                          style: { fontWeight: 700, fontSize: '1.1rem', color: theme.palette.primary.main }
+                        }}
+                        sx={{ width: 140, '& input': { textAlign: 'right' } }}
+                      />
+                    </Stack>
+                    <Slider
+                      value={typeof monto === 'number' ? monto : 0}
+                      onChange={(e, newValue) => setMonto(newValue)}
+                      min={50000}
+                      max={5000000}
+                      step={10000}
+                      valueLabelDisplay="auto"
+                      valueLabelFormat={(value) => `$${value.toLocaleString()}`}
+                    />
+                    <Stack direction="row" justifyContent="space-between" mt={0.5}>
+                      <Typography variant="caption" color="text.secondary">
+                        $50k
+                      </Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        $5M
+                      </Typography>
+                    </Stack>
+                  </Box>
+
+                  <Box>
+                    <Stack direction="row" justifyContent="space-between" alignItems="center" mb={1}>
+                      <Typography variant="subtitle1" fontWeight={600}>
+                        Plazo (Meses)
+                      </Typography>
+                      <Typography variant="h6" color="primary.main">
+                        {plazo} meses
+                      </Typography>
+                    </Stack>
+                    <Slider
+                      value={typeof plazo === 'number' ? plazo : 0}
+                      onChange={(e, newValue) => setPlazo(newValue)}
+                      min={6}
+                      max={60}
+                      step={6}
+                      marks
+                      valueLabelDisplay="auto"
+                    />
+                    <Stack direction="row" justifyContent="space-between" mt={0.5}>
+                      <Typography variant="caption" color="text.secondary">
+                        6 meses
+                      </Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        60 meses
+                      </Typography>
+                    </Stack>
+                  </Box>
+
+                  <Grid container spacing={2}>
+                    <Grid item xs={12} sm={6}>
+                      <TextField
+                        select
+                        fullWidth
+                        label="Tipo de crédito"
+                        value={tipoCredito}
+                        onChange={(event) => setTipoCredito(event.target.value)}
+                        variant="outlined"
+                      >
+                        <MenuItem value="simple">Crédito Simple</MenuItem>
+                        <MenuItem value="empresarial">Crédito Empresarial</MenuItem>
+                        <MenuItem value="revolvente">Crédito Revolvente</MenuItem>
+                        <MenuItem value="venta-key">Crédito Venta Key</MenuItem>
+                      </TextField>
+                    </Grid>
+                    <Grid item xs={12} sm={6}>
+                      <TextField
+                        fullWidth
+                        label="Tasa anual (%)"
+                        type="number"
+                        value={tasaAnual}
+                        onChange={(event) => setTasaAnual(Number(event.target.value) || 0)}
+                        InputProps={{
+                          endAdornment: <InputAdornment position="end">%</InputAdornment>
+                        }}
+                      />
+                    </Grid>
+                  </Grid>
                 </Stack>
               </Stack>
             </Grid>
+
             <Grid item xs={12} md={6}>
-              <Stack spacing={3}>
-                <Typography variant="h5">Resultados estimados</Typography>
+              <Box
+                sx={{
+                  p: 4,
+                  borderRadius: 4,
+                  background: `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.primary.dark} 100%)`,
+                  color: 'common.white',
+                  boxShadow: theme.customShadows ? theme.customShadows.primary : '0 8px 16px rgba(0,0,0,0.24)',
+                  position: 'relative',
+                  overflow: 'hidden'
+                }}
+              >
+                {/* Background Pattern */}
                 <Box
                   sx={{
-                    p: 3,
-                    borderRadius: 3,
-                    bgcolor: 'background.paper',
-                    border: '1px solid',
-                    borderColor: 'grey.200'
+                    position: 'absolute',
+                    top: -50,
+                    right: -50,
+                    width: 200,
+                    height: 200,
+                    borderRadius: '50%',
+                    bgcolor: 'rgba(255,255,255,0.08)'
                   }}
-                >
-                  <Stack spacing={1.5}>
-                    <Stack direction="row" sx={{ justifyContent: 'space-between' }}>
-                      <Typography variant="subtitle2" sx={{ color: 'text.secondary' }}>
-                        Pago mensual estimado
+                />
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    bottom: -30,
+                    left: -30,
+                    width: 150,
+                    height: 150,
+                    borderRadius: '50%',
+                    bgcolor: 'rgba(255,255,255,0.08)'
+                  }}
+                />
+
+                <Stack spacing={4} position="relative">
+                  <Box textAlign="center">
+                    <Typography variant="body2" sx={{ opacity: 0.8, mb: 1 }}>
+                      Pago Mensual Estimado
+                    </Typography>
+                    <Typography variant="h2" fontWeight={700}>
+                      {pagoMensual > 0
+                        ? pagoMensual.toLocaleString('es-MX', { style: 'currency', currency: 'MXN', maximumFractionDigits: 0 })
+                        : '$0'}
+                    </Typography>
+                  </Box>
+
+                  <Stack spacing={2} sx={{ bgcolor: 'rgba(255,255,255,0.1)', p: 2, borderRadius: 2 }}>
+                    <Stack direction="row" justifyContent="space-between">
+                      <Typography variant="body2" sx={{ opacity: 0.9 }}>
+                        Monto del crédito
                       </Typography>
-                      <Typography variant="h5">
-                        {pagoMensual > 0 ? pagoMensual.toLocaleString('es-MX', { style: 'currency', currency: 'MXN' }) : '--'}
-                      </Typography>
+                      <Typography variant="subtitle2">{monto.toLocaleString('es-MX', { style: 'currency', currency: 'MXN' })}</Typography>
                     </Stack>
-                    <Stack direction="row" sx={{ justifyContent: 'space-between' }}>
-                      <Typography variant="subtitle2" sx={{ color: 'text.secondary' }}>
+                    <Stack direction="row" justifyContent="space-between">
+                      <Typography variant="body2" sx={{ opacity: 0.9 }}>
+                        Tasa de interés anual
+                      </Typography>
+                      <Typography variant="subtitle2">{tasaAnual}%</Typography>
+                    </Stack>
+                    <Stack direction="row" justifyContent="space-between">
+                      <Typography variant="body2" sx={{ opacity: 0.9 }}>
                         Interés total estimado
                       </Typography>
-                      <Typography variant="body1">
-                        {interesTotal > 0 ? interesTotal.toLocaleString('es-MX', { style: 'currency', currency: 'MXN' }) : '--'}
+                      <Typography variant="subtitle2">
+                        {interesTotal > 0
+                          ? interesTotal.toLocaleString('es-MX', { style: 'currency', currency: 'MXN', maximumFractionDigits: 0 })
+                          : '$0'}
                       </Typography>
                     </Stack>
-                    <Stack direction="row" sx={{ justifyContent: 'space-between' }}>
-                      <Typography variant="subtitle2" sx={{ color: 'text.secondary' }}>
-                        Monto total a pagar
-                      </Typography>
-                      <Typography variant="body1">
-                        {totalPagar > 0 ? totalPagar.toLocaleString('es-MX', { style: 'currency', currency: 'MXN' }) : '--'}
-                      </Typography>
-                    </Stack>
+                    <Box sx={{ borderTop: '1px solid rgba(255,255,255,0.2)', pt: 2 }}>
+                      <Stack direction="row" justifyContent="space-between">
+                        <Typography variant="subtitle1">Total a pagar</Typography>
+                        <Typography variant="subtitle1">
+                          {totalPagar > 0
+                            ? totalPagar.toLocaleString('es-MX', { style: 'currency', currency: 'MXN', maximumFractionDigits: 0 })
+                            : '$0'}
+                        </Typography>
+                      </Stack>
+                    </Box>
                   </Stack>
-                </Box>
-              </Stack>
+
+                  <Stack direction="row" spacing={2} justifyContent="center">
+                    <Button
+                      variant="contained"
+                      color="inherit"
+                      sx={{ color: 'primary.main', bgcolor: 'common.white', '&:hover': { bgcolor: 'grey.100' } }}
+                      href="/auth/registro"
+                    >
+                      Solicitar Crédito
+                    </Button>
+                    <Button
+                      variant="outlined"
+                      color="inherit"
+                      sx={{
+                        borderColor: 'rgba(255,255,255,0.5)',
+                        color: 'common.white',
+                        '&:hover': { borderColor: 'common.white', bgcolor: 'rgba(255,255,255,0.08)' }
+                      }}
+                      href={`/calculadoras/calculadora-${tipoCredito}`}
+                    >
+                      Ver Detalle
+                    </Button>
+                  </Stack>
+                </Stack>
+              </Box>
+              <Typography variant="caption" sx={{ display: 'block', mt: 2, textAlign: 'center', color: 'text.secondary' }}>
+                * Cálculo informativo. Sujeto a aprobación de crédito y condiciones finales.
+              </Typography>
             </Grid>
           </Grid>
         </Box>
       </ContainerWrapper>
 
-      <Process1 {...capitaltaProcess} />
+      <ProcessTimeline {...capitaltaProcess} />
 
       <LazySection
         sections={[{ importFunc: () => import('@/blocks/metrics').then((module) => ({ default: module.Metrics5 })), props: metrics }]}
