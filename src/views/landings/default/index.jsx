@@ -139,7 +139,14 @@ export default function Main() {
                 plazo.
               </Typography>
             </Stack>
-            <Grid container spacing={3}>
+            
+            <Box
+              sx={{
+                display: 'grid',
+                gridTemplateColumns: { xs: '1fr', md: 'repeat(3, 1fr)' },
+                gap: 4
+              }}
+            >
               {[
                 {
                   title: 'Honestidad',
@@ -167,57 +174,55 @@ export default function Main() {
                   icon: 'tabler-users'
                 }
               ].map((item, index) => (
-                <Grid item xs={12} sm={6} md={4} key={index} sx={{ display: 'flex' }}>
+                <Box
+                  key={index}
+                  component={motion.div}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  whileHover={{ translateY: -8 }}
+                  sx={{
+                    p: 4,
+                    borderRadius: 4,
+                    bgcolor: 'background.paper',
+                    border: '1px solid',
+                    borderColor: 'grey.200',
+                    boxShadow: theme.customShadows ? theme.customShadows.z1 : '0 2px 8px rgba(0,0,0,0.05)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'flex-start',
+                    transition: 'all 0.3s ease-in-out',
+                    '&:hover': {
+                      borderColor: 'primary.main',
+                      boxShadow: theme.customShadows ? theme.customShadows.z8 : '0 8px 24px rgba(0,0,0,0.1)'
+                    }
+                  }}
+                >
                   <Box
-                    component={motion.div}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    whileHover={{ translateY: -8 }}
                     sx={{
-                      p: 4,
-                      borderRadius: 4,
-                      bgcolor: 'background.paper',
-                      border: '1px solid',
-                      borderColor: 'grey.200',
-                      boxShadow: theme.customShadows ? theme.customShadows.z1 : '0 2px 8px rgba(0,0,0,0.05)',
-                      height: '100%',
+                      width: 64,
+                      height: 64,
+                      borderRadius: '50%',
+                      bgcolor: alpha(theme.palette.primary.main, 0.08),
+                      color: 'primary.main',
                       display: 'flex',
-                      flexDirection: 'column',
-                      transition: 'all 0.3s ease-in-out',
-                      '&:hover': {
-                        borderColor: 'primary.main',
-                        boxShadow: theme.customShadows ? theme.customShadows.z8 : '0 8px 24px rgba(0,0,0,0.1)',
-                        background: `linear-gradient(135deg, ${theme.palette.background.paper} 0%, ${theme.palette.primary.lighter} 150%)`
-                      }
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      mb: 3
                     }}
                   >
-                    <Stack spacing={2} alignItems="flex-start" sx={{ height: '100%' }}>
-                      <Box
-                        sx={{
-                          p: 1.5,
-                          borderRadius: 2,
-                          bgcolor: 'primary.main',
-                          color: 'common.white',
-                          display: 'flex'
-                        }}
-                      >
-                        <SvgIcon name={item.icon} type={IconType.STROKE} size={32} stroke={1.5} />
-                      </Box>
-                      <Stack spacing={1} sx={{ flexGrow: 1 }}>
-                        <Typography variant="h5" sx={{ fontWeight: 600 }}>
-                          {item.title}
-                        </Typography>
-                        <Typography variant="body1" sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
-                          {item.desc}
-                        </Typography>
-                      </Stack>
-                    </Stack>
+                    <SvgIcon name={item.icon} type={IconType.STROKE} size={32} stroke={1.5} color={theme.palette.primary.main} />
                   </Box>
-                </Grid>
+                  <Typography variant="h5" sx={{ fontWeight: 600, mb: 1.5 }}>
+                    {item.title}
+                  </Typography>
+                  <Typography variant="body1" sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
+                    {item.desc}
+                  </Typography>
+                </Box>
               ))}
-            </Grid>
+            </Box>
           </Stack>
         </Box>
       </ContainerWrapper>
