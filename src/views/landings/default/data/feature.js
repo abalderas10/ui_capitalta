@@ -102,6 +102,7 @@ export const aboutCapitalta = {
     description2: 'Queremos construir relaciones duraderas basadas en confianza y resultados.'
   },
   blockData4: {
+    image: '/assets/images/capitalta/valores-transparencia.jpg',
     icon: 'tabler-shield-check',
     title: 'Fundamentos corporativos',
     description: 'Operamos bajo principios que guían cada decisión de crédito, desde el análisis hasta el seguimiento.',
