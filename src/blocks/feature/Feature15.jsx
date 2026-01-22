@@ -46,7 +46,7 @@ function BoxContent({ icon, title, description }) {
 
 /***************************  FEATURE - CARD  ***************************/
 
-function CardBlock({ image, title, description, icon, list, description2, actionBtn, actionBtn2 }) {
+function CardBlock({ image, title, description, icon, list, description2, actionBtn, actionBtn2, imageSx, inlineImage }) {
   const theme = useTheme();
 
   const gc = theme.vars.palette.grey[200];
@@ -60,7 +60,7 @@ function CardBlock({ image, title, description, icon, list, description2, action
 
   return (
     <GraphicsCard sx={{ height: 1, position: 'relative' }}>
-      {image && (
+      {image && !inlineImage && (
         <GraphicsCard>
           <GraphicsImage
             image={image}
@@ -72,14 +72,29 @@ function CardBlock({ image, title, description, icon, list, description2, action
               position: 'absolute',
               width: 1,
               height: 1,
-              right: { xs: -180, sm: -115, md: -90 }
+              right: { xs: -180, sm: -115, md: -90 },
+              ...imageSx
             }}
           />
           <Box sx={{ background: gradient, top: 0, right: 0, position: 'absolute', width: 1, height: 1 }} />
         </GraphicsCard>
       )}
-      <Stack sx={{ p: boxPadding, height: 1, justifyContent: 'space-between', gap: 7 }}>
+      <Stack sx={{ p: boxPadding, height: 1, justifyContent: 'space-between', gap: inlineImage ? 3 : 7 }}>
         <BoxContent {...{ icon, title, description }} />
+        {image && inlineImage && (
+          <Box
+            component="img"
+            src={image}
+            alt={title}
+            sx={{
+              width: 1,
+              height: 200,
+              objectFit: 'cover',
+              borderRadius: 2,
+              ...imageSx
+            }}
+          />
+        )}
         <Stack sx={{ gap: 2, alignItems: 'flex-start' }}>
           {list && (
             <List disablePadding sx={{ maxWidth: 320 }}>
@@ -150,7 +165,8 @@ export default function Feature15({ heading, caption, blockData1, blockData2, bl
                 description: blockData2.description,
                 icon: blockData2.icon,
                 description2: blockData2.description2,
-                actionBtn2: blockData2.actionBtn2
+                actionBtn2: blockData2.actionBtn2,
+                inlineImage: true
               }}
             />
           </Grid>
@@ -162,7 +178,8 @@ export default function Feature15({ heading, caption, blockData1, blockData2, bl
                 description: blockData3.description,
                 icon: blockData3.icon,
                 description2: blockData3.description2,
-                actionBtn2: blockData3.actionBtn2
+                actionBtn2: blockData3.actionBtn2,
+                inlineImage: true
               }}
             />
           </Grid>
