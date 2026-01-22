@@ -7,7 +7,6 @@ import CircularProgress from '@mui/material/CircularProgress';
 import Stack from '@mui/material/Stack';
 
 //@project
-import LogoSection from '@/components/logo';
 
 const rotateAnimation = keyframes`
   0% { transform: rotate(0deg) }
@@ -22,12 +21,12 @@ const dotAnimation = keyframes`
 /***************************  PAGE LOADER  ***************************/
 
 export default function PageLoader() {
-  const commonProps = { disableShrink: true, size: 100, variant: 'determinate', thickness: 4, color: 'primary' };
+  const commonProps = { disableShrink: true, size: 100, variant: 'determinate', thickness: 4, sx: { color: '#1C7C77' } };
 
   return (
     <Stack direction="row" sx={{ position: 'relative', justifyContent: 'center', alignItems: 'center' }}>
-      <Avatar sx={{ width: 65, height: 65, bgcolor: 'primary.lighter', '& .MuiBox-root': { height: 'fit-content', width: 28 } }}>
-        <LogoSection isIcon />
+      <Avatar sx={{ width: 65, height: 65, bgcolor: '#ffffff', padding: 1 }}>
+        <img src="/assets/images/capitalta/isotipo.png" alt="logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
       </Avatar>
       <CircularProgress
         {...commonProps}
@@ -37,6 +36,7 @@ export default function PageLoader() {
         sx={{
           position: 'absolute',
           zIndex: 1,
+          color: '#1C7C77',
           '& .MuiCircularProgress-circle': { strokeLinecap: 'round', strokeDasharray: '6 9.5 !important' },
           animation: `${dotAnimation} 6s linear infinite`
         }}
@@ -49,6 +49,7 @@ export default function PageLoader() {
         sx={{
           position: 'absolute',
           zIndex: 1,
+          color: '#1C7C77',
           '& .MuiCircularProgress-circle': { strokeLinecap: 'round' },
           animation: `${rotateAnimation} 35s linear infinite`
         }}

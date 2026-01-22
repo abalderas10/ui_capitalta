@@ -36,7 +36,7 @@ export default function Main() {
   const [monto, setMonto] = useState(250000);
   const [plazo, setPlazo] = useState(24);
   const [tipoCredito, setTipoCredito] = useState('simple');
-  const [tasaAnual, setTasaAnual] = useState(18);
+  const [tasaAnual, setTasaAnual] = useState(24);
 
   const tasaMensual = tasaAnual / 12 / 100;
   const pagoMensual =

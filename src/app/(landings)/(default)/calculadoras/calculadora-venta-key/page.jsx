@@ -112,6 +112,7 @@ export default function CalculadoraVentaKeyPage() {
   const [telefono, setTelefono] = useState('');
   const [empresa, setEmpresa] = useState('');
   const [leadEnviado, setLeadEnviado] = useState(false);
+  const [leadCargando, setLeadCargando] = useState(false);
   const [leadError, setLeadError] = useState('');
 
   const valorAjustado = useMemo(() => {
@@ -188,17 +189,81 @@ export default function CalculadoraVentaKeyPage() {
     return addMonths(new Date(), meses);
   }, [plazoAjustado]);
 
-  const handleLeadSubmit = (event) => {
+  const handleLeadSubmit = async (event) => {
     event.preventDefault();
     setLeadError('');
     setLeadEnviado(false);
+    setLeadCargando(false);
 
     if (!nombre || !email || !telefono) {
       setLeadError('Nombre, email y teléfono son obligatorios.');
       return;
     }
 
-    setLeadEnviado(true);
+    try {
+      setLeadCargando(true);
+
+      const payload = {
+        email,
+        nombre,
+        apellido: '',
+        telefono,
+        tipo_cliente: 'PF',
+        empresa: empresa || null,
+        rfc: null,
+        monto_solicitado: montoCredito || null,
+        plazo_meses: plazoAjustado || null,
+        tipo_credito: 'venta_key'
+      };
+
+      const respuesta = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+
+      if (!respuesta.ok) {
+        const data = await respuesta.json().catch(() => ({}));
+        setLeadError(data.error || 'No pudimos guardar tu simulación. Intenta de nuevo más tarde.');
+        return;
+      }
+
+      const leadRespuesta = await respuesta.json().catch(() => null);
+      const leadId = leadRespuesta && leadRespuesta.lead && leadRespuesta.lead.id;
+
+      if (leadId && tablaCompleta.length) {
+        const cotizacionPayload = {
+          lead_id: leadId,
+          monto: montoCredito,
+          plazo: plazoAjustado,
+          tasa_anual: 36,
+          pago_mensual: pagoMensual,
+          interes_total: totalIntereses,
+          total_a_pagar: totalAPagar,
+          tabla_amortizacion: tablaCompleta
+        };
+
+        const respuestaCotizacion = await fetch('/api/cotizaciones', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(cotizacionPayload)
+        });
+
+        if (!respuestaCotizacion.ok) {
+          const dataCotizacion = await respuestaCotizacion.json().catch(() => ({}));
+          setLeadError(
+            dataCotizacion.error || 'Guardamos tus datos, pero no pudimos registrar la cotización. Intenta nuevamente más tarde.'
+          );
+          return;
+        }
+      }
+
+      setLeadEnviado(true);
+    } catch (error) {
+      setLeadError('Ocurrió un error al guardar tu simulación. Intenta nuevamente.');
+    } finally {
+      setLeadCargando(false);
+    }
   };
 
   const handleDescargarPDF = () => {

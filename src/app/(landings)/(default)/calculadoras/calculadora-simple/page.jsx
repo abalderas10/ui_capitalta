@@ -101,7 +101,7 @@ function formatearFecha(fecha) {
 export default function CalculadoraSimplePage() {
   const [monto, setMonto] = useState(250000);
   const [plazo, setPlazo] = useState(24);
-  const [tasaAnual, setTasaAnual] = useState(18);
+  const [tasaAnual, setTasaAnual] = useState(24);
 
   const [nombre, setNombre] = useState('');
   const [email, setEmail] = useState('');
