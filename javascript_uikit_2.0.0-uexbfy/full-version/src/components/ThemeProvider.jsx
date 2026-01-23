@@ -69,6 +69,7 @@ export default function ThemeProviders({ children }) {
           <ThemeProvider disableTransitionOnChange theme={selectedTheme} modeStorageKey={modeStorageKey} defaultMode={DEFAULT_THEME_MODE}>
             <CssBaseline enableColorScheme />
             <RTLLayout>{children}</RTLLayout>
+            <ChatWidget />
           </ThemeProvider>
         )}
       </Suspense>

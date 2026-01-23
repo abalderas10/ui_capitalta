@@ -35,7 +35,6 @@ export default function RootLayout({ children }) {
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ProviderWrapper>
             {children}
-            <ChatWidget />
           </ProviderWrapper>
         </AppRouterCacheProvider>
         <Metrics />
