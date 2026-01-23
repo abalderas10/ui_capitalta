@@ -235,7 +235,7 @@ export default function ChatWidget() {
           position: 'fixed',
           bottom: 24,
           right: 24,
-          zIndex: 1300
+          zIndex: 9999
         }}
       >
         {isOpen ? <CloseIcon /> : <ChatIcon />}

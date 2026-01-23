@@ -9,6 +9,7 @@ import { Footer7 } from '@/blocks/footer';
 import { Navbar10 } from '@/blocks/navbar';
 import { NavbarContent10 } from '@/blocks/navbar/navbar-content';
 import ThemeProviders from '@/components/ThemeProvider';
+import ChatWidget from '@/components/ChatWidget';
 
 // @data
 import { navbar } from './data';
@@ -33,6 +34,9 @@ export default function MainLayout({ children }) {
 
         {/* footer section */}
         <Footer7 />
+        
+        {/* chat widget */}
+        <ChatWidget />
       </>
     </ThemeProviders>
   );

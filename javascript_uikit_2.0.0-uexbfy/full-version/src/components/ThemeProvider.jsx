@@ -10,6 +10,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 
 // @project
 import Loader from './Loader';
+import ChatWidget from '@/components/ChatWidget';
 import RTLLayout from '@/components/RTLLayout';
 import { DEFAULT_THEME_MODE, Themes } from '@/config';
 import useConfig from '@/hooks/useConfig';
@@ -69,7 +70,6 @@ export default function ThemeProviders({ children }) {
           <ThemeProvider disableTransitionOnChange theme={selectedTheme} modeStorageKey={modeStorageKey} defaultMode={DEFAULT_THEME_MODE}>
             <CssBaseline enableColorScheme />
             <RTLLayout>{children}</RTLLayout>
-            <ChatWidget />
           </ThemeProvider>
         )}
       </Suspense>
