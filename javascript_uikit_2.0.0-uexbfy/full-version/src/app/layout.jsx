@@ -9,6 +9,7 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 // @project
 import Metrics from './metrics';
 import ProviderWrapper from './ProviderWrapper';
+import ThemeProviders from '@/components/ThemeProvider';
 import ChatWidget from '@/components/ChatWidget';
 import { mainMetadata } from '@/metadata';
 
@@ -34,7 +35,10 @@ export default function RootLayout({ children }) {
       <body>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ProviderWrapper>
-            {children}
+            <ThemeProviders>
+              {children}
+              <ChatWidget />
+            </ThemeProviders>
           </ProviderWrapper>
         </AppRouterCacheProvider>
         <Metrics />
