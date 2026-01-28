@@ -100,7 +100,20 @@ const tools = [
 
 export async function POST(req) {
   try {
-    const { messages } = await req.json();
+    const { messages, userContext } = await req.json();
+
+    let currentSystemPrompt = SYSTEM_PROMPT;
+    if (userContext) {
+      currentSystemPrompt += `
+      
+## CONTEXTO DEL USUARIO ACTUAL:
+- Nombre: ${userContext.name}
+- Email: ${userContext.email}
+- ID: ${userContext.id}
+
+INSTRUCCIÓN ADICIONAL: El usuario ya está autenticado. Usa su nombre y email para agendar citas automáticamente sin preguntarlos de nuevo, a menos que quiera usar otros datos.
+`;
+    }
 
     if (!process.env.XAI_API_KEY && !process.env.OPENAI_API_KEY) {
       // Fallback Mock para demostración si no hay API Key configurada
@@ -121,7 +134,7 @@ export async function POST(req) {
     const response = await client.chat.completions.create({
       model: process.env.XAI_API_KEY ? 'grok-beta' : 'gpt-3.5-turbo',
       messages: [
-        { role: 'system', content: SYSTEM_PROMPT },
+        { role: 'system', content: currentSystemPrompt },
         ...messages
       ],
       tools: tools,
@@ -161,6 +174,9 @@ export async function POST(req) {
               console.error('Error guardando cita en Supabase:', error);
               return JSON.stringify({ success: false, error: 'No se pudo guardar la cita en la base de datos.' });
             }
+            
+            // TODO: Integrar servicio de email real (ej. Resend, SendGrid)
+            console.log(`[MOCK EMAIL] Enviando confirmación de cita a ${email} para el ${fecha} a las ${hora}`);
           }
 
           return JSON.stringify({ 
@@ -199,7 +215,7 @@ export async function POST(req) {
       const secondResponse = await client.chat.completions.create({
         model: process.env.XAI_API_KEY ? 'grok-4-fast-non-reasoning' : 'gpt-3.5-turbo',
         messages: [
-          { role: 'system', content: SYSTEM_PROMPT },
+          { role: 'system', content: currentSystemPrompt },
           ...messagesWithTools
         ],
       });

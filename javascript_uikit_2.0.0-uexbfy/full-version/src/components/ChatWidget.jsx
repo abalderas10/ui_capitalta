@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
+import { createSupabaseBrowserClient } from '@/utils/supabaseClient';
 import {
   Box,
   Fab,
@@ -61,11 +62,29 @@ export default function ChatWidget() {
     { role: 'assistant', content: '¡Hola! Soy el asistente virtual de Capitalta. ¿En qué puedo ayudarte hoy?' }
   ]);
   const [isLoading, setIsLoading] = useState(false);
+  const [userContext, setUserContext] = useState(null);
   const messagesEndRef = useRef(null);
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      const supabase = createSupabaseBrowserClient();
+      if (supabase) {
+        const { data: { user } } = await supabase.auth.getUser();
+        if (user) {
+          setUserContext({
+            email: user.email,
+            name: user.user_metadata?.full_name || 'Usuario',
+            id: user.id
+          });
+        }
+      }
+    };
+    fetchUser();
+  }, []);
 
   useEffect(() => {
     scrollToBottom();
@@ -86,7 +105,8 @@ export default function ChatWidget() {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          messages: [...messages, userMessage]
+          messages: [...messages, userMessage],
+          userContext
         })
       });
 
