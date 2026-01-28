@@ -100,7 +100,7 @@ const tools = [
 
 export async function POST(req) {
   try {
-    const { messages, userContext } = await req.json();
+    const { messages, userContext, sessionId } = await req.json();
 
     let currentSystemPrompt = SYSTEM_PROMPT;
     if (userContext) {
@@ -115,6 +115,50 @@ INSTRUCCIÓN ADICIONAL: El usuario ya está autenticado. Usa su nombre y email p
 `;
     }
 
+    // Función auxiliar para persistencia
+    const saveChat = async (history) => {
+      if (!sessionId) return;
+      const supabase = createSupabaseServerClient();
+      if (!supabase) return;
+
+      try {
+        // Buscar conversación existente por session_id
+        const { data: existing } = await supabase
+          .from('chat_conversaciones')
+          .select('id')
+          .eq('session_id', sessionId)
+          .single();
+
+        const resumen = history.length > 0 
+          ? history[history.length - 1].content?.substring(0, 100) || 'Interacción compleja'
+          : 'Nuevo chat';
+
+        if (existing) {
+          await supabase
+            .from('chat_conversaciones')
+            .update({ 
+              mensajes: history, 
+              updated_at: new Date().toISOString(),
+              usuario_id: userContext?.id || null,
+              resumen
+            })
+            .eq('id', existing.id);
+        } else {
+          await supabase
+            .from('chat_conversaciones')
+            .insert({
+              session_id: sessionId,
+              usuario_id: userContext?.id || null,
+              mensajes: history,
+              resumen,
+              estado: 'activa'
+            });
+        }
+      } catch (err) {
+        console.error('Error guardando chat:', err);
+      }
+    };
+
     if (!process.env.XAI_API_KEY && !process.env.OPENAI_API_KEY) {
       // Fallback Mock para demostración si no hay API Key configurada
       const lastMessage = messages[messages.length - 1].content.toLowerCase();
@@ -126,8 +170,13 @@ INSTRUCCIÓN ADICIONAL: El usuario ya está autenticado. Usa su nombre y email p
         mockResponse = "¡Hola! Bienvenido a Capitalta. ¿En qué puedo ayudarte hoy?";
       }
 
+      const mockMessage = { role: 'assistant', content: mockResponse };
+      
+      // Guardar en historial
+      await saveChat([...messages, mockMessage]);
+
       return NextResponse.json({ 
-        message: { role: 'assistant', content: mockResponse } 
+        message: mockMessage 
       });
     }
 
@@ -220,8 +269,13 @@ INSTRUCCIÓN ADICIONAL: El usuario ya está autenticado. Usa su nombre y email p
         ],
       });
 
-      return NextResponse.json({ message: secondResponse.choices[0].message });
+      const finalMessage = secondResponse.choices[0].message;
+      await saveChat([...messagesWithTools, finalMessage]);
+
+      return NextResponse.json({ message: finalMessage });
     }
+
+    await saveChat([...messages, responseMessage]);
 
     return NextResponse.json({ message: responseMessage });
 

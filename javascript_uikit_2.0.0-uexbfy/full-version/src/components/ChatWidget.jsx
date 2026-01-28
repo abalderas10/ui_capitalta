@@ -63,6 +63,7 @@ export default function ChatWidget() {
   ]);
   const [isLoading, setIsLoading] = useState(false);
   const [userContext, setUserContext] = useState(null);
+  const [sessionId, setSessionId] = useState('');
   const messagesEndRef = useRef(null);
 
   const scrollToBottom = () => {
@@ -70,6 +71,14 @@ export default function ChatWidget() {
   };
 
   useEffect(() => {
+    // Generar o recuperar ID de sesión para persistencia
+    let storedSessionId = localStorage.getItem('chatSessionId');
+    if (!storedSessionId) {
+      storedSessionId = `sess_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+      localStorage.setItem('chatSessionId', storedSessionId);
+    }
+    setSessionId(storedSessionId);
+
     const fetchUser = async () => {
       const supabase = createSupabaseBrowserClient();
       if (supabase) {
@@ -106,7 +115,8 @@ export default function ChatWidget() {
         },
         body: JSON.stringify({
           messages: [...messages, userMessage],
-          userContext
+          userContext,
+          sessionId
         })
       });
 

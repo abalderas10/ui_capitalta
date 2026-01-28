@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box';
 import Chip from '@mui/material/Chip';
 import Paper from '@mui/material/Paper';
+import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -9,9 +10,9 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Typography from '@mui/material/Typography';
+import Link from 'next/link';
 
 import { notFound } from 'next/navigation';
-
 import ContainerWrapper from '@/components/ContainerWrapper';
 import { createSupabaseServerClient } from '@/utils/supabaseClient';
 import { sucursalesMock } from '@/utils/citas';
@@ -92,9 +93,19 @@ export default async function CitasAdminPage({ searchParams }) {
       <ContainerWrapper>
         <Stack spacing={4}>
           <Stack spacing={1.5}>
-            <Typography variant="overline" sx={{ letterSpacing: 1 }}>
-              Admin
-            </Typography>
+            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <Typography variant="overline" sx={{ letterSpacing: 1 }}>
+                Admin
+              </Typography>
+              <Button 
+                component={Link} 
+                href={`/admin/leads?token=${token}`}
+                variant="outlined" 
+                size="small"
+              >
+                Ir a Chats & Leads
+              </Button>
+            </Box>
             <Typography variant="h3">Citas presenciales</Typography>
             <Typography variant="body1" sx={{ color: 'text.secondary', maxWidth: 720 }}>
               Vista interna para revisar las citas presenciales agendadas a través del asistente virtual y del portal de Mi Cuenta.
