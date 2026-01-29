@@ -166,20 +166,22 @@ export default function Hero7({ headLine, captionLine, primaryBtn, image1, image
                   <Pattern8 />
                 </Box>
               </Box>
-              <Box
-                sx={{
-                  position: 'absolute',
-                  top: { xs: 40, sm: 70, md: 50 },
-                  left: { xs: 26, sm: -26, md: -46 },
-                  height: { xs: 168, md: 300 },
-                  width: { xs: 112, md: 214 },
-                  pt: { xs: 2, md: 4 },
-                  borderRadius: { xs: 1.5, md: 5 },
-                  bgcolor: 'primary.lighter'
-                }}
-              >
-                <GraphicsImage image={image1} sx={{ height: 1 }} />
-              </Box>
+              {image1 && (
+                <Box
+                  sx={{
+                    position: 'absolute',
+                    top: { xs: 40, sm: 70, md: 50 },
+                    left: { xs: 26, sm: -26, md: -46 },
+                    height: { xs: 168, md: 300 },
+                    width: { xs: 112, md: 214 },
+                    pt: { xs: 2, md: 4 },
+                    borderRadius: { xs: 1.5, md: 5 },
+                    bgcolor: 'primary.lighter'
+                  }}
+                >
+                  <GraphicsImage image={image1} sx={{ height: 1 }} />
+                </Box>
+              )}
               <Box
                 sx={{
                   position: 'absolute',

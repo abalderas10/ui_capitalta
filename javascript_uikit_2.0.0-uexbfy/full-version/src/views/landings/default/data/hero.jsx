@@ -9,7 +9,6 @@ export const hero = {
   ),
   captionLine: 'Soluciones financieras ágiles y flexibles para personas y negocios en México.',
   primaryBtn: { children: 'Solicitar crédito ahora', href: '/auth/registro' },
-  image1: '/assets/images/capitalta/modern-workspace.jpeg',
   image2: '/assets/images/capitalta/hero-main.jpeg',
   reviewData: {
     rating: '4.9',
